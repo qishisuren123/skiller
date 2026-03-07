@@ -1,0 +1,2 @@
+# No external dependencies required for the core pipeline.
+# Optional: anthropic>=0.39.0 for automated conversation generation.
