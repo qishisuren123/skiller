@@ -1,0 +1,4 @@
+protein_id,protein_name,function_description,go_annotations,subcellular_location,sequence,sequence_length
+P12345,Alpha-amylase,Catalyzes the hydrolysis of starch into sugars,GO:0004556:alpha-amylase activity; GO:0005576:extracellular region,Secreted,MKLLILTCLVAVALARPKHPIKHQGLPQEVLNENLLRFFVAQXKGXDPVVTQGAADLMKLAMVYQFKRYHTSQLLPROVDTKPQIKWGPLQFLQIAKQTTQANKHIIVACEGNPYVPVHFDASV,156
+Q67890,Beta-globin,Oxygen transport protein,GO:0005344:oxygen carrier activity; GO:0008015:blood circulation,Cytoplasm,MVHLTPEEKSAVTALWGKVNVDEVGGEALGRLLVVYPWTQRFFESFGDLSTPDAVMGNPKVKAHGKKVLGAFSDGLAHLDNLKGTFATLSELHCDKLHVDPENFRLLGNVLVCVLAHHFGKEFTPPVQAAYQKVVAGVANALAHKYH,147
+R11111,Hypothetical protein,Function unknown,,Unknown,,0

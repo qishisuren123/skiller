@@ -44,6 +44,8 @@ Generates a skill from a plain-language requirement description — no conversat
 
 **Best for**: When you know what skill you need but don't have a conversation about it.
 
+![Pipeline Overview](assets/pipeline_overview.png)
+
 **How it works**:
 1. **Analyze** the requirement (core task, I/O, challenges, domain pitfalls)
 2. **Construct** a realistic 10-20 turn conversation with 5+ error→fix iterations
@@ -78,33 +80,82 @@ We ran a controlled experiment comparing three systems on the same task (neurosc
 
 **Skills improve task completion by +57 percentage points** (43% → 100%) compared to no-skill baseline.
 
+## Real-World Examples
+
+The `examples/` directory contains **5 skills generated from real scientist requirements** using the `requirement-to-skill` pipeline. These are not toy demos — they were derived from actual data processing needs collected from researchers across multiple scientific domains, then validated through both static quality checks and end-to-end runtime testing with synthetic data.
+
+| Skill | Domain | Description | Lines of Code |
+|-------|--------|-------------|:---:|
+| [`spatial-transcriptomics-preprocess`](examples/spatial-transcriptomics-preprocess/) | Genomics | DLPFC spatial transcriptomics QC, normalization, dimensionality reduction, and clustering | 230 |
+| [`swissprot-protein-parser`](examples/swissprot-protein-parser/) | Proteomics | Parse SwissProt JSON protein database into structured CSV/JSON with streaming batch processing | 301 |
+| [`proteomics-enrichment-analysis`](examples/proteomics-enrichment-analysis/) | Proteomics | Differential protein expression analysis with GO/KEGG pathway enrichment and visualization | 330 |
+| [`pride-proteomics-downloader`](examples/pride-proteomics-downloader/) | Proteomics | Search and download FragPipe-processed projects from PRIDE database via REST API | 288 |
+| [`fits-aperture-photometry`](examples/fits-aperture-photometry/) | Astronomy | Multi-strategy aperture photometry on FITS images with WCS, bad pixel masking, and error propagation | 355 |
+
+### Validation Results
+
+All 5 examples scored **24/24** on the quality rubric and passed end-to-end runtime testing:
+
+![Quality Validation](assets/quality_and_bugs.png)
+
+![Runtime Tests](assets/runtime_tests.png)
+
+### Runtime Bug Patterns
+
+Static analysis (24/24) cannot catch all issues. End-to-end testing with synthetic data revealed **6 bugs** across the 5 skills, all of which were fixed:
+
+| Bug Type | Count | Example |
+|----------|:-----:|---------|
+| API version outdated | 2 | PRIDE v1 endpoint deprecated; scanpy plotting API changed |
+| Type incompatibility | 2 | astropy Quantity vs pandas DataFrame; photutils position format |
+| Format assumption | 1 | Only supported 10X `.h5`, not `.h5ad` input format |
+| Method name error | 1 | `var_names_unique()` → `var_names_make_unique()` |
+
+**Takeaway**: LLM-generated code requires runtime validation — static quality checks alone are insufficient.
+
+### Generation Cost
+
+Each skill costs approximately **$0.30** to generate using Claude Sonnet (total: $1.52 for all 5).
+
 ## Repository Structure
 
 ```
 skiller/
 ├── conversation-to-skill/          # Generator 1: Chat log → Skill
-│   ├── SKILL.md                    # Skill instructions
+│   ├── SKILL.md
 │   ├── scripts/
-│   │   ├── generate_skill.py       # Main generator (6-step API pipeline)
-│   │   └── generate_test_conversations.py  # Test conversation synthesizer
+│   │   ├── generate_skill.py
+│   │   └── generate_test_conversations.py
 │   ├── references/
-│   │   ├── manual-workflow.md      # Step-by-step manual process
-│   │   ├── quality-checklist.md    # 24-point validation checklist
-│   │   └── skill-template.md       # SKILL.md template with YAML notes
+│   │   ├── manual-workflow.md
+│   │   ├── quality-checklist.md
+│   │   └── skill-template.md
 │   └── assets/
-│       └── example_output.md       # Example of generated skill
+│       └── example_output.md
 │
 ├── requirement-to-skill/           # Generator 2: Requirements → Skill
-│   ├── SKILL.md                    # Skill instructions
+│   ├── SKILL.md
 │   ├── scripts/
-│   │   ├── main.py                 # 4 subcommands: scaffold/analyze/validate/test
+│   │   ├── main.py
 │   │   └── requirements.txt
 │   ├── references/
-│   │   ├── workflow.md             # 5-phase pipeline details
-│   │   ├── conversation_design.md  # How to construct realistic conversations
-│   │   └── pitfalls.md             # Common failure modes
+│   │   ├── workflow.md
+│   │   ├── conversation_design.md
+│   │   └── pitfalls.md
 │   └── assets/
-│       └── example_output.md       # Example of full pipeline output
+│       └── example_output.md
+│
+├── examples/                       # 5 real-world generated skills
+│   ├── spatial-transcriptomics-preprocess/
+│   ├── swissprot-protein-parser/
+│   ├── proteomics-enrichment-analysis/
+│   ├── pride-proteomics-downloader/
+│   └── fits-aperture-photometry/
+│
+├── assets/                         # Figures for documentation
+│   ├── pipeline_overview.png
+│   ├── quality_and_bugs.png
+│   └── runtime_tests.png
 │
 ├── LICENSE                         # MIT
 └── README.md
