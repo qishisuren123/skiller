@@ -1,0 +1,12 @@
+id: S015_light_curves
+name: light_curves
+domain: astronomy
+difficulty: hard
+source: synthetic
+csv_row: null
+tags:
+- astronomy
+- hard
+required_packages:
+- numpy
+- pandas

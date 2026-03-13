@@ -1,0 +1,10 @@
+id: S081_hardness_mapping
+name: hardness_mapping
+domain: materials
+difficulty: hard
+source: synthetic
+tags:
+- materials
+- hard
+- generated
+required_packages: []

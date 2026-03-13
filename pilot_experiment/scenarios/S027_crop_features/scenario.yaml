@@ -1,0 +1,12 @@
+id: S027_crop_features
+name: crop_features
+domain: agricultural_science
+difficulty: easy
+source: synthetic
+csv_row: null
+tags:
+- agricultural_science
+- easy
+required_packages:
+- numpy
+- pandas

@@ -1,0 +1,10 @@
+id: S072_ozone_profile
+name: ozone_profile
+domain: atmospheric
+difficulty: medium
+source: synthetic
+tags:
+- atmospheric
+- medium
+- generated
+required_packages: []

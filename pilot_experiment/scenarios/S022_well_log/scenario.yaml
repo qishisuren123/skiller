@@ -1,0 +1,12 @@
+id: S022_well_log
+name: well_log
+domain: geology
+difficulty: medium
+source: synthetic
+csv_row: null
+tags:
+- geology
+- medium
+required_packages:
+- numpy
+- pandas

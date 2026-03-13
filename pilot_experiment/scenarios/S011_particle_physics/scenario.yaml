@@ -1,0 +1,12 @@
+id: S011_particle_physics
+name: particle_physics
+domain: physics
+difficulty: medium
+source: synthetic
+csv_row: null
+tags:
+- physics
+- medium
+required_packages:
+- numpy
+- pandas

@@ -1,0 +1,12 @@
+id: S007_data_viz
+name: data_viz
+domain: neuroscience
+difficulty: easy
+source: real
+csv_row: '#2 朱宇'
+tags:
+- neuroscience
+- easy
+required_packages:
+- numpy
+- pandas

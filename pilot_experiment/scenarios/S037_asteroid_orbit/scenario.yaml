@@ -1,0 +1,10 @@
+id: S037_asteroid_orbit
+name: asteroid_orbit
+domain: astronomy
+difficulty: easy
+source: synthetic
+tags:
+- astronomy
+- easy
+- generated
+required_packages: []

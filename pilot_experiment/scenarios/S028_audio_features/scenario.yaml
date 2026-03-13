@@ -1,0 +1,12 @@
+id: S028_audio_features
+name: audio_features
+domain: psychoacoustics
+difficulty: medium
+source: synthetic
+csv_row: null
+tags:
+- psychoacoustics
+- medium
+required_packages:
+- numpy
+- pandas

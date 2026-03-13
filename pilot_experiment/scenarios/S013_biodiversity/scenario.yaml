@@ -1,0 +1,12 @@
+id: S013_biodiversity
+name: biodiversity
+domain: ecology
+difficulty: easy
+source: synthetic
+csv_row: null
+tags:
+- ecology
+- easy
+required_packages:
+- numpy
+- pandas

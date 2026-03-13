@@ -1,0 +1,7 @@
+21:15:39 [INFO] neuro-metadata-gen-b: Scanning: /mnt/shared-storage-user/renyiming/skill_v4/comparison_test/test_data
+21:15:39 [INFO] neuro-metadata-gen-b: Found 8 files
+21:15:39 [INFO] neuro-metadata-gen-b: scipy failed for /mnt/shared-storage-user/renyiming/skill_v4/comparison_test/test_data/Subjects/subject_02/data_full.mat (Unknown mat file type, version 0, 0), fallback to h5py
+21:15:39 [INFO] neuro-metadata-gen-b: Inspection done in 0.03s
+21:15:39 [INFO] neuro-metadata-gen-b: Pattern 'Subjects/subject_*/data_full.mat': 3 files but structure differs, not merging
+21:15:39 [INFO] neuro-metadata-gen-b: Written to /mnt/shared-storage-user/renyiming/skill_v4/comparison_test/eval_results/system_b/e3/meta.json
+21:15:39 [INFO] neuro-metadata-gen-b: Summary: 8 files, 1.86 MB, 94 datasets, 0 errors

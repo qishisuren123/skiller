@@ -1,0 +1,13 @@
+id: S010_multimodal
+name: multimodal
+domain: life_science
+difficulty: hard
+source: real
+csv_row: '#4 孙一介'
+tags:
+- life_science
+- hard
+required_packages:
+- PIL
+- numpy
+- pandas

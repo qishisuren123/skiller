@@ -1,0 +1,12 @@
+id: S021_air_quality
+name: air_quality
+domain: environmental_science
+difficulty: easy
+source: synthetic
+csv_row: null
+tags:
+- environmental_science
+- easy
+required_packages:
+- numpy
+- pandas

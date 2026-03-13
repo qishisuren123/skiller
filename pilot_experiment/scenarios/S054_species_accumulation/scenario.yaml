@@ -1,0 +1,10 @@
+id: S054_species_accumulation
+name: species_accumulation
+domain: ecology
+difficulty: easy
+source: synthetic
+tags:
+- ecology
+- easy
+- generated
+required_packages: []

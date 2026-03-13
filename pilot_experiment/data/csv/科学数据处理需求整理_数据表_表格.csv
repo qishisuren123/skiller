@@ -1,0 +1,135 @@
+﻿编号,提交人,科学数据处理需求,优先级,所属领域,领域内工具推荐,对应的数据集,所属学科-其他-补充内容
+1,Researcher A,"对于一个数据文件夹，生成文件夹的细粒度描述文件meta.json，例如{
+    ""dataset_name"": ""Ahrens_2018_Neuron_Zebrafish Whole-Brain Sensorimotor Mapping"",
+    ""root_dir"": ""/mnt/shared-storage-gpfs2/ai4neuro-share/neuro_scientist/library/data/Ahrens_2018_Neuron"",
+    ""description"": ""Data from 15 larval zebrafish, ~100k neurons/fish, during multiple visually-evoked behaviors. The dataset includes raw and processed neural activity, anatomical imaging, spatial coordinates of neurons, behavioral time-series data, and metadata about the experimental conditions. The data is organized in a hierarchical structure with subject-specific folders containing both .h5 and .mat files that detail the neural responses and associated metadata for each fish."",
+    ""files"": {
+      ""Additional_mat_files/CustomColormaps.mat"": ""Mat file containing custom RGB color palettes and mapping arrays used in MATLAB to visually distinguish different functional clusters, regression maps, and anatomical features in the generated plots."",
+      ""Additional_mat_files/FishOutline_woEyes.mat"": ""Mat file containing spatial coordinates/polygons for drawing the anatomical boundary of a larval zebrafish, specifically excluding the eyes. It is used as a visual overlay on top of brain-wide projection images (like anat_yx) to provide spatial context."",
+      ""Additional_mat_files/FishOutline.mat"": ""Mat file containing spatial coordinates/polygons for drawing the complete anatomical boundary of a larval zebrafish, including the eyes, used as a structural reference overlay for 2D map visualizations."",
+      ""Additional_mat_files/MaskDatabase.mat"": ""Mat file containing a database of 3D anatomical masks. These masks define the spatial boundaries of specific brain regions and nuclei within the reference brain space, used to anatomically categorize and segment the normalized cell coordinates (CellXYZ_norm)."",
+      ""Additional_mat_files/ReferenceBrain.mat"": ""Mat file containing the standard 3D anatomical reference brain template. This represents the canonical larval zebrafish brain volume to which all individual subject imaging data (CellXYZ) were registered and normalized."",
+      ""Additional_mat_files/VAR_new.mat"": ""Mat file containing the results of whole-brain functional clustering."",
+      ""Subjects/subject_*"": {
+        ""description"": ""This dataset contains 15 larval zebrafish during multiple visually-evoked behaviors. Blocks of visual stimulus patterns associated with the following behavioral paradigms were projected onto a screen below the fish during imaging. (1) Phototaxis (phT): larval zebrafish are attracted by light, are averse to darkness, and use spatial differences in luminance to guide their navigation. We presented a half-field dark stimulus on either the left or the right side, separated in time by a whole-field white baseline. (2) The optomotor response (OMR): this is a position-stabilizing reflex to whole-field visual motion, in which fish turn and swim in the direction of perceived motion. The stimuli used were whole-field stripes moving in different directions. (3) The visual escape (looming) response: in free-swimming fish, expanding discs elicit an avoidance response; although in tethered preparations fish often exhibit freezing behavior, there is still a strong sensory-related response in large areas of the. The looming stimuli were presented from either the left or right side of the fish. (4) The dark-flash response (DF): this reflex is characterized by long-latency, large-angle turns in response to sudden darkening of the environment. Alternating whole-field dark and bright stimuli were used for this stimulus block. (5) Spontaneous behavior: in the absence of visual stimuli, fish spontaneously swim in alternating sequences of repeated turns to the left and to the right. For this block, fish were imaged under homogeneous background illumination."",
+        ""files"": {
+          ""TimeSeries.h5"": {""description"":""This is a 1-by-5 struct containing five distinct data entries. Each entry consists of a Name (identifier) and a Value (a matrix of data). All matrices share a common first dimension, which represents the number of neurons. All values are stored as single."",
+                        ""keys"":{
+                          ""CellResp"" : ""Cell activity (DFF0) with the shape (num_neurons, num_timepoints)"",
+                          ""CellRespAvr"" : ""Cell activity (DFF0) averaged across trials with the shape (num_neurons, num_timepoints_trial)"",
+                          ""CellRespAvrZ"" : ""Z-scored trial-averaged cell activity with the shape (num_neurons, num_timepoints_trial)"",
+                          ""CellRespZ"" : ""Z-scored cell activity with the shape (num_neurons, num_timepoints)"",
+                          ""absIX"" : ""A column vector containing the absolute index for each cell. Use these indices to map the cells back to their anatomical coordinates in the brain.""
+                                }
+                      },
+           ""data_full.mat"": {""description"":""This file contains containing metadata, anatomical imaging, neural coordinates, and behavioral time-series data."",
+                        ""keys"":{
+                          ""periods"" : ""A vector where each element represents the duration (in frames) of a unique stimulus phase or experimental block."",
+                          ""fpsec"" : ""The frame rate of the imaging data, measured in frames per second (fps)."",
+                          ""numcell_full"" : ""The total count of identified neurons/cells in this fish."",
+                          ""timelists"" : ""A cell array containing indices of time points corresponding to different visual stimuli, organized as a cell array where each cell corresponds to a specific stimulus type."",
+                          ""timelists_names"" : ""A cell array containing the abbrviation of the different visual stimuli, corresponding to the timelists. Abbrviations include: 'phT' for phototaxis, 'OMR' for optomotor response, '??' for looming, 'DF' for dark-flash response."",
+                          ""CellXYZ"" : ""Spatial coordinates (X, Y, Z) for identified cells in the brain with the shape (num_neurons, 3). Each row represents a unique cell; the three columns represent its spatial coordinates (X, Y, Z) in the brain."",
+                          ""CellXYZ_norm"" : ""Same as above, but coordinates are normalized to a standard reference brain template."",
+                          ""anat_stack"" : ""A 3D volumetric array representing the complete anatomical scan of the brain across multiple depth layers. "",
+                          ""anat_yx"" : ""A 2D top-down projection image of the anatomy. The final dimension contains color information for visualization."",
+                          ""anat_yz"" : ""A 2D side-view projection image of the anatomy. The final dimension contains color information for visualization."",
+                          ""anat_zx"" : ""A 2D front/back-view projection of the anatomy. The final dimension contains color information for visualization."",
+                          ""IX_inval_anat"" : ""A column vector containing the indices of invalid cells in CellXYZ."",
+                          ""IX_inval_norm"" : ""A column vector containing the indices of invalid cells in CellXYZ_norm. Some subjects do not contain this field. "",
+                          ""stimset"" : ""A structure array where each entry details one of the multiple experimental phases. Contains fields like: name, name of the phase; period, duration of one repetition of this phase; nReps, how many times this phase was repeated; starts/stops, start and end indices in the processed time series; rawstarts/rawstops, start and end indices in the raw recording."",
+                          ""stimuluskey_raw"" : ""A record of the stimulus state at every time point of the raw recording session."",
+                          ""stim_full"" : ""The stimulus vector aligned to the full duration of the processed experiment. "",
+                          ""stimAvr"" : ""The stimulus template. Its length is the sum of the unique durations in the periods vector. It represents one cycle of each condition concatenated together."",
+                          ""Behavior_raw"" : ""Raw fictive swim signals over the entire session, calculated as the smoothed power of the deviation from baseline in the tail EMG data."",
+                          ""Behavior_full"" : ""Processed behavioral data aligned to stim_full."",
+                          ""BehaviorAvr"" : ""Behavioral data averaged over repetitions for each phase, aligned to stimAvr."",
+                          ""Eye_full"" : ""Eye position data aligned to the full experiment."",
+                          ""Eye_avr"" : ""Eye position data averaged over repetitions. "",
+                          ""Behavior_full_motorseed"" : ""Used as the primary behavior regressor in specific regression maps. The 2 rows likely correspond to distinct motor components (e.g., Left vs. Right swimming signals)."",
+                          ""BehaviorAvr_motorseed"" : ""The neural motor seed traces averaged across trial repetitions."",
+                          ""Eye_full_motorseed"" : ""Analogous to the behavior seeds, this contains eye position data aligned to the full experiment, used as a regressor in specific regression maps."",
+                          ""EyeAvr_motorseed"" : ""The neural eye seed traces averaged across trial repetitions.""
+                                }
+                              }                   
+        }
+      }
+    }
+}",P0,神经科学,无,通用数据,
+2,朱宇,数据可视化。,P1,神经科学,matplotlib,Perich et al. 2023（POYO）,
+3,Researcher C,"不同科学任务的原始数据，例如DLPFC空转数据集，其本身可能由.csv, .h5, .txt 等格式的文件组成，需要经过整合。除数据整合外，其并不能直接被AI模型直接使用，存在大量数据预处理操作、参数设置，不同预处理也会对下游任务造成不同的影响。因此需要对这一类科学数据进行一系列标准化预处理操作。",P0,生命科学,"scanpy, STAGATE_pyG",DLPFC空转数据集：https://github.com/LieberInstitute/HumanPilot,
+4,孙一介,需要将生物学实验中收集的图片数据、文本数据和部分多模态数据（文本、图片、音频）预处理成可供模型训练直接使用的格式,P1,生命科学,"CAVE
+gsutil
+tensorstore
+deep lab cut","介观联接矩阵数据集
+斑马鱼神经活动钙成像数据集
+自由移动斑马鱼行为数据集
+分子数据集
+光遗传数据集
+捕食、逃跑、溯游及自发行为数据集
+包埋鱼各部位运动数据集",
+5,孙一介,需要将生物学实验中收集的图片数据、文本数据和部分多模态数据（文本、图片、音频）预处理成可供模型训练直接使用的格式,P1,生命科学,"CAVE
+gsutil
+tensorstore
+deep lab cut","介观联接矩阵数据集
+斑马鱼神经活动钙成像数据集
+自由移动斑马鱼行为数据集
+分子数据集
+光遗传数据集
+捕食、逃跑、溯游及自发行为数据集
+包埋鱼各部位运动数据集
+斑马鱼水下双目视频
+仿真环境和虚拟身体数据
+斑马鱼的身体结构图
+包埋鱼吐水侧视图
+视觉刺激，肌电行为数据集
+调质类型受体的全脑mRNA表达数据集",
+6,Researcher B,"数据按照以下的格式进行组织：dataset-session-trail-(时间点，spike, behavior）即不同的数据集包含不同的session，每个session中包含不同的trail，只选择实验状态为成功的trail，然后每个traik由时间点，对应的spike，对应的behavior（速度，加速度或者位置）。",P1,神经科学,"xds,pynwb","1.格式: XDS (xds_python), cursor_vel / EMG + spike units
+数据来源: https://datadryad.org/stash/dataset/doi:10.5061/dryad.cvdncjt7n
+2.数据集：https://doi.org/10.5061/dryad.xd2547dkt
+格式：PyalData .mat，每行为一个 trial
+3.格式: NWB (pynwb), 手部位置时间序列 + spike units
+数据来源: https://dandiarchive.org/dandiset/000121/0.210815.0703
+4.数据集：DANDI 000070，pynwb NWB 格式
+https://dandiarchive.org/dandiset/000070
+",
+7,李玉强,提升intern-s1材料训练语料质量,P2,物质科学,无,intern-s1材料训练语料,
+8,徐竞屹,卫星观测数据和站点观测数据的预处理，形成一套AI-Ready的可训练、评测的端到端数据集,P1,地球科学,卫星数据处理包 SatPy、NetCDF等。站点数据暂时没有很好的统一处理工具包。,卫星数据（扫描条带）例如SSMIS、AMSR-2等平台的Level 1原始亮温数据。站点数据（离散点）例如ICODAS。,
+9,陈鑫,"不同个体在相同基因上的表达量以及对应的个体化的基因序列。（参考论文https://www.biorxiv.org/content/10.1101/2025.10.31.685862v1.full#sec-108）
+ps：如果agent能做到：发给它一篇论文，他就能把论文里面使用的数据下载并按照论文对应方法处理好，就太棒了，期待～",P0,生命科学,FASTA/SAMtools/BCFtools,"1.GTEx controlled access data: Apply through dbGaP (phs000424)
+2.ADNI controlled access data: Apply at http://adni.loni.usc.edu/data-samples/access-data/
+3.ENCODE open access data: https://www.encodeproject.org/ (publicly available)
+4.1000 Genomes Project open access data: https://www.internationalgenome.org/ (publicly available)",
+10,费奔,地球观测数据种类多样、观测形式多样、质量参差不齐、存储的格式也非常多样，因此形成AI ready的数据需要花费大量的人力和时间。如果能够有从欧洲或者美国等大型地球观测机构的数据通过智能体的方式直接形成地球科学AI ready的数据将有助于实现地球科学的世界模型,P0,地球科学,PANGAEA-GPT,"如下两个欧洲和美国的卫星机构所提供的数据集均可作为场景
+https://user.eumetsat.int/
+https://www.ncei.noaa.gov/",
+11,Researcher D,蛋白质描述数据的解析，例如 SwissProt 中大量的自然语言描述的蛋白质功能等信息，因为格式复杂、信息杂乱，难以处理,P0,生命科学,"mmseqs/foldseek/AlphaFold3/DSSP/pyRosetta
+"," SwissProt 的 .json 文件",
+12,姚周珩,哈佛脑电数据库（BDSP Harvard EEG v4.1）包含了来自4家医院的 EEG 原始信号文件。但是与其对应的电子病历（EHR）数据却存放在另一个独立数据库中，且 EHR 包含复杂的结构化数据（如人口统计学、诊断代码）和非结构化数据（如临床医生手写的 EEG 诊断报告等）。目前需要理清 EHR database 的结构逻辑，并建立一套可靠的数据映射机制，实现每一条 EEG 记录都能精准匹配到其对应的非结构化 EEG 诊断报告文本以及相关的结构化临床上下文数据。,P0,神经科学,python,Harvard Electroencephalography Database（https://bdsp.io/content/harvard-eeg-db/4.1/）,
+13,Researcher E,对输入的差异蛋白原始实验数据（同样适用于多组学输入）进行富集分析、数据处理、数据精确检索&召回等功能,P0,生命科学,limma；kegg；string；numpy、pandas等通用数据处理工具,目前没有相关开源数据集,
+14,侯绍伟,生信分析,P2,生命科学,生信工具-仙桃学术,TCGA数据库，GEO数据库，比如基因组学，蛋白组学，还有病人的临床信息这些数据,
+15,Researcher F,从PRIDE（https://www.ebi.ac.uk/pride/）上下载符合条件的数据，该网站上以项目为单位管理数据，对项目的要求：已有发表论文，可以在 Publication字段查找，需要从互联网上下载到论文pdf,P0,生命科学,PRIDE提供自己的API https://www.ebi.ac.uk/pride/markdownpage/prideapi,PRIDE（https://www.ebi.ac.uk/pride/）,
+16,Researcher F,项目的“Data Processing Protocol”需包含 Fragpipe ；,P0,生命科学,PRIDE提供自己的API https://www.ebi.ac.uk/pride/markdownpage/prideapi,PRIDE（https://www.ebi.ac.uk/pride/）,
+17,Researcher G,"对于天文中的fits数据：孔径测光（Aperture Photometry）  
+ 功能需求：支持固定孔径、FWHM自适应孔径、椭圆孔径；支持局部天光环估计与坏像元掩膜；批量输出目标星+比较星+检验星。
+ 数据需求：每帧需有 EXPTIME、滤光片、增益/读噪、WCS（或可解算）。
+ 质量需求：同一夜同一目标在不同孔径策略下结果可追溯；给出孔径修正（curve of growth）。
+ 验收指标：亮星区与参考星表零点偏差可控；非拥挤场景下与PSF测光差异在预设阈值内（如 0.02~0.03 mag）",P1,天文科学,孔径测光：Photutils.aperture、SEP（SExtractor算法的Python库）。,基本上所有天文fits数据都有这些需求，例如hst，jwst，sdss等,
+18,Researcher G,"PSF测光（PSF-fitting Photometry）  
+ 功能需求：自动筛选PSF星（高SNR、未饱和、孤立）；支持空间可变PSF；支持拥挤场迭代拟合与去混叠；支持强制测光（forced photometry）。
+ 数据需求：需要稳定星像质量统计（FWHM、椭率）和背景模型。
+ 质量需求：输出每颗星拟合残差、拟合失败标记、拥挤度指标（crowding/sharpness）。",P1,天文科学,PSF测光：Photutils.psf；经典链路可用 PSFEx + SExtractor；超拥挤恒星场可考虑 DAOPHOT/ALLSTAR 或 DOLPHOT。,基本上所有天文fits数据都有这些需求，例如hst，jwst，sdss等,
+19,Researcher G,"极限星等估计（Limiting Magnitude）  
+ 功能需求：同时提供“理论5σ极限星等”与“注入-恢复完备度极限”。
+ 数据需求：背景RMS图、零点、口径、读噪/增益；注入源PSF模型。
+ 质量需求：分滤光片、分天区、分seeing统计；报告50%/90%完备度星等。
+ 验收指标：理论估计与注入恢复结果在可解释范围内一致；跨夜趋势与天况一致。",P1,天文科学,极限星等估计：Photutils（仿真注入与恢复流程）、DOLPHOT/DAOPHOT addstar（人工星实验，拥挤场强项）,基本上所有天文fits数据都有这些需求，例如hst，jwst，sdss等,
+20,零丰华,数据标注,P1,地球科学,暂无,暂无,
+21,张铂,仿真环境构建、科学场景可独立运行docker、sandbox构建，统一化接口、分发方式等。,P1,科学发现系统,N/A,暂无，需构建dock环境,
+22,谈攀,从open access或者实验室星河图书馆的海量文献中提取生化反应-蛋白质序列的对齐数据,P0,生命科学,minerU,使用Rhea数据库做训练，训练LLM智能体完成文献的数据抓取,
+24,Researcher H,01_结构标准化：对来自 PDB 或 AlphaFold 的蛋白质三维结构文件（PDB/mmCIF）进行统一预处理，以构建适用于结构学习、结合口袋识别、界面预测或性质预测模型的标准化输入数据。具体包括解析结构文件中的 ATOM 记录、过滤水分子和 HETATM、提取残基级特征（如 CA 坐标、B-factor、残基原子数等）、按链和残基编号聚合结构信息，并基于 CA–CA 距离阈值（如 8 Å）构建残基邻接图。此外，还需要从结构文件的 HEADER、REMARK、SEQRES 等字段提取样本级元数据（PDB ID、链数、分辨率、配体、水分子数量等），最终生成统一的残基特征表（CSV）、图结构边列表（CSV）以及蛋白质样本元数据（JSON），以便后续用于图神经网络或结构机器学习模型。,P1,生命科学,在蛋白质结构数据处理领域，常用工具包括 Biopython（Bio.PDB） 用于解析 PDB/mmCIF 文件并提取原子或残基级结构信息；MDTraj 和 ProDy 用于计算结构几何特征（如二面角、接触图、SASA）；NumPy 用于高效处理三维坐标矩阵和距离计算；Pandas 用于组织残基级特征表和图边表；以及 PyTorch Geometric (PyG) 或 DGL 用于将蛋白质结构转换为图神经网络可用的图数据格式。这些工具通常结合 Python 脚本（如 process.py）构建自动化结构预处理 pipeline，在结构生物信息学和蛋白质机器学习任务中广泛使用。,典型的数据来源包括 RCSB Protein Data Bank (PDB) 提供的实验结构数据（X-ray、cryo-EM、NMR），可直接下载 PDB 或 mmCIF 文件，例如示例结构 7YM1（SsbA 单链 DNA 结合蛋白，2.36 Å 分辨率）；此外还可以使用 AlphaFold Protein Structure Database 提供的大规模预测结构数据（覆盖 UniProt 蛋白）。这些数据库提供标准结构文件、分辨率信息、实验方法和配体信息，可作为蛋白质结构学习、蛋白质图神经网络和结构功能预测任务的基础数据来源。,protein_cases_by_dengjuntao.zip 示例：包含实际的输入文件（toy data）和期望输出文件
+25,Researcher H,02_复合物界面：针对蛋白–纳米抗体或抗体–抗原复合物结构，需要将原始 PDB 文件标准化整理为可直接用于模型训练的“界面样本”，以支持界面预测、结合位点识别、接触图学习和亲和力建模等任务。具体包括按链解析复合物结构并识别抗原链与纳米抗体/抗体链，提取各链氨基酸序列，基于跨链残基间的 CA–CA 距离阈值（如 8 Å）定义界面残基和接触对，生成 contact map 或接触对表，并进一步汇总为标准化的界面摘要文件，记录链角色、序列、界面残基列表、接触数等关键信息；在更精细的任务中，还可继续扩展计算埋藏表面积（BSA）、氢键和盐桥等界面特征。,P1,生命科学,在蛋白复合物界面数据处理领域，常用 Biopython 进行 PDB 解析、链和残基遍历、序列提取及基础结构分析；用 Pandas 组织接触对表格和界面统计结果；用 FreeSASA 计算单体与复合物的溶剂可及表面积并进一步估计界面埋藏表面积（BSA）；对于抗体或纳米抗体链的标准编号和 CDR 区域识别，常用 ANARCI 或 abnumber 进行 IMGT/Chothia 编号。这些工具可以组合成 process.py 之类的自动化脚本，将原始复合物结构统一转换为训练友好的界面样本表示。,该类任务常用的数据来源包括 RCSB PDB 提供的真实蛋白复合物三维结构，以及专门面向抗体/纳米抗体结构整理的 SAbDab 和 SAbDab-Nano 数据库。以本任务中的 5F1O 为例，它是一个经典的 CD38–nanobody MU551 晶体复合物，分辨率为 2.1 Å，链 A 为人源抗原 CD38，链 B 为纳米抗体 MU551，适合用于界面接触对提取、纳米抗体–抗原识别建模和结构监督学习等任务；类似数据可批量从 SAbDab-Nano 中获取，并结合 PDB 原始结构文件构建高质量的界面训练集。,protein_cases_by_dengjuntao.zip 示例：包含实际的输入文件（toy data）和期望输出文件
+26,Researcher H,03_突变效应ΔΔG：将蛋白质复合物突变效应实验数据（如 SKEMPI 2.0）整理为以“单点突变”为核心的标准化样本，以支持蛋白–蛋白相互作用亲和力变化（ΔΔG）预测模型的训练与评估。具体包括读取原始 SKEMPI2 CSV 数据表，过滤多点突变和格式异常记录，解析突变字符串（WT 氨基酸、链 ID、残基位置、突变氨基酸），并构建结构化字段（如 pdb_id、chain、wt_aa、position、mut_aa、mutation_standard）。同时根据 ΔΔG 数值添加分类标签（destabilizing、stabilizing、neutral），最终生成标准化突变样本表，并统计 ΔΔG 的分布特征（均值、中位数、标准差及类别数量），以形成适用于机器学习训练的数据集。,P1,生命科学,在蛋白突变效应数据整理与分析中，常用 Pandas 进行 CSV 数据读取、过滤和表格处理；Biopython 用于从 PDB 结构中提取序列或验证突变位点的野生型氨基酸；NumPy 和 SciPy 用于统计分析；Matplotlib 或 Seaborn 用于 ΔΔG 分布可视化和数据质量检查。此外，在构建 ΔΔG 预测模型时，这些标准化数据通常进一步转换为结构图或序列特征，并输入 PyTorch、PyTorch Geometric 或 DGL 等深度学习框架进行建模。,"该任务主要使用 SKEMPI 2.0 数据集（Jankauskaite et al., 2019），这是目前最常用的蛋白–蛋白相互作用突变效应实验数据库之一，包含约 7085 条突变记录（包括单点和多点突变），记录了复合物 PDB ID、突变字符串、结合亲和力变化（ΔΔG）以及实验条件等信息。通过过滤多点突变并解析 Mutation(s)_cleaned 字段，可以获得标准化的单点突变样本集，广泛用于 ΔΔG 预测模型（如 mCSM-PPI、SAAMBE、DeepDDG、Graph-based models 等）的训练与 benchmark。",protein_cases_by_dengjuntao.zip示例：包含实际的输入文件（toy data）和期望输出文件
+27,Researcher H,04_序列去冗余：在蛋白质序列数据分析和机器学习数据准备中，常需要对序列集合进行去冗余和相似性聚类，以减少高度相似序列带来的偏置。本任务针对来自 UniProt Swiss-Prot 的 trypsin 家族蛋白序列，通过解析 UniProt FASTA 头部提取序列元信息（如 accession、entry_name、protein name、organism、gene_name、PE 证据等级和序列长度），并进行基础质量控制（过滤含非标准氨基酸字符的序列、保留高置信度注释条目）。随后使用序列相似性聚类方法（如 50% identity 阈值）对序列进行去冗余，将原始序列集合划分为多个 cluster，并输出序列 metadata 表和聚类结果表，为后续系统发育分析、蛋白家族研究或机器学习数据构建提供标准化输入。,P1,生命科学,在蛋白序列去冗余与聚类任务中，最常用的工具是 CD-HIT，它通过基于词匹配的快速序列比对算法实现大规模蛋白序列的高效聚类，是构建非冗余序列库（如 UniRef50/90/100）的核心工具之一。此外，MMseqs2 也是近年来广泛使用的高性能序列搜索与聚类工具，在超大规模数据集上比 CD-HIT 更快；在数据解析和预处理方面通常使用 Biopython 处理 FASTA 文件并提取序列信息，配合 Pandas 生成 metadata 表格并解析 .clstr 聚类结果文件。,该任务的数据来源为 UniProt Swiss-Prot 数据库中的 trypsin 家族蛋白序列。Swiss-Prot 是 UniProt 中人工注释和高质量验证的蛋白序列集合，提供详细的蛋白功能注释、物种信息、基因名以及证据等级（PE level）。在本示例中使用 29 条真实 trypsin 家族序列作为 toy dataset，通过解析标准 UniProt FASTA 头部获取 metadata，并使用 CD-HIT 在 50% 序列一致性阈值下进行聚类，得到约 21 个序列簇。这类流程在构建蛋白家族数据集、训练蛋白语言模型或构建去冗余序列库时非常常见。,protein_cases_by_dengjuntao.zip示例：包含实际的输入文件（toy data）和期望输出文件
+28,Researcher H,05_功能注释整合：在蛋白质功能预测任务中，需要将来自 UniProt 的 Gene Ontology（GO）功能注释整理为适用于多标签分类模型训练的标准样本。具体流程包括读取包含蛋白序列与 GO 注释的原始表格数据，将 go_terms 字段拆分为多个标签，并根据 GO 前缀将其归类到三个子本体：Molecular Function（MF）、Biological Process（BP）和 Cellular Component（CC）。随后构建全局标签字典，为每个唯一 GO 标签分配统一的 label_id，并生成多标签样本表（每个蛋白一行，包含序列长度、序列片段、各类别标签数量及完整标签列表）。同时对所有标签的出现频率进行统计，生成标签分布表，以便用于模型训练前的数据分析和标签空间构建。,P1,生命科学,在 GO 注释数据处理和功能预测研究中，常用 Pandas 进行 TSV/CSV 数据读取、标签拆分和统计分析；使用 Biopython 处理蛋白序列数据并进行基础序列操作；在构建标签体系和本体结构时，可以结合 GOATOOLS（用于解析 Gene Ontology 本体、层级关系和富集分析）。在机器学习建模阶段，这些多标签样本通常进一步转换为多热向量（multi-hot vector），并输入 PyTorch、TensorFlow 或 scikit-learn 等框架进行蛋白功能预测模型训练。,该任务的数据来源为 UniProt 数据库中的蛋白质 GO 注释信息，GO 标签来自 Gene Ontology (GO) 知识库，该知识库由 Gene Ontology Consortium 维护，是蛋白质功能注释的标准体系，包含三大子本体：MF、BP 和 CC。在本示例中使用 25 个真实的人类信号相关蛋白（如 TP53、EGFR、BRCA1、VEGFA、STAT3 等）的 GO 注释作为 toy dataset，通过整合 UniProt 序列与 GO 功能标签构建多标签分类样本。这类数据处理流程是蛋白功能预测任务（如 DeepGO、DeepGOPlus、ESM-GO 等模型）中常见的数据准备步骤。,protein_cases_by_dengjuntao.zip示例：包含实际的输入文件（toy data）和期望输出文件
+29,,,,,,,

@@ -1,0 +1,10 @@
+id: S058_mark_recapture
+name: mark_recapture
+domain: ecology
+difficulty: easy
+source: synthetic
+tags:
+- ecology
+- easy
+- generated
+required_packages: []

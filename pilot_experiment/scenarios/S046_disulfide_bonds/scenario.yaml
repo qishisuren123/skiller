@@ -1,0 +1,10 @@
+id: S046_disulfide_bonds
+name: disulfide_bonds
+domain: protein_structure
+difficulty: hard
+source: synthetic
+tags:
+- protein_structure
+- hard
+- generated
+required_packages: []

@@ -1,0 +1,10 @@
+id: S079_crystal_symmetry
+name: crystal_symmetry
+domain: materials
+difficulty: medium
+source: synthetic
+tags:
+- materials
+- medium
+- generated
+required_packages: []

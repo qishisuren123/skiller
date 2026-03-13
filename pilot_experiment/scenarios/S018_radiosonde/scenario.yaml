@@ -1,0 +1,12 @@
+id: S018_radiosonde
+name: radiosonde
+domain: atmospheric_science
+difficulty: medium
+source: synthetic
+csv_row: null
+tags:
+- atmospheric_science
+- medium
+required_packages:
+- numpy
+- pandas

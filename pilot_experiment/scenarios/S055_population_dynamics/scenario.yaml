@@ -1,0 +1,10 @@
+id: S055_population_dynamics
+name: population_dynamics
+domain: ecology
+difficulty: medium
+source: synthetic
+tags:
+- ecology
+- medium
+- generated
+required_packages: []

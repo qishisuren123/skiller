@@ -1,0 +1,362 @@
+{
+  "system_a/e1": {
+    "A1": {
+      "pass": true,
+      "msg": "Valid JSON"
+    },
+    "A2": {
+      "pass": true,
+      "msg": "total_files=8"
+    },
+    "A3": {
+      "pass": true,
+      "msg": "Found shape [100, 500] in HDF5 dataset"
+    },
+    "A4": {
+      "pass": true,
+      "msg": "Detected format: mat-v7.3 (hdf5)"
+    },
+    "A5": {
+      "pass": true,
+      "msg": "Merged entry: Subjects/subject_*/TimeSeries.h5 (count=3)"
+    },
+    "A6": {
+      "pass": true,
+      "msg": "errors=0"
+    },
+    "A7": {
+      "pass": true,
+      "msg": "All expected keys found: {'CellResp', 'CellXYZ', 'periods'}"
+    }
+  },
+  "system_a/e2": {
+    "A1": {
+      "pass": true,
+      "msg": "Valid JSON"
+    },
+    "A2": {
+      "pass": true,
+      "msg": "total_files=8"
+    },
+    "A3": {
+      "pass": true,
+      "msg": "Found shape [100, 500] in HDF5 dataset"
+    },
+    "A4": {
+      "pass": true,
+      "msg": "Detected format: mat-v7.3 (hdf5)"
+    },
+    "A5": {
+      "pass": true,
+      "msg": "Merged entry: Subjects/subject_*/TimeSeries.h5 (count=3)"
+    },
+    "A6": {
+      "pass": true,
+      "msg": "errors=0"
+    },
+    "A7": {
+      "pass": true,
+      "msg": "All expected keys found: {'CellResp', 'CellXYZ', 'periods'}"
+    }
+  },
+  "system_a/e3": {
+    "A1": {
+      "pass": true,
+      "msg": "Valid JSON"
+    },
+    "A2": {
+      "pass": true,
+      "msg": "total_files=8"
+    },
+    "A3": {
+      "pass": true,
+      "msg": "Found shape [100, 500] in HDF5 dataset"
+    },
+    "A4": {
+      "pass": true,
+      "msg": "Detected format: mat-v7.3 (hdf5)"
+    },
+    "A5": {
+      "pass": true,
+      "msg": "Merged entry: Subjects/subject_*/TimeSeries.h5 (count=3)"
+    },
+    "A6": {
+      "pass": true,
+      "msg": "errors=0"
+    },
+    "A7": {
+      "pass": true,
+      "msg": "All expected keys found: {'CellResp', 'CellXYZ', 'periods'}"
+    }
+  },
+  "system_b/e1": {
+    "A1": {
+      "pass": true,
+      "msg": "Valid JSON"
+    },
+    "A2": {
+      "pass": true,
+      "msg": "total_files=8"
+    },
+    "A3": {
+      "pass": true,
+      "msg": "Found shape [-1, 500] in HDF5 dataset"
+    },
+    "A4": {
+      "pass": true,
+      "msg": "Detected format: mat-v7.3-hdf5"
+    },
+    "A5": {
+      "pass": true,
+      "msg": "Merged entry: Subjects/subject_*/TimeSeries.h5 (count=3)"
+    },
+    "A6": {
+      "pass": true,
+      "msg": "errors=0"
+    },
+    "A7": {
+      "pass": true,
+      "msg": "All expected keys found: {'CellResp', 'CellXYZ', 'periods'}"
+    }
+  },
+  "system_b/e2": {
+    "A1": {
+      "pass": true,
+      "msg": "Valid JSON"
+    },
+    "A2": {
+      "pass": true,
+      "msg": "total_files=8"
+    },
+    "A3": {
+      "pass": true,
+      "msg": "Found shape [-1, 500] in HDF5 dataset"
+    },
+    "A4": {
+      "pass": true,
+      "msg": "Detected format: mat-v7.3-hdf5"
+    },
+    "A5": {
+      "pass": true,
+      "msg": "Merged entry: Subjects/subject_*/TimeSeries.h5 (count=3)"
+    },
+    "A6": {
+      "pass": true,
+      "msg": "errors=0"
+    },
+    "A7": {
+      "pass": true,
+      "msg": "All expected keys found: {'CellResp', 'CellXYZ', 'periods'}"
+    }
+  },
+  "system_b/e3": {
+    "A1": {
+      "pass": true,
+      "msg": "Valid JSON"
+    },
+    "A2": {
+      "pass": true,
+      "msg": "total_files=8"
+    },
+    "A3": {
+      "pass": true,
+      "msg": "Found shape [-1, 500] in HDF5 dataset"
+    },
+    "A4": {
+      "pass": true,
+      "msg": "Detected format: mat-v7.3-hdf5"
+    },
+    "A5": {
+      "pass": true,
+      "msg": "Merged entry: Subjects/subject_*/TimeSeries.h5 (count=3)"
+    },
+    "A6": {
+      "pass": true,
+      "msg": "errors=0"
+    },
+    "A7": {
+      "pass": true,
+      "msg": "All expected keys found: {'CellResp', 'CellXYZ', 'periods'}"
+    }
+  },
+  "system_c/e1": {
+    "A1": {
+      "pass": true,
+      "msg": "Valid JSON"
+    },
+    "A2": {
+      "pass": true,
+      "msg": "total_files=8"
+    },
+    "A3": {
+      "pass": true,
+      "msg": "Found shape [-1, 500] in HDF5 dataset"
+    },
+    "A4": {
+      "pass": true,
+      "msg": "Detected format: mat-v7.3-hdf5"
+    },
+    "A5": {
+      "pass": true,
+      "msg": "Merged entry: Subjects/subject_*/TimeSeries.h5 (count=3)"
+    },
+    "A6": {
+      "pass": true,
+      "msg": "errors=0"
+    },
+    "A7": {
+      "pass": true,
+      "msg": "All expected keys found: {'CellResp', 'CellXYZ', 'periods'}"
+    }
+  },
+  "system_c/e2": {
+    "A1": {
+      "pass": true,
+      "msg": "Valid JSON"
+    },
+    "A2": {
+      "pass": true,
+      "msg": "total_files=8"
+    },
+    "A3": {
+      "pass": true,
+      "msg": "Found shape [-1, 500] in HDF5 dataset"
+    },
+    "A4": {
+      "pass": true,
+      "msg": "Detected format: mat-v7.3-hdf5"
+    },
+    "A5": {
+      "pass": true,
+      "msg": "Merged entry: Subjects/subject_*/TimeSeries.h5 (count=3)"
+    },
+    "A6": {
+      "pass": true,
+      "msg": "errors=0"
+    },
+    "A7": {
+      "pass": true,
+      "msg": "All expected keys found: {'CellResp', 'CellXYZ', 'periods'}"
+    }
+  },
+  "system_c/e3": {
+    "A1": {
+      "pass": true,
+      "msg": "Valid JSON"
+    },
+    "A2": {
+      "pass": true,
+      "msg": "total_files=8"
+    },
+    "A3": {
+      "pass": true,
+      "msg": "Found shape [-1, 500] in HDF5 dataset"
+    },
+    "A4": {
+      "pass": true,
+      "msg": "Detected format: mat-v7.3-hdf5"
+    },
+    "A5": {
+      "pass": true,
+      "msg": "Merged entry: Subjects/subject_*/TimeSeries.h5 (count=3)"
+    },
+    "A6": {
+      "pass": true,
+      "msg": "errors=0"
+    },
+    "A7": {
+      "pass": true,
+      "msg": "All expected keys found: {'CellResp', 'CellXYZ', 'periods'}"
+    }
+  },
+  "baseline/e1": {
+    "A1": {
+      "pass": true,
+      "msg": "Valid JSON"
+    },
+    "A2": {
+      "pass": true,
+      "msg": "total_files=8"
+    },
+    "A3": {
+      "pass": false,
+      "msg": "No HDF5 dataset with non-empty shape found"
+    },
+    "A4": {
+      "pass": false,
+      "msg": "No v7.3 format detected in any file entry"
+    },
+    "A5": {
+      "pass": false,
+      "msg": "No merged/wildcard entries found"
+    },
+    "A6": {
+      "pass": false,
+      "msg": "errors=1"
+    },
+    "A7": {
+      "pass": true,
+      "msg": "All expected keys found: {'CellResp', 'CellXYZ', 'periods'}"
+    }
+  },
+  "baseline/e2": {
+    "A1": {
+      "pass": true,
+      "msg": "Valid JSON"
+    },
+    "A2": {
+      "pass": true,
+      "msg": "total_files=8"
+    },
+    "A3": {
+      "pass": false,
+      "msg": "No HDF5 dataset with non-empty shape found"
+    },
+    "A4": {
+      "pass": false,
+      "msg": "No v7.3 format detected in any file entry"
+    },
+    "A5": {
+      "pass": false,
+      "msg": "No merged/wildcard entries found"
+    },
+    "A6": {
+      "pass": false,
+      "msg": "errors=1"
+    },
+    "A7": {
+      "pass": true,
+      "msg": "All expected keys found: {'CellResp', 'CellXYZ', 'periods'}"
+    }
+  },
+  "baseline/e3": {
+    "A1": {
+      "pass": true,
+      "msg": "Valid JSON"
+    },
+    "A2": {
+      "pass": true,
+      "msg": "total_files=8"
+    },
+    "A3": {
+      "pass": false,
+      "msg": "No HDF5 dataset with non-empty shape found"
+    },
+    "A4": {
+      "pass": false,
+      "msg": "No v7.3 format detected in any file entry"
+    },
+    "A5": {
+      "pass": false,
+      "msg": "No merged/wildcard entries found"
+    },
+    "A6": {
+      "pass": false,
+      "msg": "errors=1"
+    },
+    "A7": {
+      "pass": true,
+      "msg": "All expected keys found: {'CellResp', 'CellXYZ', 'periods'}"
+    }
+  }
+}

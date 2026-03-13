@@ -1,0 +1,10 @@
+id: S008_materials_qa
+name: materials_qa
+domain: materials_science
+difficulty: medium
+source: real
+csv_row: '#8 李玉强'
+tags:
+- materials_science
+- medium
+required_packages: []

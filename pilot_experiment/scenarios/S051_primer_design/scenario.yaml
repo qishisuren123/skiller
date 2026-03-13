@@ -1,0 +1,10 @@
+id: S051_primer_design
+name: primer_design
+domain: genomics
+difficulty: easy
+source: synthetic
+tags:
+- genomics
+- easy
+- generated
+required_packages: []

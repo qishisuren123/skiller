@@ -1,0 +1,10 @@
+id: S087_drug_interaction
+name: drug_interaction
+domain: medical
+difficulty: medium
+source: synthetic
+tags:
+- medical
+- medium
+- generated
+required_packages: []

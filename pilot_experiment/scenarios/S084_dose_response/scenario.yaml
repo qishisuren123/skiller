@@ -1,0 +1,10 @@
+id: S084_dose_response
+name: dose_response
+domain: medical
+difficulty: easy
+source: synthetic
+tags:
+- medical
+- easy
+- generated
+required_packages: []

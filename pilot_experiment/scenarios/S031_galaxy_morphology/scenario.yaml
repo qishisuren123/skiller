@@ -1,0 +1,10 @@
+id: S031_galaxy_morphology
+name: galaxy_morphology
+domain: astronomy
+difficulty: medium
+source: synthetic
+tags:
+- astronomy
+- medium
+- generated
+required_packages: []

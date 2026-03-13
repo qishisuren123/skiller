@@ -1,0 +1,10 @@
+id: S095_sentiment_score
+name: sentiment_score
+domain: social_science
+difficulty: easy
+source: synthetic
+tags:
+- social_science
+- easy
+- generated
+required_packages: []

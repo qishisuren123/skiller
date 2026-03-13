@@ -1,0 +1,12 @@
+id: S017_ctd_ocean
+name: ctd_ocean
+domain: oceanography
+difficulty: medium
+source: synthetic
+csv_row: null
+tags:
+- oceanography
+- medium
+required_packages:
+- numpy
+- pandas

@@ -1,0 +1,12 @@
+id: S003_spatial_tx
+name: spatial_tx
+domain: life_science
+difficulty: medium
+source: real
+csv_row: '#3 饶季勇'
+tags:
+- life_science
+- medium
+required_packages:
+- numpy
+- pandas

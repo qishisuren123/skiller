@@ -1,0 +1,13 @@
+id: S004_satellite
+name: satellite
+domain: earth_science
+difficulty: medium
+source: real
+csv_row: '#9 徐竞屹'
+tags:
+- earth_science
+- medium
+required_packages:
+- numpy
+- pandas
+- scipy

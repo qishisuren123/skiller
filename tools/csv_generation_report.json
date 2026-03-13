@@ -1,0 +1,102 @@
+[
+  {
+    "id": 3,
+    "name": "spatial-transcriptomics-preprocess",
+    "skill_dir": "generated_skills/spatial-transcriptomics-preprocess",
+    "files": [
+      "SKILL.md",
+      "scripts/main.py",
+      "scripts/requirements.txt",
+      "references/workflow.md",
+      "references/pitfalls.md",
+      "assets/example_output.md"
+    ],
+    "cost": 0.299481,
+    "validation_score": "23/24",
+    "help_test": false,
+    "import_test": true,
+    "errors": [
+      "--help 失败: Traceback (most recent call last):\n  File \"generated_skills/spatial-transcriptomics-preprocess/scripts/main.py\", line 7, in <module>\n    import scanpy as sc\nModuleNotFoundError: No module named 'scanpy'\n"
+    ]
+  },
+  {
+    "id": 11,
+    "name": "swissprot-protein-parser",
+    "skill_dir": "generated_skills/swissprot-protein-parser",
+    "files": [
+      "SKILL.md",
+      "scripts/main.py",
+      "scripts/requirements.txt",
+      "references/workflow.md",
+      "references/pitfalls.md",
+      "assets/example_output.md"
+    ],
+    "cost": 0.295638,
+    "validation_score": "23/24",
+    "help_test": false,
+    "import_test": true,
+    "errors": [
+      "--help 失败: Traceback (most recent call last):\n  File \"generated_skills/swissprot-protein-parser/scripts/main.py\", line 2, in <module>\n    import pandas as pd\nModuleNotFoundError: No module named 'pandas'\n"
+    ]
+  },
+  {
+    "id": 13,
+    "name": "proteomics-enrichment-analysis",
+    "skill_dir": "generated_skills/proteomics-enrichment-analysis",
+    "files": [
+      "SKILL.md",
+      "scripts/main.py",
+      "scripts/requirements.txt",
+      "references/workflow.md",
+      "references/pitfalls.md",
+      "assets/example_output.md"
+    ],
+    "cost": 0.309633,
+    "validation_score": "23/24",
+    "help_test": false,
+    "import_test": true,
+    "errors": [
+      "--help 失败: Traceback (most recent call last):\n  File \"generated_skills/proteomics-enrichment-analysis/scripts/main.py\", line 7, in <module>\n    import pandas as pd\nModuleNotFoundError: No module named 'pandas'\n"
+    ]
+  },
+  {
+    "id": 15,
+    "name": "pride-proteomics-downloader",
+    "skill_dir": "generated_skills/pride-proteomics-downloader",
+    "files": [
+      "SKILL.md",
+      "scripts/main.py",
+      "scripts/requirements.txt",
+      "references/workflow.md",
+      "references/pitfalls.md",
+      "assets/example_output.md"
+    ],
+    "cost": 0.295464,
+    "validation_score": "23/24",
+    "help_test": false,
+    "import_test": true,
+    "errors": [
+      "--help 失败: Traceback (most recent call last):\n  File \"generated_skills/pride-proteomics-downloader/scripts/main.py\", line 8, in <module>\n    import pandas as pd\nModuleNotFoundError: No module named 'pandas'\n"
+    ]
+  },
+  {
+    "id": 17,
+    "name": "fits-aperture-photometry",
+    "skill_dir": "generated_skills/fits-aperture-photometry",
+    "files": [
+      "SKILL.md",
+      "scripts/main.py",
+      "scripts/requirements.txt",
+      "references/workflow.md",
+      "references/pitfalls.md",
+      "assets/example_output.md"
+    ],
+    "cost": 0.32406599999999997,
+    "validation_score": "23/24",
+    "help_test": false,
+    "import_test": true,
+    "errors": [
+      "--help 失败: Traceback (most recent call last):\n  File \"generated_skills/fits-aperture-photometry/scripts/main.py\", line 8, in <module>\n    import sep\nModuleNotFoundError: No module named 'sep'\n"
+    ]
+  }
+]

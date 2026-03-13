@@ -1,0 +1,12 @@
+id: S023_epidemic_curve
+name: epidemic_curve
+domain: epidemiology
+difficulty: medium
+source: synthetic
+csv_row: null
+tags:
+- epidemiology
+- medium
+required_packages:
+- numpy
+- pandas

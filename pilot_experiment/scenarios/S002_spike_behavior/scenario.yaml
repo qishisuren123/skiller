@@ -1,0 +1,13 @@
+id: S002_spike_behavior
+name: spike_behavior
+domain: neuroscience
+difficulty: hard
+source: real
+csv_row: '#6 王光帅'
+tags:
+- neuroscience
+- hard
+required_packages:
+- h5py
+- numpy
+- scipy

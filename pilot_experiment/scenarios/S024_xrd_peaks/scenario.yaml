@@ -1,0 +1,12 @@
+id: S024_xrd_peaks
+name: xrd_peaks
+domain: materials_science
+difficulty: hard
+source: synthetic
+csv_row: null
+tags:
+- materials_science
+- hard
+required_packages:
+- numpy
+- pandas

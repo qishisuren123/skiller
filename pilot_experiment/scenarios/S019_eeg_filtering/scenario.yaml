@@ -1,0 +1,13 @@
+id: S019_eeg_filtering
+name: eeg_filtering
+domain: signal_processing
+difficulty: medium
+source: synthetic
+csv_row: null
+tags:
+- signal_processing
+- medium
+required_packages:
+- numpy
+- pandas
+- scipy

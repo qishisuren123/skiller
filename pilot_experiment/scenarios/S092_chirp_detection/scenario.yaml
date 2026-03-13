@@ -1,0 +1,10 @@
+id: S092_chirp_detection
+name: chirp_detection
+domain: signal_processing
+difficulty: easy
+source: synthetic
+tags:
+- signal_processing
+- easy
+- generated
+required_packages: []

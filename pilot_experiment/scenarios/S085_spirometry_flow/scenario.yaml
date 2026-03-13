@@ -1,0 +1,10 @@
+id: S085_spirometry_flow
+name: spirometry_flow
+domain: medical
+difficulty: easy
+source: synthetic
+tags:
+- medical
+- easy
+- generated
+required_packages: []

@@ -1,0 +1,10 @@
+id: S091_modulation_classify
+name: modulation_classify
+domain: signal_processing
+difficulty: hard
+source: synthetic
+tags:
+- signal_processing
+- hard
+- generated
+required_packages: []

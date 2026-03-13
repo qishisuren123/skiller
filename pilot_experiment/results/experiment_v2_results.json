@@ -1,0 +1,1838 @@
+[
+  {
+    "model": "haiku",
+    "scenario": "S08_materials_qa",
+    "condition": "skill_by_haiku",
+    "input_tokens": 1978,
+    "output_tokens": 5032,
+    "cost_usd": 0.0217104,
+    "stop_reason": "end_turn",
+    "eval": {
+      "passed": true,
+      "n_pass": 7,
+      "n_total": 7,
+      "pass_rate": 1.0,
+      "details": [
+        {
+          "test": "L1_runs",
+          "pass": true
+        },
+        {
+          "test": "L1_output_exists",
+          "pass": true
+        },
+        {
+          "test": "L1_valid_jsonl",
+          "pass": true
+        },
+        {
+          "test": "L2_removed_invalid - 4 removed",
+          "pass": true
+        },
+        {
+          "test": "L2_no_empty_instruction",
+          "pass": true
+        },
+        {
+          "test": "L2_length_check",
+          "pass": true
+        },
+        {
+          "test": "L2_dedup",
+          "pass": true
+        }
+      ],
+      "scores": {},
+      "returncode": 0,
+      "stdout": "PASS:L1_runs\nPASS:L1_output_exists\nPASS:L1_valid_jsonl\nPASS:L2_removed_invalid - 4 removed\nPASS:L2_no_empty_instruction\nPASS:L2_length_check\nPASS:L2_dedup",
+      "stderr": "",
+      "error": null
+    },
+    "code_metrics": {
+      "total_lines": 433,
+      "non_empty_lines": 360,
+      "comment_lines": 19,
+      "comment_ratio": 0.053,
+      "try_except_count": 4,
+      "import_count": 8,
+      "function_count": 1,
+      "class_count": 1,
+      "has_argparse": true,
+      "has_main_guard": true,
+      "defensive_ratio": 4.0
+    },
+    "code_length": 16360
+  },
+  {
+    "model": "sonnet",
+    "scenario": "S08_materials_qa",
+    "condition": "skill_by_haiku",
+    "input_tokens": 1978,
+    "output_tokens": 3783,
+    "cost_usd": 0.062679,
+    "stop_reason": "end_turn",
+    "eval": {
+      "passed": true,
+      "n_pass": 7,
+      "n_total": 7,
+      "pass_rate": 1.0,
+      "details": [
+        {
+          "test": "L1_runs",
+          "pass": true
+        },
+        {
+          "test": "L1_output_exists",
+          "pass": true
+        },
+        {
+          "test": "L1_valid_jsonl",
+          "pass": true
+        },
+        {
+          "test": "L2_removed_invalid - 4 removed",
+          "pass": true
+        },
+        {
+          "test": "L2_no_empty_instruction",
+          "pass": true
+        },
+        {
+          "test": "L2_length_check",
+          "pass": true
+        },
+        {
+          "test": "L2_dedup",
+          "pass": true
+        }
+      ],
+      "scores": {},
+      "returncode": 0,
+      "stdout": "PASS:L1_runs\nPASS:L1_output_exists\nPASS:L1_valid_jsonl\nPASS:L2_removed_invalid - 4 removed\nPASS:L2_no_empty_instruction\nPASS:L2_length_check\nPASS:L2_dedup",
+      "stderr": "",
+      "error": null
+    },
+    "code_metrics": {
+      "total_lines": 357,
+      "non_empty_lines": 293,
+      "comment_lines": 19,
+      "comment_ratio": 0.065,
+      "try_except_count": 5,
+      "import_count": 8,
+      "function_count": 5,
+      "class_count": 0,
+      "has_argparse": true,
+      "has_main_guard": true,
+      "defensive_ratio": 1.0
+    },
+    "code_length": 12464
+  },
+  {
+    "model": "opus",
+    "scenario": "S08_materials_qa",
+    "condition": "skill_by_haiku",
+    "input_tokens": 1978,
+    "output_tokens": 3422,
+    "cost_usd": 0.28632,
+    "stop_reason": "end_turn",
+    "eval": {
+      "passed": true,
+      "n_pass": 7,
+      "n_total": 7,
+      "pass_rate": 1.0,
+      "details": [
+        {
+          "test": "L1_runs",
+          "pass": true
+        },
+        {
+          "test": "L1_output_exists",
+          "pass": true
+        },
+        {
+          "test": "L1_valid_jsonl",
+          "pass": true
+        },
+        {
+          "test": "L2_removed_invalid - 4 removed",
+          "pass": true
+        },
+        {
+          "test": "L2_no_empty_instruction",
+          "pass": true
+        },
+        {
+          "test": "L2_length_check",
+          "pass": true
+        },
+        {
+          "test": "L2_dedup",
+          "pass": true
+        }
+      ],
+      "scores": {},
+      "returncode": 0,
+      "stdout": "PASS:L1_runs\nPASS:L1_output_exists\nPASS:L1_valid_jsonl\nPASS:L2_removed_invalid - 4 removed\nPASS:L2_no_empty_instruction\nPASS:L2_length_check\nPASS:L2_dedup",
+      "stderr": "",
+      "error": null
+    },
+    "code_metrics": {
+      "total_lines": 344,
+      "non_empty_lines": 279,
+      "comment_lines": 26,
+      "comment_ratio": 0.093,
+      "try_except_count": 4,
+      "import_count": 7,
+      "function_count": 5,
+      "class_count": 0,
+      "has_argparse": true,
+      "has_main_guard": true,
+      "defensive_ratio": 0.8
+    },
+    "code_length": 11548
+  },
+  {
+    "model": "haiku",
+    "scenario": "S08_materials_qa",
+    "condition": "skill_by_sonnet",
+    "input_tokens": 1205,
+    "output_tokens": 3863,
+    "cost_usd": 0.016416,
+    "stop_reason": "end_turn",
+    "eval": {
+      "passed": false,
+      "n_pass": 0,
+      "n_total": 7,
+      "pass_rate": 0.0,
+      "details": [
+        {
+          "test": "L1_runs",
+          "pass": false
+        },
+        {
+          "test": "L1_output_exists",
+          "pass": false
+        },
+        {
+          "test": "L1_valid_jsonl",
+          "pass": false
+        },
+        {
+          "test": "L2_removed_invalid",
+          "pass": false
+        },
+        {
+          "test": "L2_no_empty_instruction",
+          "pass": false
+        },
+        {
+          "test": "L2_length_check",
+          "pass": false
+        },
+        {
+          "test": "L2_dedup",
+          "pass": false
+        }
+      ],
+      "scores": {},
+      "returncode": 0,
+      "stdout": "FAIL:L1_runs\nFAIL:L1_output_exists\nFAIL:L1_valid_jsonl\nFAIL:L2_removed_invalid\nFAIL:L2_no_empty_instruction\nFAIL:L2_length_check\nFAIL:L2_dedup",
+      "stderr": "",
+      "error": null
+    },
+    "code_metrics": {
+      "total_lines": 362,
+      "non_empty_lines": 291,
+      "comment_lines": 20,
+      "comment_ratio": 0.069,
+      "try_except_count": 4,
+      "import_count": 5,
+      "function_count": 8,
+      "class_count": 0,
+      "has_argparse": true,
+      "has_main_guard": true,
+      "defensive_ratio": 0.5
+    },
+    "code_length": 11724
+  },
+  {
+    "model": "sonnet",
+    "scenario": "S08_materials_qa",
+    "condition": "skill_by_sonnet",
+    "input_tokens": 1205,
+    "output_tokens": 3361,
+    "cost_usd": 0.05403,
+    "stop_reason": "end_turn",
+    "eval": {
+      "passed": true,
+      "n_pass": 7,
+      "n_total": 7,
+      "pass_rate": 1.0,
+      "details": [
+        {
+          "test": "L1_runs",
+          "pass": true
+        },
+        {
+          "test": "L1_output_exists",
+          "pass": true
+        },
+        {
+          "test": "L1_valid_jsonl",
+          "pass": true
+        },
+        {
+          "test": "L2_removed_invalid - 4 removed",
+          "pass": true
+        },
+        {
+          "test": "L2_no_empty_instruction",
+          "pass": true
+        },
+        {
+          "test": "L2_length_check",
+          "pass": true
+        },
+        {
+          "test": "L2_dedup",
+          "pass": true
+        }
+      ],
+      "scores": {},
+      "returncode": 0,
+      "stdout": "PASS:L1_runs\nPASS:L1_output_exists\nPASS:L1_valid_jsonl\nPASS:L2_removed_invalid - 4 removed\nPASS:L2_no_empty_instruction\nPASS:L2_length_check\nPASS:L2_dedup",
+      "stderr": "",
+      "error": null
+    },
+    "code_metrics": {
+      "total_lines": 328,
+      "non_empty_lines": 260,
+      "comment_lines": 17,
+      "comment_ratio": 0.065,
+      "try_except_count": 5,
+      "import_count": 6,
+      "function_count": 6,
+      "class_count": 0,
+      "has_argparse": true,
+      "has_main_guard": true,
+      "defensive_ratio": 0.833
+    },
+    "code_length": 10883
+  },
+  {
+    "model": "opus",
+    "scenario": "S08_materials_qa",
+    "condition": "skill_by_sonnet",
+    "input_tokens": 1205,
+    "output_tokens": 3066,
+    "cost_usd": 0.248025,
+    "stop_reason": "end_turn",
+    "eval": {
+      "passed": true,
+      "n_pass": 7,
+      "n_total": 7,
+      "pass_rate": 1.0,
+      "details": [
+        {
+          "test": "L1_runs",
+          "pass": true
+        },
+        {
+          "test": "L1_output_exists",
+          "pass": true
+        },
+        {
+          "test": "L1_valid_jsonl",
+          "pass": true
+        },
+        {
+          "test": "L2_removed_invalid - 4 removed",
+          "pass": true
+        },
+        {
+          "test": "L2_no_empty_instruction",
+          "pass": true
+        },
+        {
+          "test": "L2_length_check",
+          "pass": true
+        },
+        {
+          "test": "L2_dedup",
+          "pass": true
+        }
+      ],
+      "scores": {},
+      "returncode": 0,
+      "stdout": "PASS:L1_runs\nPASS:L1_output_exists\nPASS:L1_valid_jsonl\nPASS:L2_removed_invalid - 4 removed\nPASS:L2_no_empty_instruction\nPASS:L2_length_check\nPASS:L2_dedup",
+      "stderr": "",
+      "error": null
+    },
+    "code_metrics": {
+      "total_lines": 300,
+      "non_empty_lines": 236,
+      "comment_lines": 20,
+      "comment_ratio": 0.085,
+      "try_except_count": 4,
+      "import_count": 6,
+      "function_count": 5,
+      "class_count": 0,
+      "has_argparse": true,
+      "has_main_guard": true,
+      "defensive_ratio": 0.8
+    },
+    "code_length": 9707
+  },
+  {
+    "model": "haiku",
+    "scenario": "S08_materials_qa",
+    "condition": "skill_by_opus",
+    "input_tokens": 1314,
+    "output_tokens": 4873,
+    "cost_usd": 0.0205432,
+    "stop_reason": "end_turn",
+    "eval": {
+      "passed": true,
+      "n_pass": 7,
+      "n_total": 7,
+      "pass_rate": 1.0,
+      "details": [
+        {
+          "test": "L1_runs",
+          "pass": true
+        },
+        {
+          "test": "L1_output_exists",
+          "pass": true
+        },
+        {
+          "test": "L1_valid_jsonl",
+          "pass": true
+        },
+        {
+          "test": "L2_removed_invalid - 4 removed",
+          "pass": true
+        },
+        {
+          "test": "L2_no_empty_instruction",
+          "pass": true
+        },
+        {
+          "test": "L2_length_check",
+          "pass": true
+        },
+        {
+          "test": "L2_dedup",
+          "pass": true
+        }
+      ],
+      "scores": {},
+      "returncode": 0,
+      "stdout": "PASS:L1_runs\nPASS:L1_output_exists\nPASS:L1_valid_jsonl\nPASS:L2_removed_invalid - 4 removed\nPASS:L2_no_empty_instruction\nPASS:L2_length_check\nPASS:L2_dedup",
+      "stderr": "",
+      "error": null
+    },
+    "code_metrics": {
+      "total_lines": 448,
+      "non_empty_lines": 360,
+      "comment_lines": 23,
+      "comment_ratio": 0.064,
+      "try_except_count": 5,
+      "import_count": 6,
+      "function_count": 9,
+      "class_count": 0,
+      "has_argparse": true,
+      "has_main_guard": true,
+      "defensive_ratio": 0.556
+    },
+    "code_length": 15146
+  },
+  {
+    "model": "sonnet",
+    "scenario": "S08_materials_qa",
+    "condition": "skill_by_opus",
+    "input_tokens": 1314,
+    "output_tokens": 3758,
+    "cost_usd": 0.060312,
+    "stop_reason": "end_turn",
+    "eval": {
+      "passed": true,
+      "n_pass": 7,
+      "n_total": 7,
+      "pass_rate": 1.0,
+      "details": [
+        {
+          "test": "L1_runs",
+          "pass": true
+        },
+        {
+          "test": "L1_output_exists",
+          "pass": true
+        },
+        {
+          "test": "L1_valid_jsonl",
+          "pass": true
+        },
+        {
+          "test": "L2_removed_invalid - 4 removed",
+          "pass": true
+        },
+        {
+          "test": "L2_no_empty_instruction",
+          "pass": true
+        },
+        {
+          "test": "L2_length_check",
+          "pass": true
+        },
+        {
+          "test": "L2_dedup",
+          "pass": true
+        }
+      ],
+      "scores": {},
+      "returncode": 0,
+      "stdout": "PASS:L1_runs\nPASS:L1_output_exists\nPASS:L1_valid_jsonl\nPASS:L2_removed_invalid - 4 removed\nPASS:L2_no_empty_instruction\nPASS:L2_length_check\nPASS:L2_dedup",
+      "stderr": "",
+      "error": null
+    },
+    "code_metrics": {
+      "total_lines": 356,
+      "non_empty_lines": 278,
+      "comment_lines": 18,
+      "comment_ratio": 0.065,
+      "try_except_count": 4,
+      "import_count": 8,
+      "function_count": 9,
+      "class_count": 0,
+      "has_argparse": true,
+      "has_main_guard": true,
+      "defensive_ratio": 0.444
+    },
+    "code_length": 12209
+  },
+  {
+    "model": "opus",
+    "scenario": "S08_materials_qa",
+    "condition": "skill_by_opus",
+    "input_tokens": 1314,
+    "output_tokens": 3013,
+    "cost_usd": 0.245685,
+    "stop_reason": "end_turn",
+    "eval": {
+      "passed": true,
+      "n_pass": 7,
+      "n_total": 7,
+      "pass_rate": 1.0,
+      "details": [
+        {
+          "test": "L1_runs",
+          "pass": true
+        },
+        {
+          "test": "L1_output_exists",
+          "pass": true
+        },
+        {
+          "test": "L1_valid_jsonl",
+          "pass": true
+        },
+        {
+          "test": "L2_removed_invalid - 4 removed",
+          "pass": true
+        },
+        {
+          "test": "L2_no_empty_instruction",
+          "pass": true
+        },
+        {
+          "test": "L2_length_check",
+          "pass": true
+        },
+        {
+          "test": "L2_dedup",
+          "pass": true
+        }
+      ],
+      "scores": {},
+      "returncode": 0,
+      "stdout": "PASS:L1_runs\nPASS:L1_output_exists\nPASS:L1_valid_jsonl\nPASS:L2_removed_invalid - 4 removed\nPASS:L2_no_empty_instruction\nPASS:L2_length_check\nPASS:L2_dedup",
+      "stderr": "",
+      "error": null
+    },
+    "code_metrics": {
+      "total_lines": 298,
+      "non_empty_lines": 234,
+      "comment_lines": 27,
+      "comment_ratio": 0.115,
+      "try_except_count": 5,
+      "import_count": 7,
+      "function_count": 5,
+      "class_count": 0,
+      "has_argparse": true,
+      "has_main_guard": true,
+      "defensive_ratio": 1.0
+    },
+    "code_length": 9884
+  },
+  {
+    "model": "haiku",
+    "scenario": "S05_protein_parse",
+    "condition": "skill_by_haiku",
+    "input_tokens": 1626,
+    "output_tokens": 3172,
+    "cost_usd": 0.0139888,
+    "stop_reason": "end_turn",
+    "eval": {
+      "passed": true,
+      "n_pass": 8,
+      "n_total": 8,
+      "pass_rate": 1.0,
+      "details": [
+        {
+          "test": "L1_runs",
+          "pass": true
+        },
+        {
+          "test": "L1_output_exists",
+          "pass": true
+        },
+        {
+          "test": "L1_valid_csv",
+          "pass": true
+        },
+        {
+          "test": "L2_row_count - 20 proteins",
+          "pass": true
+        },
+        {
+          "test": "L2_has_accession",
+          "pass": true
+        },
+        {
+          "test": "L2_has_name",
+          "pass": true
+        },
+        {
+          "test": "L2_has_organism",
+          "pass": true
+        },
+        {
+          "test": "L2_missing_handled",
+          "pass": true
+        }
+      ],
+      "scores": {},
+      "returncode": 0,
+      "stdout": "PASS:L1_runs\nPASS:L1_output_exists\nPASS:L1_valid_csv\nPASS:L2_row_count - 20 proteins\nPASS:L2_has_accession\nPASS:L2_has_name\nPASS:L2_has_organism\nPASS:L2_missing_handled",
+      "stderr": "",
+      "error": null
+    },
+    "code_metrics": {
+      "total_lines": 294,
+      "non_empty_lines": 232,
+      "comment_lines": 13,
+      "comment_ratio": 0.056,
+      "try_except_count": 3,
+      "import_count": 6,
+      "function_count": 8,
+      "class_count": 0,
+      "has_argparse": true,
+      "has_main_guard": true,
+      "defensive_ratio": 0.375
+    },
+    "code_length": 8831
+  },
+  {
+    "model": "sonnet",
+    "scenario": "S05_protein_parse",
+    "condition": "skill_by_haiku",
+    "input_tokens": 1626,
+    "output_tokens": 2812,
+    "cost_usd": 0.047058,
+    "stop_reason": "end_turn",
+    "eval": {
+      "passed": true,
+      "n_pass": 8,
+      "n_total": 8,
+      "pass_rate": 1.0,
+      "details": [
+        {
+          "test": "L1_runs",
+          "pass": true
+        },
+        {
+          "test": "L1_output_exists",
+          "pass": true
+        },
+        {
+          "test": "L1_valid_csv",
+          "pass": true
+        },
+        {
+          "test": "L2_row_count - 20 proteins",
+          "pass": true
+        },
+        {
+          "test": "L2_has_accession",
+          "pass": true
+        },
+        {
+          "test": "L2_has_name",
+          "pass": true
+        },
+        {
+          "test": "L2_has_organism",
+          "pass": true
+        },
+        {
+          "test": "L2_missing_handled",
+          "pass": true
+        }
+      ],
+      "scores": {},
+      "returncode": 0,
+      "stdout": "PASS:L1_runs\nPASS:L1_output_exists\nPASS:L1_valid_csv\nPASS:L2_row_count - 20 proteins\nPASS:L2_has_accession\nPASS:L2_has_name\nPASS:L2_has_organism\nPASS:L2_missing_handled",
+      "stderr": "",
+      "error": null
+    },
+    "code_metrics": {
+      "total_lines": 292,
+      "non_empty_lines": 227,
+      "comment_lines": 20,
+      "comment_ratio": 0.088,
+      "try_except_count": 4,
+      "import_count": 6,
+      "function_count": 8,
+      "class_count": 0,
+      "has_argparse": true,
+      "has_main_guard": true,
+      "defensive_ratio": 0.5
+    },
+    "code_length": 8756
+  },
+  {
+    "model": "opus",
+    "scenario": "S05_protein_parse",
+    "condition": "skill_by_haiku",
+    "input_tokens": 1626,
+    "output_tokens": 2769,
+    "cost_usd": 0.232065,
+    "stop_reason": "end_turn",
+    "eval": {
+      "passed": true,
+      "n_pass": 8,
+      "n_total": 8,
+      "pass_rate": 1.0,
+      "details": [
+        {
+          "test": "L1_runs",
+          "pass": true
+        },
+        {
+          "test": "L1_output_exists",
+          "pass": true
+        },
+        {
+          "test": "L1_valid_csv",
+          "pass": true
+        },
+        {
+          "test": "L2_row_count - 20 proteins",
+          "pass": true
+        },
+        {
+          "test": "L2_has_accession",
+          "pass": true
+        },
+        {
+          "test": "L2_has_name",
+          "pass": true
+        },
+        {
+          "test": "L2_has_organism",
+          "pass": true
+        },
+        {
+          "test": "L2_missing_handled",
+          "pass": true
+        }
+      ],
+      "scores": {},
+      "returncode": 0,
+      "stdout": "PASS:L1_runs\nPASS:L1_output_exists\nPASS:L1_valid_csv\nPASS:L2_row_count - 20 proteins\nPASS:L2_has_accession\nPASS:L2_has_name\nPASS:L2_has_organism\nPASS:L2_missing_handled",
+      "stderr": "",
+      "error": null
+    },
+    "code_metrics": {
+      "total_lines": 275,
+      "non_empty_lines": 220,
+      "comment_lines": 22,
+      "comment_ratio": 0.1,
+      "try_except_count": 3,
+      "import_count": 5,
+      "function_count": 5,
+      "class_count": 0,
+      "has_argparse": true,
+      "has_main_guard": true,
+      "defensive_ratio": 0.6
+    },
+    "code_length": 8448
+  },
+  {
+    "model": "haiku",
+    "scenario": "S05_protein_parse",
+    "condition": "skill_by_sonnet",
+    "input_tokens": 1162,
+    "output_tokens": 3426,
+    "cost_usd": 0.0146336,
+    "stop_reason": "end_turn",
+    "eval": {
+      "passed": true,
+      "n_pass": 8,
+      "n_total": 8,
+      "pass_rate": 1.0,
+      "details": [
+        {
+          "test": "L1_runs",
+          "pass": true
+        },
+        {
+          "test": "L1_output_exists",
+          "pass": true
+        },
+        {
+          "test": "L1_valid_csv",
+          "pass": true
+        },
+        {
+          "test": "L2_row_count - 20 proteins",
+          "pass": true
+        },
+        {
+          "test": "L2_has_accession",
+          "pass": true
+        },
+        {
+          "test": "L2_has_name",
+          "pass": true
+        },
+        {
+          "test": "L2_has_organism",
+          "pass": true
+        },
+        {
+          "test": "L2_missing_handled",
+          "pass": true
+        }
+      ],
+      "scores": {},
+      "returncode": 0,
+      "stdout": "PASS:L1_runs\nPASS:L1_output_exists\nPASS:L1_valid_csv\nPASS:L2_row_count - 20 proteins\nPASS:L2_has_accession\nPASS:L2_has_name\nPASS:L2_has_organism\nPASS:L2_missing_handled",
+      "stderr": "",
+      "error": null
+    },
+    "code_metrics": {
+      "total_lines": 320,
+      "non_empty_lines": 254,
+      "comment_lines": 15,
+      "comment_ratio": 0.059,
+      "try_except_count": 4,
+      "import_count": 7,
+      "function_count": 7,
+      "class_count": 0,
+      "has_argparse": true,
+      "has_main_guard": true,
+      "defensive_ratio": 0.571
+    },
+    "code_length": 9716
+  },
+  {
+    "model": "sonnet",
+    "scenario": "S05_protein_parse",
+    "condition": "skill_by_sonnet",
+    "input_tokens": 1162,
+    "output_tokens": 2673,
+    "cost_usd": 0.043581,
+    "stop_reason": "end_turn",
+    "eval": {
+      "passed": true,
+      "n_pass": 8,
+      "n_total": 8,
+      "pass_rate": 1.0,
+      "details": [
+        {
+          "test": "L1_runs",
+          "pass": true
+        },
+        {
+          "test": "L1_output_exists",
+          "pass": true
+        },
+        {
+          "test": "L1_valid_csv",
+          "pass": true
+        },
+        {
+          "test": "L2_row_count - 20 proteins",
+          "pass": true
+        },
+        {
+          "test": "L2_has_accession",
+          "pass": true
+        },
+        {
+          "test": "L2_has_name",
+          "pass": true
+        },
+        {
+          "test": "L2_has_organism",
+          "pass": true
+        },
+        {
+          "test": "L2_missing_handled",
+          "pass": true
+        }
+      ],
+      "scores": {},
+      "returncode": 0,
+      "stdout": "PASS:L1_runs\nPASS:L1_output_exists\nPASS:L1_valid_csv\nPASS:L2_row_count - 20 proteins\nPASS:L2_has_accession\nPASS:L2_has_name\nPASS:L2_has_organism\nPASS:L2_missing_handled",
+      "stderr": "",
+      "error": null
+    },
+    "code_metrics": {
+      "total_lines": 244,
+      "non_empty_lines": 191,
+      "comment_lines": 19,
+      "comment_ratio": 0.099,
+      "try_except_count": 3,
+      "import_count": 6,
+      "function_count": 5,
+      "class_count": 0,
+      "has_argparse": true,
+      "has_main_guard": true,
+      "defensive_ratio": 0.6
+    },
+    "code_length": 8226
+  },
+  {
+    "model": "opus",
+    "scenario": "S05_protein_parse",
+    "condition": "skill_by_sonnet",
+    "input_tokens": 1162,
+    "output_tokens": 2485,
+    "cost_usd": 0.203805,
+    "stop_reason": "end_turn",
+    "eval": {
+      "passed": true,
+      "n_pass": 8,
+      "n_total": 8,
+      "pass_rate": 1.0,
+      "details": [
+        {
+          "test": "L1_runs",
+          "pass": true
+        },
+        {
+          "test": "L1_output_exists",
+          "pass": true
+        },
+        {
+          "test": "L1_valid_csv",
+          "pass": true
+        },
+        {
+          "test": "L2_row_count - 20 proteins",
+          "pass": true
+        },
+        {
+          "test": "L2_has_accession",
+          "pass": true
+        },
+        {
+          "test": "L2_has_name",
+          "pass": true
+        },
+        {
+          "test": "L2_has_organism",
+          "pass": true
+        },
+        {
+          "test": "L2_missing_handled",
+          "pass": true
+        }
+      ],
+      "scores": {},
+      "returncode": 0,
+      "stdout": "PASS:L1_runs\nPASS:L1_output_exists\nPASS:L1_valid_csv\nPASS:L2_row_count - 20 proteins\nPASS:L2_has_accession\nPASS:L2_has_name\nPASS:L2_has_organism\nPASS:L2_missing_handled",
+      "stderr": "",
+      "error": null
+    },
+    "code_metrics": {
+      "total_lines": 233,
+      "non_empty_lines": 188,
+      "comment_lines": 21,
+      "comment_ratio": 0.112,
+      "try_except_count": 3,
+      "import_count": 6,
+      "function_count": 6,
+      "class_count": 0,
+      "has_argparse": true,
+      "has_main_guard": true,
+      "defensive_ratio": 0.5
+    },
+    "code_length": 7648
+  },
+  {
+    "model": "haiku",
+    "scenario": "S05_protein_parse",
+    "condition": "skill_by_opus",
+    "input_tokens": 1360,
+    "output_tokens": 3587,
+    "cost_usd": 0.015436,
+    "stop_reason": "end_turn",
+    "eval": {
+      "passed": true,
+      "n_pass": 8,
+      "n_total": 8,
+      "pass_rate": 1.0,
+      "details": [
+        {
+          "test": "L1_runs",
+          "pass": true
+        },
+        {
+          "test": "L1_output_exists",
+          "pass": true
+        },
+        {
+          "test": "L1_valid_csv",
+          "pass": true
+        },
+        {
+          "test": "L2_row_count - 20 proteins",
+          "pass": true
+        },
+        {
+          "test": "L2_has_accession",
+          "pass": true
+        },
+        {
+          "test": "L2_has_name",
+          "pass": true
+        },
+        {
+          "test": "L2_has_organism",
+          "pass": true
+        },
+        {
+          "test": "L2_missing_handled",
+          "pass": true
+        }
+      ],
+      "scores": {},
+      "returncode": 0,
+      "stdout": "PASS:L1_runs\nPASS:L1_output_exists\nPASS:L1_valid_csv\nPASS:L2_row_count - 20 proteins\nPASS:L2_has_accession\nPASS:L2_has_name\nPASS:L2_has_organism\nPASS:L2_missing_handled",
+      "stderr": "",
+      "error": null
+    },
+    "code_metrics": {
+      "total_lines": 403,
+      "non_empty_lines": 309,
+      "comment_lines": 11,
+      "comment_ratio": 0.036,
+      "try_except_count": 4,
+      "import_count": 8,
+      "function_count": 13,
+      "class_count": 0,
+      "has_argparse": true,
+      "has_main_guard": true,
+      "defensive_ratio": 0.308
+    },
+    "code_length": 10700
+  },
+  {
+    "model": "sonnet",
+    "scenario": "S05_protein_parse",
+    "condition": "skill_by_opus",
+    "input_tokens": 1360,
+    "output_tokens": 2669,
+    "cost_usd": 0.044115,
+    "stop_reason": "end_turn",
+    "eval": {
+      "passed": true,
+      "n_pass": 8,
+      "n_total": 8,
+      "pass_rate": 1.0,
+      "details": [
+        {
+          "test": "L1_runs",
+          "pass": true
+        },
+        {
+          "test": "L1_output_exists",
+          "pass": true
+        },
+        {
+          "test": "L1_valid_csv",
+          "pass": true
+        },
+        {
+          "test": "L2_row_count - 20 proteins",
+          "pass": true
+        },
+        {
+          "test": "L2_has_accession",
+          "pass": true
+        },
+        {
+          "test": "L2_has_name",
+          "pass": true
+        },
+        {
+          "test": "L2_has_organism",
+          "pass": true
+        },
+        {
+          "test": "L2_missing_handled",
+          "pass": true
+        }
+      ],
+      "scores": {},
+      "returncode": 0,
+      "stdout": "PASS:L1_runs\nPASS:L1_output_exists\nPASS:L1_valid_csv\nPASS:L2_row_count - 20 proteins\nPASS:L2_has_accession\nPASS:L2_has_name\nPASS:L2_has_organism\nPASS:L2_missing_handled",
+      "stderr": "",
+      "error": null
+    },
+    "code_metrics": {
+      "total_lines": 252,
+      "non_empty_lines": 206,
+      "comment_lines": 16,
+      "comment_ratio": 0.078,
+      "try_except_count": 9,
+      "import_count": 6,
+      "function_count": 7,
+      "class_count": 0,
+      "has_argparse": true,
+      "has_main_guard": true,
+      "defensive_ratio": 1.286
+    },
+    "code_length": 7943
+  },
+  {
+    "model": "opus",
+    "scenario": "S05_protein_parse",
+    "condition": "skill_by_opus",
+    "input_tokens": 1360,
+    "output_tokens": 2328,
+    "cost_usd": 0.195,
+    "stop_reason": "end_turn",
+    "eval": {
+      "passed": true,
+      "n_pass": 8,
+      "n_total": 8,
+      "pass_rate": 1.0,
+      "details": [
+        {
+          "test": "L1_runs",
+          "pass": true
+        },
+        {
+          "test": "L1_output_exists",
+          "pass": true
+        },
+        {
+          "test": "L1_valid_csv",
+          "pass": true
+        },
+        {
+          "test": "L2_row_count - 20 proteins",
+          "pass": true
+        },
+        {
+          "test": "L2_has_accession",
+          "pass": true
+        },
+        {
+          "test": "L2_has_name",
+          "pass": true
+        },
+        {
+          "test": "L2_has_organism",
+          "pass": true
+        },
+        {
+          "test": "L2_missing_handled",
+          "pass": true
+        }
+      ],
+      "scores": {},
+      "returncode": 0,
+      "stdout": "PASS:L1_runs\nPASS:L1_output_exists\nPASS:L1_valid_csv\nPASS:L2_row_count - 20 proteins\nPASS:L2_has_accession\nPASS:L2_has_name\nPASS:L2_has_organism\nPASS:L2_missing_handled",
+      "stderr": "",
+      "error": null
+    },
+    "code_metrics": {
+      "total_lines": 229,
+      "non_empty_lines": 188,
+      "comment_lines": 20,
+      "comment_ratio": 0.106,
+      "try_except_count": 5,
+      "import_count": 6,
+      "function_count": 6,
+      "class_count": 0,
+      "has_argparse": true,
+      "has_main_guard": true,
+      "defensive_ratio": 0.833
+    },
+    "code_length": 7086
+  },
+  {
+    "model": "haiku",
+    "scenario": "S02_spike_behavior",
+    "condition": "skill_by_haiku",
+    "input_tokens": 2093,
+    "output_tokens": 4464,
+    "cost_usd": 0.0195304,
+    "stop_reason": "end_turn",
+    "eval": {
+      "passed": true,
+      "n_pass": 9,
+      "n_total": 9,
+      "pass_rate": 1.0,
+      "details": [
+        {
+          "test": "L1_runs",
+          "pass": true
+        },
+        {
+          "test": "L1_output_exists",
+          "pass": true
+        },
+        {
+          "test": "L1_valid_h5",
+          "pass": true
+        },
+        {
+          "test": "L2_has_trials",
+          "pass": true
+        },
+        {
+          "test": "L2_trial_count - found 4 trials",
+          "pass": true
+        },
+        {
+          "test": "L2_spikes_shape - trial_0000/spikes shape=(75, 8)",
+          "pass": true
+        },
+        {
+          "test": "L2_behavior_shape - trial_0000/behavior shape=(75, 2)",
+          "pass": true
+        },
+        {
+          "test": "L2_timestamps - trial_0000/timestamps shape=(75,)",
+          "pass": true
+        },
+        {
+          "test": "L2_trial_filtered - 4 success trials kept",
+          "pass": true
+        }
+      ],
+      "scores": {},
+      "returncode": 0,
+      "stdout": "PASS:L1_runs\nPASS:L1_output_exists\nPASS:L1_valid_h5\nPASS:L2_has_trials\nPASS:L2_trial_count - found 4 trials\nPASS:L2_spikes_shape - trial_0000/spikes shape=(75, 8)\nPASS:L2_behavior_shape - trial_0000/behavior shape=(75, 2)\nPASS:L2_timestamps - trial_0000/timestamps shape=(75,)\nPASS:L2_trial_filtered - 4 success trials kept",
+      "stderr": "",
+      "error": null
+    },
+    "code_metrics": {
+      "total_lines": 405,
+      "non_empty_lines": 340,
+      "comment_lines": 24,
+      "comment_ratio": 0.071,
+      "try_except_count": 4,
+      "import_count": 8,
+      "function_count": 5,
+      "class_count": 0,
+      "has_argparse": true,
+      "has_main_guard": true,
+      "defensive_ratio": 0.8
+    },
+    "code_length": 13205
+  },
+  {
+    "model": "sonnet",
+    "scenario": "S02_spike_behavior",
+    "condition": "skill_by_haiku",
+    "input_tokens": 2093,
+    "output_tokens": 3422,
+    "cost_usd": 0.057609,
+    "stop_reason": "end_turn",
+    "eval": {
+      "passed": true,
+      "n_pass": 9,
+      "n_total": 9,
+      "pass_rate": 1.0,
+      "details": [
+        {
+          "test": "L1_runs",
+          "pass": true
+        },
+        {
+          "test": "L1_output_exists",
+          "pass": true
+        },
+        {
+          "test": "L1_valid_h5",
+          "pass": true
+        },
+        {
+          "test": "L2_has_trials",
+          "pass": true
+        },
+        {
+          "test": "L2_trial_count - found 4 trials",
+          "pass": true
+        },
+        {
+          "test": "L2_spikes_shape - trial_0000/spikes shape=(75, 8)",
+          "pass": true
+        },
+        {
+          "test": "L2_behavior_shape - trial_0000/behavior shape=(75, 2)",
+          "pass": true
+        },
+        {
+          "test": "L2_timestamps - trial_0000/timestamps shape=(75,)",
+          "pass": true
+        },
+        {
+          "test": "L2_trial_filtered - 4 success trials kept",
+          "pass": true
+        }
+      ],
+      "scores": {},
+      "returncode": 0,
+      "stdout": "PASS:L1_runs\nPASS:L1_output_exists\nPASS:L1_valid_h5\nPASS:L2_has_trials\nPASS:L2_trial_count - found 4 trials\nPASS:L2_spikes_shape - trial_0000/spikes shape=(75, 8)\nPASS:L2_behavior_shape - trial_0000/behavior shape=(75, 2)\nPASS:L2_timestamps - trial_0000/timestamps shape=(75,)\nPASS:L2_trial_filtered - 4 success trials kept",
+      "stderr": "",
+      "error": null
+    },
+    "code_metrics": {
+      "total_lines": 276,
+      "non_empty_lines": 224,
+      "comment_lines": 27,
+      "comment_ratio": 0.121,
+      "try_except_count": 4,
+      "import_count": 8,
+      "function_count": 4,
+      "class_count": 0,
+      "has_argparse": true,
+      "has_main_guard": true,
+      "defensive_ratio": 1.0
+    },
+    "code_length": 10317
+  },
+  {
+    "model": "opus",
+    "scenario": "S02_spike_behavior",
+    "condition": "skill_by_haiku",
+    "input_tokens": 2093,
+    "output_tokens": 3139,
+    "cost_usd": 0.26682,
+    "stop_reason": "end_turn",
+    "eval": {
+      "passed": true,
+      "n_pass": 9,
+      "n_total": 9,
+      "pass_rate": 1.0,
+      "details": [
+        {
+          "test": "L1_runs",
+          "pass": true
+        },
+        {
+          "test": "L1_output_exists",
+          "pass": true
+        },
+        {
+          "test": "L1_valid_h5",
+          "pass": true
+        },
+        {
+          "test": "L2_has_trials",
+          "pass": true
+        },
+        {
+          "test": "L2_trial_count - found 4 trials",
+          "pass": true
+        },
+        {
+          "test": "L2_spikes_shape - trial_0000/spikes shape=(75, 8)",
+          "pass": true
+        },
+        {
+          "test": "L2_behavior_shape - trial_0000/behavior shape=(75, 2)",
+          "pass": true
+        },
+        {
+          "test": "L2_timestamps - trial_0000/timestamps shape=(75,)",
+          "pass": true
+        },
+        {
+          "test": "L2_trial_filtered - 4 success trials kept",
+          "pass": true
+        }
+      ],
+      "scores": {},
+      "returncode": 0,
+      "stdout": "PASS:L1_runs\nPASS:L1_output_exists\nPASS:L1_valid_h5\nPASS:L2_has_trials\nPASS:L2_trial_count - found 4 trials\nPASS:L2_spikes_shape - trial_0000/spikes shape=(75, 8)\nPASS:L2_behavior_shape - trial_0000/behavior shape=(75, 2)\nPASS:L2_timestamps - trial_0000/timestamps shape=(75,)\nPASS:L2_trial_filtered - 4 success trials kept",
+      "stderr": "",
+      "error": null
+    },
+    "code_metrics": {
+      "total_lines": 263,
+      "non_empty_lines": 218,
+      "comment_lines": 26,
+      "comment_ratio": 0.119,
+      "try_except_count": 4,
+      "import_count": 7,
+      "function_count": 4,
+      "class_count": 0,
+      "has_argparse": true,
+      "has_main_guard": true,
+      "defensive_ratio": 1.0
+    },
+    "code_length": 9714
+  },
+  {
+    "model": "haiku",
+    "scenario": "S02_spike_behavior",
+    "condition": "skill_by_sonnet",
+    "input_tokens": 1541,
+    "output_tokens": 4240,
+    "cost_usd": 0.0181928,
+    "stop_reason": "end_turn",
+    "eval": {
+      "passed": true,
+      "n_pass": 9,
+      "n_total": 9,
+      "pass_rate": 1.0,
+      "details": [
+        {
+          "test": "L1_runs",
+          "pass": true
+        },
+        {
+          "test": "L1_output_exists",
+          "pass": true
+        },
+        {
+          "test": "L1_valid_h5",
+          "pass": true
+        },
+        {
+          "test": "L2_has_trials",
+          "pass": true
+        },
+        {
+          "test": "L2_trial_count - found 4 trials",
+          "pass": true
+        },
+        {
+          "test": "L2_spikes_shape - trial_0000/spikes shape=(75, 8)",
+          "pass": true
+        },
+        {
+          "test": "L2_behavior_shape - trial_0000/behavior shape=(75, 2)",
+          "pass": true
+        },
+        {
+          "test": "L2_timestamps - trial_0000/timestamps shape=(75,)",
+          "pass": true
+        },
+        {
+          "test": "L2_trial_filtered - 4 success trials kept",
+          "pass": true
+        }
+      ],
+      "scores": {},
+      "returncode": 0,
+      "stdout": "PASS:L1_runs\nPASS:L1_output_exists\nPASS:L1_valid_h5\nPASS:L2_has_trials\nPASS:L2_trial_count - found 4 trials\nPASS:L2_spikes_shape - trial_0000/spikes shape=(75, 8)\nPASS:L2_behavior_shape - trial_0000/behavior shape=(75, 2)\nPASS:L2_timestamps - trial_0000/timestamps shape=(75,)\nPASS:L2_trial_filtered - 4 success trials kept",
+      "stderr": "",
+      "error": null
+    },
+    "code_metrics": {
+      "total_lines": 371,
+      "non_empty_lines": 285,
+      "comment_lines": 29,
+      "comment_ratio": 0.102,
+      "try_except_count": 6,
+      "import_count": 8,
+      "function_count": 11,
+      "class_count": 0,
+      "has_argparse": true,
+      "has_main_guard": true,
+      "defensive_ratio": 0.545
+    },
+    "code_length": 13171
+  },
+  {
+    "model": "sonnet",
+    "scenario": "S02_spike_behavior",
+    "condition": "skill_by_sonnet",
+    "input_tokens": 1541,
+    "output_tokens": 2879,
+    "cost_usd": 0.047808,
+    "stop_reason": "end_turn",
+    "eval": {
+      "passed": true,
+      "n_pass": 9,
+      "n_total": 9,
+      "pass_rate": 1.0,
+      "details": [
+        {
+          "test": "L1_runs",
+          "pass": true
+        },
+        {
+          "test": "L1_output_exists",
+          "pass": true
+        },
+        {
+          "test": "L1_valid_h5",
+          "pass": true
+        },
+        {
+          "test": "L2_has_trials",
+          "pass": true
+        },
+        {
+          "test": "L2_trial_count - found 4 trials",
+          "pass": true
+        },
+        {
+          "test": "L2_spikes_shape - trial_0000/spikes shape=(75, 8)",
+          "pass": true
+        },
+        {
+          "test": "L2_behavior_shape - trial_0000/behavior shape=(75, 2)",
+          "pass": true
+        },
+        {
+          "test": "L2_timestamps - trial_0000/timestamps shape=(75,)",
+          "pass": true
+        },
+        {
+          "test": "L2_trial_filtered - 4 success trials kept",
+          "pass": true
+        }
+      ],
+      "scores": {},
+      "returncode": 0,
+      "stdout": "PASS:L1_runs\nPASS:L1_output_exists\nPASS:L1_valid_h5\nPASS:L2_has_trials\nPASS:L2_trial_count - found 4 trials\nPASS:L2_spikes_shape - trial_0000/spikes shape=(75, 8)\nPASS:L2_behavior_shape - trial_0000/behavior shape=(75, 2)\nPASS:L2_timestamps - trial_0000/timestamps shape=(75,)\nPASS:L2_trial_filtered - 4 success trials kept",
+      "stderr": "",
+      "error": null
+    },
+    "code_metrics": {
+      "total_lines": 239,
+      "non_empty_lines": 179,
+      "comment_lines": 26,
+      "comment_ratio": 0.145,
+      "try_except_count": 4,
+      "import_count": 7,
+      "function_count": 5,
+      "class_count": 0,
+      "has_argparse": true,
+      "has_main_guard": true,
+      "defensive_ratio": 0.8
+    },
+    "code_length": 8879
+  },
+  {
+    "model": "opus",
+    "scenario": "S02_spike_behavior",
+    "condition": "skill_by_sonnet",
+    "input_tokens": 1541,
+    "output_tokens": 2868,
+    "cost_usd": 0.238215,
+    "stop_reason": "end_turn",
+    "eval": {
+      "passed": true,
+      "n_pass": 9,
+      "n_total": 9,
+      "pass_rate": 1.0,
+      "details": [
+        {
+          "test": "L1_runs",
+          "pass": true
+        },
+        {
+          "test": "L1_output_exists",
+          "pass": true
+        },
+        {
+          "test": "L1_valid_h5",
+          "pass": true
+        },
+        {
+          "test": "L2_has_trials",
+          "pass": true
+        },
+        {
+          "test": "L2_trial_count - found 4 trials",
+          "pass": true
+        },
+        {
+          "test": "L2_spikes_shape - trial_0000/spikes shape=(75, 8)",
+          "pass": true
+        },
+        {
+          "test": "L2_behavior_shape - trial_0000/behavior shape=(75, 2)",
+          "pass": true
+        },
+        {
+          "test": "L2_timestamps - trial_0000/timestamps shape=(75,)",
+          "pass": true
+        },
+        {
+          "test": "L2_trial_filtered - 4 success trials kept",
+          "pass": true
+        }
+      ],
+      "scores": {},
+      "returncode": 0,
+      "stdout": "PASS:L1_runs\nPASS:L1_output_exists\nPASS:L1_valid_h5\nPASS:L2_has_trials\nPASS:L2_trial_count - found 4 trials\nPASS:L2_spikes_shape - trial_0000/spikes shape=(75, 8)\nPASS:L2_behavior_shape - trial_0000/behavior shape=(75, 2)\nPASS:L2_timestamps - trial_0000/timestamps shape=(75,)\nPASS:L2_trial_filtered - 4 success trials kept",
+      "stderr": "",
+      "error": null
+    },
+    "code_metrics": {
+      "total_lines": 250,
+      "non_empty_lines": 201,
+      "comment_lines": 30,
+      "comment_ratio": 0.149,
+      "try_except_count": 5,
+      "import_count": 8,
+      "function_count": 5,
+      "class_count": 0,
+      "has_argparse": true,
+      "has_main_guard": true,
+      "defensive_ratio": 1.0
+    },
+    "code_length": 8681
+  },
+  {
+    "model": "haiku",
+    "scenario": "S02_spike_behavior",
+    "condition": "skill_by_opus",
+    "input_tokens": 1705,
+    "output_tokens": 4726,
+    "cost_usd": 0.020268,
+    "stop_reason": "end_turn",
+    "eval": {
+      "passed": true,
+      "n_pass": 9,
+      "n_total": 9,
+      "pass_rate": 1.0,
+      "details": [
+        {
+          "test": "L1_runs",
+          "pass": true
+        },
+        {
+          "test": "L1_output_exists",
+          "pass": true
+        },
+        {
+          "test": "L1_valid_h5",
+          "pass": true
+        },
+        {
+          "test": "L2_has_trials",
+          "pass": true
+        },
+        {
+          "test": "L2_trial_count - found 4 trials",
+          "pass": true
+        },
+        {
+          "test": "L2_spikes_shape - trial_0000/spikes shape=(75, 1)",
+          "pass": true
+        },
+        {
+          "test": "L2_behavior_shape - trial_0000/behavior shape=(75, 2)",
+          "pass": true
+        },
+        {
+          "test": "L2_timestamps - trial_0000/timestamps shape=(75,)",
+          "pass": true
+        },
+        {
+          "test": "L2_trial_filtered - 4 success trials kept",
+          "pass": true
+        }
+      ],
+      "scores": {},
+      "returncode": 0,
+      "stdout": "PASS:L1_runs\nPASS:L1_output_exists\nPASS:L1_valid_h5\nPASS:L2_has_trials\nPASS:L2_trial_count - found 4 trials\nPASS:L2_spikes_shape - trial_0000/spikes shape=(75, 1)\nPASS:L2_behavior_shape - trial_0000/behavior shape=(75, 2)\nPASS:L2_timestamps - trial_0000/timestamps shape=(75,)\nPASS:L2_trial_filtered - 4 success trials kept",
+      "stderr": "",
+      "error": null
+    },
+    "code_metrics": {
+      "total_lines": 428,
+      "non_empty_lines": 346,
+      "comment_lines": 36,
+      "comment_ratio": 0.104,
+      "try_except_count": 5,
+      "import_count": 8,
+      "function_count": 6,
+      "class_count": 0,
+      "has_argparse": true,
+      "has_main_guard": true,
+      "defensive_ratio": 0.833
+    },
+    "code_length": 14373
+  },
+  {
+    "model": "sonnet",
+    "scenario": "S02_spike_behavior",
+    "condition": "skill_by_opus",
+    "input_tokens": 1705,
+    "output_tokens": 3636,
+    "cost_usd": 0.059655,
+    "stop_reason": "end_turn",
+    "eval": {
+      "passed": false,
+      "n_pass": 0,
+      "n_total": 9,
+      "pass_rate": 0.0,
+      "details": [
+        {
+          "test": "L1_runs -  18:56:43,525 - ERROR - Error loading MATLAB file: spike_times should be a (1, N_units) cell array",
+          "pass": false
+        },
+        {
+          "test": "L1_output_exists",
+          "pass": false
+        },
+        {
+          "test": "L1_valid_h5 - no output",
+          "pass": false
+        },
+        {
+          "test": "L2_has_trials - no output",
+          "pass": false
+        },
+        {
+          "test": "L2_trial_count - no output",
+          "pass": false
+        },
+        {
+          "test": "L2_spikes_shape - no output",
+          "pass": false
+        },
+        {
+          "test": "L2_behavior_shape - no output",
+          "pass": false
+        },
+        {
+          "test": "L2_timestamps - no output",
+          "pass": false
+        },
+        {
+          "test": "L2_trial_filtered - no output",
+          "pass": false
+        }
+      ],
+      "scores": {},
+      "returncode": 0,
+      "stdout": "FAIL:L1_runs -  18:56:43,525 - ERROR - Error loading MATLAB file: spike_times should be a (1, N_units) cell array\n2026-03-10 18:56:43,526 - ERROR - Processing failed: spike_times should be a (1, N_units) cell array\n\nFAIL:L1_output_exists\nFAIL:L1_valid_h5 - no output\nFAIL:L2_has_trials - no output\nFAIL:L2_trial_count - no output\nFAIL:L2_spikes_shape - no output\nFAIL:L2_behavior_shape - no output\nFAIL:L2_timestamps - no output\nFAIL:L2_trial_filtered - no output",
+      "stderr": "",
+      "error": null
+    },
+    "code_metrics": {
+      "total_lines": 320,
+      "non_empty_lines": 254,
+      "comment_lines": 32,
+      "comment_ratio": 0.126,
+      "try_except_count": 5,
+      "import_count": 8,
+      "function_count": 6,
+      "class_count": 0,
+      "has_argparse": true,
+      "has_main_guard": true,
+      "defensive_ratio": 0.833
+    },
+    "code_length": 11657
+  },
+  {
+    "model": "opus",
+    "scenario": "S02_spike_behavior",
+    "condition": "skill_by_opus",
+    "input_tokens": 1705,
+    "output_tokens": 3432,
+    "cost_usd": 0.282975,
+    "stop_reason": "end_turn",
+    "eval": {
+      "passed": true,
+      "n_pass": 9,
+      "n_total": 9,
+      "pass_rate": 1.0,
+      "details": [
+        {
+          "test": "L1_runs",
+          "pass": true
+        },
+        {
+          "test": "L1_output_exists",
+          "pass": true
+        },
+        {
+          "test": "L1_valid_h5",
+          "pass": true
+        },
+        {
+          "test": "L2_has_trials",
+          "pass": true
+        },
+        {
+          "test": "L2_trial_count - found 4 trials",
+          "pass": true
+        },
+        {
+          "test": "L2_spikes_shape - trial_0000/spikes shape=(75, 8)",
+          "pass": true
+        },
+        {
+          "test": "L2_behavior_shape - trial_0000/behavior shape=(75, 2)",
+          "pass": true
+        },
+        {
+          "test": "L2_timestamps - trial_0000/timestamps shape=(75,)",
+          "pass": true
+        },
+        {
+          "test": "L2_trial_filtered - 4 success trials kept",
+          "pass": true
+        }
+      ],
+      "scores": {},
+      "returncode": 0,
+      "stdout": "PASS:L1_runs\nPASS:L1_output_exists\nPASS:L1_valid_h5\nPASS:L2_has_trials\nPASS:L2_trial_count - found 4 trials\nPASS:L2_spikes_shape - trial_0000/spikes shape=(75, 8)\nPASS:L2_behavior_shape - trial_0000/behavior shape=(75, 2)\nPASS:L2_timestamps - trial_0000/timestamps shape=(75,)\nPASS:L2_trial_filtered - 4 success trials kept",
+      "stderr": "",
+      "error": null
+    },
+    "code_metrics": {
+      "total_lines": 308,
+      "non_empty_lines": 246,
+      "comment_lines": 39,
+      "comment_ratio": 0.159,
+      "try_except_count": 3,
+      "import_count": 8,
+      "function_count": 4,
+      "class_count": 0,
+      "has_argparse": true,
+      "has_main_guard": true,
+      "defensive_ratio": 0.75
+    },
+    "code_length": 11011
+  }
+]

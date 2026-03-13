@@ -1,0 +1,10 @@
+id: S065_chlorophyll_bloom
+name: chlorophyll_bloom
+domain: oceanography
+difficulty: medium
+source: synthetic
+tags:
+- oceanography
+- medium
+- generated
+required_packages: []

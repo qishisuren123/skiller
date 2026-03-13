@@ -1,0 +1,10 @@
+id: S080_impedance_spectroscopy
+name: impedance_spectroscopy
+domain: materials
+difficulty: hard
+source: synthetic
+tags:
+- materials
+- hard
+- generated
+required_packages: []

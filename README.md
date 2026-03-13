@@ -82,7 +82,7 @@ We ran a controlled experiment comparing three systems on the same task (neurosc
 
 ## Real-World Examples
 
-The `examples/` directory contains **5 skills generated from real scientist requirements** using the `requirement-to-skill` pipeline. These are not toy demos — they were derived from actual data processing needs collected from researchers across multiple scientific domains, then validated through both static quality checks and end-to-end runtime testing with synthetic data.
+The `examples/` directory contains **7 skills generated from real scientist requirements**. These are not toy demos — they were derived from actual data processing needs collected from researchers across multiple scientific domains, then validated through both static quality checks and end-to-end runtime testing with synthetic data.
 
 | Skill | Domain | Description | Lines of Code |
 |-------|--------|-------------|:---:|
@@ -91,10 +91,12 @@ The `examples/` directory contains **5 skills generated from real scientist requ
 | [`proteomics-enrichment-analysis`](examples/proteomics-enrichment-analysis/) | Proteomics | Differential protein expression analysis with GO/KEGG pathway enrichment and visualization | 330 |
 | [`pride-proteomics-downloader`](examples/pride-proteomics-downloader/) | Proteomics | Search and download FragPipe-processed projects from PRIDE database via REST API | 288 |
 | [`fits-aperture-photometry`](examples/fits-aperture-photometry/) | Astronomy | Multi-strategy aperture photometry on FITS images with WCS, bad pixel masking, and error propagation | 355 |
+| [`neuro-metadata-gen`](examples/neuro-metadata-gen/) | Neuroscience | Recursively scan HDF5/MAT directories, extract metadata, generate unified meta.json | 280 |
+| [`spike-behavior-organize`](examples/spike-behavior-organize/) | Neuroscience | Multi-format neural spike/behavior data standardization into unified trial-based HDF5 | 350 |
 
 ### Validation Results
 
-All 5 examples scored **24/24** on the quality rubric and passed end-to-end runtime testing:
+All 7 examples scored **24/24** on the quality rubric. The 5 `requirement-to-skill` examples also passed end-to-end runtime testing:
 
 ![Quality Validation](assets/quality_and_bugs.png)
 
@@ -145,19 +147,47 @@ skiller/
 │   └── assets/
 │       └── example_output.md
 │
-├── examples/                       # 5 real-world generated skills
+├── examples/                       # 7 real-world generated skills
 │   ├── spatial-transcriptomics-preprocess/
 │   ├── swissprot-protein-parser/
 │   ├── proteomics-enrichment-analysis/
 │   ├── pride-proteomics-downloader/
-│   └── fits-aperture-photometry/
+│   ├── fits-aperture-photometry/
+│   ├── neuro-metadata-gen/
+│   └── spike-behavior-organize/
 │
-├── assets/                         # Figures for documentation
+├── skill-bench/                   # Benchmark: 1,620 trials across 6 LLMs
+│   ├── run_benchmark.py
+│   ├── scenarios/
+│   ├── skills/
+│   ├── analysis/
+│   ├── figures/
+│   └── docs/
+│
+├── pilot_experiment/              # Pilot experiment data & scripts
+│   ├── run_experiment_v2.py
+│   ├── config.py
+│   ├── lib/
+│   ├── scripts/
+│   ├── scenarios/
+│   ├── skills/
+│   └── results/
+│
+├── comparison_test/               # 3-system comparison experiment
+│   ├── COMPARISON_REPORT.md
+│   ├── eval_results/
+│   └── scores/
+│
+├── tools/                         # Generation utilities
+│   └── generate_from_csv.py
+│
+├── assets/                        # Figures for documentation
 │   ├── pipeline_overview.png
 │   ├── quality_and_bugs.png
 │   └── runtime_tests.png
 │
-├── LICENSE                         # MIT
+├── PROGRESS.md                    # Development iteration log
+├── LICENSE                        # MIT
 └── README.md
 ```
 
@@ -204,6 +234,17 @@ description: >-
 # CORRECT - works everywhere
 description: "This is a single-line description that all parsers read correctly."
 ```
+
+## Skill-Bench: Do Skills Actually Help?
+
+The `skill-bench/` directory contains a comprehensive benchmark studying the effect of skills on LLM code generation across **1,620 controlled trials** with 6 models and 30 scenarios.
+
+Key findings (see [`skill-bench/README.md`](skill-bench/README.md) for full details):
+
+- **Skills improve weak models by +18pp on average** but can cause -100pp drops in specific scenarios
+- **Strong models (Sonnet, Opus) are immune** — 100% pass rate with or without skills
+- **Skill poisoning is most effective against strong models** — their instruction-following capability becomes a vulnerability
+- **Partial skills can be more dangerous than complete ones** — toxic code in the first half gets "neutralized" by context in the second half
 
 ## License
 

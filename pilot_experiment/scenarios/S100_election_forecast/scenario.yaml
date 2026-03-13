@@ -1,0 +1,10 @@
+id: S100_election_forecast
+name: election_forecast
+domain: social_science
+difficulty: hard
+source: synthetic
+tags:
+- social_science
+- hard
+- generated
+required_packages: []

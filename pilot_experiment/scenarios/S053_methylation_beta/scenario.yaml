@@ -1,0 +1,10 @@
+id: S053_methylation_beta
+name: methylation_beta
+domain: genomics
+difficulty: hard
+source: synthetic
+tags:
+- genomics
+- hard
+- generated
+required_packages: []

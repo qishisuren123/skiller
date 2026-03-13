@@ -1,0 +1,10 @@
+id: S070_wind_rose
+name: wind_rose
+domain: atmospheric
+difficulty: easy
+source: synthetic
+tags:
+- atmospheric
+- easy
+- generated
+required_packages: []

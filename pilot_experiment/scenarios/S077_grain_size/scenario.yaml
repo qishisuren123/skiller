@@ -1,0 +1,10 @@
+id: S077_grain_size
+name: grain_size
+domain: materials
+difficulty: easy
+source: synthetic
+tags:
+- materials
+- easy
+- generated
+required_packages: []

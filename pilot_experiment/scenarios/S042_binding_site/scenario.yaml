@@ -1,0 +1,10 @@
+id: S042_binding_site
+name: binding_site
+domain: protein_structure
+difficulty: hard
+source: synthetic
+tags:
+- protein_structure
+- hard
+- generated
+required_packages: []

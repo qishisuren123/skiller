@@ -1,0 +1,12 @@
+id: S009_earth_obs
+name: earth_obs
+domain: earth_science
+difficulty: easy
+source: real
+csv_row: '#11 费奔'
+tags:
+- earth_science
+- easy
+required_packages:
+- numpy
+- pandas

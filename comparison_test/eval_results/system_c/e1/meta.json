@@ -1,0 +1,876 @@
+{
+  "summary": {
+    "total_files": 8,
+    "total_size_bytes": 1949712,
+    "total_size_human": "1.9 MB",
+    "total_datasets": 94,
+    "errors": 0,
+    "format_counts": {
+      "mat": 4,
+      "hdf5": 3,
+      "mat-v7.3-hdf5": 1
+    },
+    "scan_duration_seconds": 0.02
+  },
+  "scan_config": {
+    "root_dir": "comparison_test/test_data",
+    "merge_enabled": true,
+    "subject_pattern": "(?:sub|subject|subj|sbj|SUB)[-_]?\\d+",
+    "shape_mode": "flexible"
+  },
+  "files": [
+    {
+      "path": "Additional_mat_files/CustomColormaps.mat",
+      "size": 1216,
+      "format": "mat",
+      "datasets": [
+        {
+          "key": "cluster_colors",
+          "shape": [
+            10,
+            3
+          ],
+          "dtype": "float64",
+          "bytes": 240
+        },
+        {
+          "key": "regression_colors",
+          "shape": [
+            6,
+            3
+          ],
+          "dtype": "float64",
+          "bytes": 144
+        },
+        {
+          "key": "anatomy_palette",
+          "shape": [
+            20,
+            3
+          ],
+          "dtype": "float64",
+          "bytes": 480
+        }
+      ],
+      "error": null,
+      "merged": false,
+      "count": 1,
+      "size_human": "1.2 KB"
+    },
+    {
+      "path": "Additional_mat_files/FishOutline.mat",
+      "size": 7552,
+      "format": "mat",
+      "datasets": [
+        {
+          "key": "outline_x",
+          "shape": [
+            1,
+            200
+          ],
+          "dtype": "float64",
+          "bytes": 1600
+        },
+        {
+          "key": "outline_y",
+          "shape": [
+            1,
+            200
+          ],
+          "dtype": "float64",
+          "bytes": 1600
+        },
+        {
+          "key": "outline_with_eyes",
+          "shape": [
+            250,
+            2
+          ],
+          "dtype": "float64",
+          "bytes": 4000
+        }
+      ],
+      "error": null,
+      "merged": false,
+      "count": 1,
+      "size_human": "7.4 KB"
+    },
+    {
+      "path": "Subjects/subject_*/TimeSeries.h5",
+      "size": 444496,
+      "format": "hdf5",
+      "datasets": [
+        {
+          "key": "CellResp",
+          "shape": [
+            -1,
+            500
+          ],
+          "dtype": "float32",
+          "bytes": 200000
+        },
+        {
+          "key": "CellRespAvr",
+          "shape": [
+            -1,
+            50
+          ],
+          "dtype": "float32",
+          "bytes": 20000
+        },
+        {
+          "key": "CellRespAvrZ",
+          "shape": [
+            -1,
+            50
+          ],
+          "dtype": "float32",
+          "bytes": 20000
+        },
+        {
+          "key": "CellRespZ",
+          "shape": [
+            -1,
+            500
+          ],
+          "dtype": "float32",
+          "bytes": 200000
+        },
+        {
+          "key": "absIX",
+          "shape": [
+            -1,
+            1
+          ],
+          "dtype": "int32",
+          "bytes": 400
+        }
+      ],
+      "error": null,
+      "merged": true,
+      "count": 3,
+      "total_size": 1399548,
+      "total_size_human": "1.3 MB",
+      "size_human": "434.1 KB",
+      "dim0_ranges": {
+        "CellResp": {
+          "min": 95,
+          "max": 120
+        },
+        "CellRespAvr": {
+          "min": 95,
+          "max": 120
+        },
+        "CellRespAvrZ": {
+          "min": 95,
+          "max": 120
+        },
+        "CellRespZ": {
+          "min": 95,
+          "max": 120
+        },
+        "absIX": {
+          "min": 95,
+          "max": 120
+        }
+      }
+    },
+    {
+      "path": "Subjects/subject_01/data_full.mat",
+      "size": 177272,
+      "format": "mat",
+      "datasets": [
+        {
+          "key": "periods",
+          "shape": [
+            1,
+            5
+          ],
+          "dtype": "float64",
+          "bytes": 40
+        },
+        {
+          "key": "fpsec",
+          "shape": [
+            1,
+            1
+          ],
+          "dtype": "float64",
+          "bytes": 8
+        },
+        {
+          "key": "numcell_full",
+          "shape": [
+            1,
+            1
+          ],
+          "dtype": "float64",
+          "bytes": 8
+        },
+        {
+          "key": "timelists",
+          "shape": [
+            1,
+            5
+          ],
+          "dtype": "object",
+          "bytes": 40
+        },
+        {
+          "key": "timelists_names",
+          "shape": [
+            1,
+            5
+          ],
+          "dtype": "object",
+          "bytes": 40
+        },
+        {
+          "key": "CellXYZ",
+          "shape": [
+            100,
+            3
+          ],
+          "dtype": "float64",
+          "bytes": 2400
+        },
+        {
+          "key": "CellXYZ_norm",
+          "shape": [
+            100,
+            3
+          ],
+          "dtype": "float64",
+          "bytes": 2400
+        },
+        {
+          "key": "anat_stack",
+          "shape": [
+            50,
+            60,
+            30
+          ],
+          "dtype": "uint8",
+          "bytes": 90000
+        },
+        {
+          "key": "anat_yx",
+          "shape": [
+            60,
+            80,
+            3
+          ],
+          "dtype": "uint8",
+          "bytes": 14400
+        },
+        {
+          "key": "anat_yz",
+          "shape": [
+            50,
+            30,
+            3
+          ],
+          "dtype": "uint8",
+          "bytes": 4500
+        },
+        {
+          "key": "anat_zx",
+          "shape": [
+            50,
+            80,
+            3
+          ],
+          "dtype": "uint8",
+          "bytes": 12000
+        },
+        {
+          "key": "IX_inval_anat",
+          "shape": [
+            5,
+            1
+          ],
+          "dtype": "int32",
+          "bytes": 20
+        },
+        {
+          "key": "IX_inval_norm",
+          "shape": [
+            3,
+            1
+          ],
+          "dtype": "int32",
+          "bytes": 12
+        },
+        {
+          "key": "stimuluskey_raw",
+          "shape": [
+            1,
+            1000
+          ],
+          "dtype": "int32",
+          "bytes": 4000
+        },
+        {
+          "key": "stim_full",
+          "shape": [
+            1,
+            500
+          ],
+          "dtype": "int32",
+          "bytes": 2000
+        },
+        {
+          "key": "stimAvr",
+          "shape": [
+            1,
+            50
+          ],
+          "dtype": "int32",
+          "bytes": 200
+        },
+        {
+          "key": "Behavior_raw",
+          "shape": [
+            1,
+            1000
+          ],
+          "dtype": "float64",
+          "bytes": 8000
+        },
+        {
+          "key": "Behavior_full",
+          "shape": [
+            1,
+            500
+          ],
+          "dtype": "float64",
+          "bytes": 4000
+        },
+        {
+          "key": "BehaviorAvr",
+          "shape": [
+            1,
+            50
+          ],
+          "dtype": "float64",
+          "bytes": 400
+        },
+        {
+          "key": "Eye_full",
+          "shape": [
+            2,
+            500
+          ],
+          "dtype": "float64",
+          "bytes": 8000
+        },
+        {
+          "key": "Eye_avr",
+          "shape": [
+            2,
+            50
+          ],
+          "dtype": "float64",
+          "bytes": 800
+        },
+        {
+          "key": "Behavior_full_motorseed",
+          "shape": [
+            2,
+            500
+          ],
+          "dtype": "float64",
+          "bytes": 8000
+        },
+        {
+          "key": "BehaviorAvr_motorseed",
+          "shape": [
+            2,
+            50
+          ],
+          "dtype": "float64",
+          "bytes": 800
+        },
+        {
+          "key": "Eye_full_motorseed",
+          "shape": [
+            2,
+            500
+          ],
+          "dtype": "float64",
+          "bytes": 8000
+        },
+        {
+          "key": "EyeAvr_motorseed",
+          "shape": [
+            2,
+            50
+          ],
+          "dtype": "float64",
+          "bytes": 800
+        }
+      ],
+      "error": null,
+      "merged": false,
+      "count": 1,
+      "size_human": "173.1 KB"
+    },
+    {
+      "path": "Subjects/subject_02/data_full.mat",
+      "size": 187092,
+      "format": "mat-v7.3-hdf5",
+      "datasets": [
+        {
+          "key": "BehaviorAvr",
+          "shape": [
+            1,
+            50
+          ],
+          "dtype": "float64",
+          "bytes": 400
+        },
+        {
+          "key": "BehaviorAvr_motorseed",
+          "shape": [
+            2,
+            50
+          ],
+          "dtype": "float64",
+          "bytes": 800
+        },
+        {
+          "key": "Behavior_full",
+          "shape": [
+            1,
+            500
+          ],
+          "dtype": "float64",
+          "bytes": 4000
+        },
+        {
+          "key": "Behavior_full_motorseed",
+          "shape": [
+            2,
+            500
+          ],
+          "dtype": "float64",
+          "bytes": 8000
+        },
+        {
+          "key": "Behavior_raw",
+          "shape": [
+            1,
+            1000
+          ],
+          "dtype": "float64",
+          "bytes": 8000
+        },
+        {
+          "key": "CellXYZ",
+          "shape": [
+            120,
+            3
+          ],
+          "dtype": "float64",
+          "bytes": 2880
+        },
+        {
+          "key": "CellXYZ_norm",
+          "shape": [
+            120,
+            3
+          ],
+          "dtype": "float64",
+          "bytes": 2880
+        },
+        {
+          "key": "EyeAvr_motorseed",
+          "shape": [
+            2,
+            50
+          ],
+          "dtype": "float64",
+          "bytes": 800
+        },
+        {
+          "key": "Eye_avr",
+          "shape": [
+            2,
+            50
+          ],
+          "dtype": "float64",
+          "bytes": 800
+        },
+        {
+          "key": "Eye_full",
+          "shape": [
+            2,
+            500
+          ],
+          "dtype": "float64",
+          "bytes": 8000
+        },
+        {
+          "key": "Eye_full_motorseed",
+          "shape": [
+            2,
+            500
+          ],
+          "dtype": "float64",
+          "bytes": 8000
+        },
+        {
+          "key": "IX_inval_anat",
+          "shape": [
+            5,
+            1
+          ],
+          "dtype": "int32",
+          "bytes": 20
+        },
+        {
+          "key": "anat_stack",
+          "shape": [
+            50,
+            60,
+            30
+          ],
+          "dtype": "uint8",
+          "bytes": 90000
+        },
+        {
+          "key": "anat_yx",
+          "shape": [
+            60,
+            80,
+            3
+          ],
+          "dtype": "uint8",
+          "bytes": 14400
+        },
+        {
+          "key": "anat_yz",
+          "shape": [
+            50,
+            30,
+            3
+          ],
+          "dtype": "uint8",
+          "bytes": 4500
+        },
+        {
+          "key": "anat_zx",
+          "shape": [
+            50,
+            80,
+            3
+          ],
+          "dtype": "uint8",
+          "bytes": 12000
+        },
+        {
+          "key": "fpsec",
+          "shape": [
+            1,
+            1
+          ],
+          "dtype": "float64",
+          "bytes": 8
+        },
+        {
+          "key": "numcell_full",
+          "shape": [
+            1,
+            1
+          ],
+          "dtype": "float64",
+          "bytes": 8
+        },
+        {
+          "key": "periods",
+          "shape": [
+            5
+          ],
+          "dtype": "float64",
+          "bytes": 40
+        },
+        {
+          "key": "stimAvr",
+          "shape": [
+            50
+          ],
+          "dtype": "int32",
+          "bytes": 200
+        },
+        {
+          "key": "stim_full",
+          "shape": [
+            500
+          ],
+          "dtype": "int32",
+          "bytes": 2000
+        },
+        {
+          "key": "stimuluskey_raw",
+          "shape": [
+            1000
+          ],
+          "dtype": "int32",
+          "bytes": 4000
+        },
+        {
+          "key": "timelists_names",
+          "shape": [
+            5
+          ],
+          "dtype": "object",
+          "bytes": 40
+        }
+      ],
+      "error": null,
+      "merged": false,
+      "count": 1,
+      "size_human": "182.7 KB"
+    },
+    {
+      "path": "Subjects/subject_03/data_full.mat",
+      "size": 177032,
+      "format": "mat",
+      "datasets": [
+        {
+          "key": "periods",
+          "shape": [
+            1,
+            5
+          ],
+          "dtype": "float64",
+          "bytes": 40
+        },
+        {
+          "key": "fpsec",
+          "shape": [
+            1,
+            1
+          ],
+          "dtype": "float64",
+          "bytes": 8
+        },
+        {
+          "key": "numcell_full",
+          "shape": [
+            1,
+            1
+          ],
+          "dtype": "float64",
+          "bytes": 8
+        },
+        {
+          "key": "timelists",
+          "shape": [
+            1,
+            5
+          ],
+          "dtype": "object",
+          "bytes": 40
+        },
+        {
+          "key": "timelists_names",
+          "shape": [
+            1,
+            5
+          ],
+          "dtype": "object",
+          "bytes": 40
+        },
+        {
+          "key": "CellXYZ",
+          "shape": [
+            95,
+            3
+          ],
+          "dtype": "float64",
+          "bytes": 2280
+        },
+        {
+          "key": "CellXYZ_norm",
+          "shape": [
+            95,
+            3
+          ],
+          "dtype": "float64",
+          "bytes": 2280
+        },
+        {
+          "key": "anat_stack",
+          "shape": [
+            50,
+            60,
+            30
+          ],
+          "dtype": "uint8",
+          "bytes": 90000
+        },
+        {
+          "key": "anat_yx",
+          "shape": [
+            60,
+            80,
+            3
+          ],
+          "dtype": "uint8",
+          "bytes": 14400
+        },
+        {
+          "key": "anat_yz",
+          "shape": [
+            50,
+            30,
+            3
+          ],
+          "dtype": "uint8",
+          "bytes": 4500
+        },
+        {
+          "key": "anat_zx",
+          "shape": [
+            50,
+            80,
+            3
+          ],
+          "dtype": "uint8",
+          "bytes": 12000
+        },
+        {
+          "key": "IX_inval_anat",
+          "shape": [
+            5,
+            1
+          ],
+          "dtype": "int32",
+          "bytes": 20
+        },
+        {
+          "key": "IX_inval_norm",
+          "shape": [
+            3,
+            1
+          ],
+          "dtype": "int32",
+          "bytes": 12
+        },
+        {
+          "key": "stimuluskey_raw",
+          "shape": [
+            1,
+            1000
+          ],
+          "dtype": "int32",
+          "bytes": 4000
+        },
+        {
+          "key": "stim_full",
+          "shape": [
+            1,
+            500
+          ],
+          "dtype": "int32",
+          "bytes": 2000
+        },
+        {
+          "key": "stimAvr",
+          "shape": [
+            1,
+            50
+          ],
+          "dtype": "int32",
+          "bytes": 200
+        },
+        {
+          "key": "Behavior_raw",
+          "shape": [
+            1,
+            1000
+          ],
+          "dtype": "float64",
+          "bytes": 8000
+        },
+        {
+          "key": "Behavior_full",
+          "shape": [
+            1,
+            500
+          ],
+          "dtype": "float64",
+          "bytes": 4000
+        },
+        {
+          "key": "BehaviorAvr",
+          "shape": [
+            1,
+            50
+          ],
+          "dtype": "float64",
+          "bytes": 400
+        },
+        {
+          "key": "Eye_full",
+          "shape": [
+            2,
+            500
+          ],
+          "dtype": "float64",
+          "bytes": 8000
+        },
+        {
+          "key": "Eye_avr",
+          "shape": [
+            2,
+            50
+          ],
+          "dtype": "float64",
+          "bytes": 800
+        },
+        {
+          "key": "Behavior_full_motorseed",
+          "shape": [
+            2,
+            500
+          ],
+          "dtype": "float64",
+          "bytes": 8000
+        },
+        {
+          "key": "BehaviorAvr_motorseed",
+          "shape": [
+            2,
+            50
+          ],
+          "dtype": "float64",
+          "bytes": 800
+        },
+        {
+          "key": "Eye_full_motorseed",
+          "shape": [
+            2,
+            500
+          ],
+          "dtype": "float64",
+          "bytes": 8000
+        },
+        {
+          "key": "EyeAvr_motorseed",
+          "shape": [
+            2,
+            50
+          ],
+          "dtype": "float64",
+          "bytes": 800
+        }
+      ],
+      "error": null,
+      "merged": false,
+      "count": 1,
+      "size_human": "172.9 KB"
+    }
+  ]
+}

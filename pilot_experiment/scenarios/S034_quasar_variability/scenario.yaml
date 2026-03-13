@@ -1,0 +1,10 @@
+id: S034_quasar_variability
+name: quasar_variability
+domain: astronomy
+difficulty: medium
+source: synthetic
+tags:
+- astronomy
+- medium
+- generated
+required_packages: []

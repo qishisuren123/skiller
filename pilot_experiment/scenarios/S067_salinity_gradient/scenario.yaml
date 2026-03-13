@@ -1,0 +1,10 @@
+id: S067_salinity_gradient
+name: salinity_gradient
+domain: oceanography
+difficulty: hard
+source: synthetic
+tags:
+- oceanography
+- hard
+- generated
+required_packages: []

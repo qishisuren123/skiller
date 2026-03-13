@@ -1,0 +1,10 @@
+id: S039_pdb_parser
+name: pdb_parser
+domain: protein_structure
+difficulty: easy
+source: synthetic
+tags:
+- protein_structure
+- easy
+- generated
+required_packages: []

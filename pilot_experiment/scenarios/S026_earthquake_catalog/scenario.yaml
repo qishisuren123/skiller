@@ -1,0 +1,12 @@
+id: S026_earthquake_catalog
+name: earthquake_catalog
+domain: seismology
+difficulty: medium
+source: synthetic
+csv_row: null
+tags:
+- seismology
+- medium
+required_packages:
+- numpy
+- pandas

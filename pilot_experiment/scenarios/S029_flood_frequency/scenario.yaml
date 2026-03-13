@@ -1,0 +1,12 @@
+id: S029_flood_frequency
+name: flood_frequency
+domain: hydrology
+difficulty: medium
+source: synthetic
+csv_row: null
+tags:
+- hydrology
+- medium
+required_packages:
+- numpy
+- pandas

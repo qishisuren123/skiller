@@ -1,0 +1,10 @@
+id: S088_dicom_metadata
+name: dicom_metadata
+domain: medical
+difficulty: hard
+source: synthetic
+tags:
+- medical
+- hard
+- generated
+required_packages: []

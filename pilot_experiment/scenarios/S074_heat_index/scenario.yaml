@@ -1,0 +1,10 @@
+id: S074_heat_index
+name: heat_index
+domain: atmospheric
+difficulty: hard
+source: synthetic
+tags:
+- atmospheric
+- hard
+- generated
+required_packages: []

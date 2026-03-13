@@ -1,0 +1,2696 @@
+[
+  {
+    "model": "gemini_flash",
+    "scenario": "S01_neuro_metadata",
+    "condition": "exact_skill",
+    "cost_usd": 0.0019575,
+    "input_tokens": 1126,
+    "output_tokens": 2981,
+    "eval": {
+      "passed": true,
+      "n_pass": 9,
+      "n_total": 9,
+      "pass_rate": 1.0,
+      "details": [
+        {
+          "test": "L1_runs",
+          "pass": true
+        },
+        {
+          "test": "L1_output_exists",
+          "pass": true
+        },
+        {
+          "test": "L1_valid_json",
+          "pass": true
+        },
+        {
+          "test": "L2_has_files",
+          "pass": true
+        },
+        {
+          "test": "L2_file_count",
+          "pass": true
+        },
+        {
+          "test": "L2_nested_keys",
+          "pass": true
+        },
+        {
+          "test": "L2_shape_info",
+          "pass": true
+        },
+        {
+          "test": "L2_mat_handled",
+          "pass": true
+        },
+        {
+          "test": "L2_multi_subject",
+          "pass": true
+        }
+      ],
+      "scores": {},
+      "returncode": 0,
+      "stdout": "PASS:L1_runs\nPASS:L1_output_exists\nPASS:L1_valid_json\nPASS:L2_has_files\nPASS:L2_file_count\nPASS:L2_nested_keys\nPASS:L2_shape_info\nPASS:L2_mat_handled\nPASS:L2_multi_subject",
+      "stderr": "",
+      "error": null
+    },
+    "code_metrics": {
+      "total_lines": 168,
+      "non_empty_lines": 150,
+      "comment_lines": 14,
+      "comment_ratio": 0.093,
+      "try_except_count": 3,
+      "import_count": 7,
+      "function_count": 3,
+      "class_count": 0,
+      "has_argparse": true,
+      "has_main_guard": true,
+      "defensive_ratio": 1.0
+    },
+    "code_length": 6980
+  },
+  {
+    "model": "gpt4o_mini",
+    "scenario": "S01_neuro_metadata",
+    "condition": "exact_skill",
+    "cost_usd": 0.0006837000000000001,
+    "input_tokens": 1054,
+    "output_tokens": 876,
+    "eval": {
+      "passed": true,
+      "n_pass": 9,
+      "n_total": 9,
+      "pass_rate": 1.0,
+      "details": [
+        {
+          "test": "L1_runs",
+          "pass": true
+        },
+        {
+          "test": "L1_output_exists",
+          "pass": true
+        },
+        {
+          "test": "L1_valid_json",
+          "pass": true
+        },
+        {
+          "test": "L2_has_files",
+          "pass": true
+        },
+        {
+          "test": "L2_file_count",
+          "pass": true
+        },
+        {
+          "test": "L2_nested_keys",
+          "pass": true
+        },
+        {
+          "test": "L2_shape_info",
+          "pass": true
+        },
+        {
+          "test": "L2_mat_handled",
+          "pass": true
+        },
+        {
+          "test": "L2_multi_subject",
+          "pass": true
+        }
+      ],
+      "scores": {},
+      "returncode": 0,
+      "stdout": "PASS:L1_runs\nPASS:L1_output_exists\nPASS:L1_valid_json\nPASS:L2_has_files\nPASS:L2_file_count\nPASS:L2_nested_keys\nPASS:L2_shape_info\nPASS:L2_mat_handled\nPASS:L2_multi_subject",
+      "stderr": "",
+      "error": null
+    },
+    "code_metrics": {
+      "total_lines": 86,
+      "non_empty_lines": 75,
+      "comment_lines": 6,
+      "comment_ratio": 0.08,
+      "try_except_count": 2,
+      "import_count": 6,
+      "function_count": 4,
+      "class_count": 0,
+      "has_argparse": true,
+      "has_main_guard": true,
+      "defensive_ratio": 0.5
+    },
+    "code_length": 2987
+  },
+  {
+    "model": "haiku",
+    "scenario": "S01_neuro_metadata",
+    "condition": "exact_skill",
+    "cost_usd": 0.01274,
+    "input_tokens": 1240,
+    "output_tokens": 2937,
+    "eval": {
+      "passed": true,
+      "n_pass": 9,
+      "n_total": 9,
+      "pass_rate": 1.0,
+      "details": [
+        {
+          "test": "L1_runs",
+          "pass": true
+        },
+        {
+          "test": "L1_output_exists",
+          "pass": true
+        },
+        {
+          "test": "L1_valid_json",
+          "pass": true
+        },
+        {
+          "test": "L2_has_files",
+          "pass": true
+        },
+        {
+          "test": "L2_file_count",
+          "pass": true
+        },
+        {
+          "test": "L2_nested_keys",
+          "pass": true
+        },
+        {
+          "test": "L2_shape_info",
+          "pass": true
+        },
+        {
+          "test": "L2_mat_handled",
+          "pass": true
+        },
+        {
+          "test": "L2_multi_subject",
+          "pass": true
+        }
+      ],
+      "scores": {},
+      "returncode": 0,
+      "stdout": "PASS:L1_runs\nPASS:L1_output_exists\nPASS:L1_valid_json\nPASS:L2_has_files\nPASS:L2_file_count\nPASS:L2_nested_keys\nPASS:L2_shape_info\nPASS:L2_mat_handled\nPASS:L2_multi_subject",
+      "stderr": "",
+      "error": null
+    },
+    "code_metrics": {
+      "total_lines": 289,
+      "non_empty_lines": 229,
+      "comment_lines": 12,
+      "comment_ratio": 0.052,
+      "try_except_count": 5,
+      "import_count": 8,
+      "function_count": 6,
+      "class_count": 0,
+      "has_argparse": true,
+      "has_main_guard": true,
+      "defensive_ratio": 0.833
+    },
+    "code_length": 8578
+  },
+  {
+    "model": "gemini_flash",
+    "scenario": "S01_neuro_metadata",
+    "condition": "no_skill",
+    "cost_usd": 0.0049435500000000005,
+    "input_tokens": 205,
+    "output_tokens": 8188,
+    "eval": {
+      "passed": false,
+      "n_pass": 1,
+      "n_total": 9,
+      "pass_rate": 0.1111,
+      "details": [
+        {
+          "test": "L1_runs",
+          "pass": true
+        },
+        {
+          "test": "L1_output_exists",
+          "pass": false
+        },
+        {
+          "test": "L1_valid_json - no output",
+          "pass": false
+        },
+        {
+          "test": "L2_has_files - no output",
+          "pass": false
+        },
+        {
+          "test": "L2_file_count - no output",
+          "pass": false
+        },
+        {
+          "test": "L2_nested_keys - no output",
+          "pass": false
+        },
+        {
+          "test": "L2_shape_info - no output",
+          "pass": false
+        },
+        {
+          "test": "L2_mat_handled - no output",
+          "pass": false
+        },
+        {
+          "test": "L2_multi_subject - no output",
+          "pass": false
+        }
+      ],
+      "scores": {},
+      "returncode": 0,
+      "stdout": "PASS:L1_runs\nFAIL:L1_output_exists\nFAIL:L1_valid_json - no output\nFAIL:L2_has_files - no output\nFAIL:L2_file_count - no output\nFAIL:L2_nested_keys - no output\nFAIL:L2_shape_info - no output\nFAIL:L2_mat_handled - no output\nFAIL:L2_multi_subject - no output",
+      "stderr": "",
+      "error": null
+    },
+    "code_metrics": {
+      "total_lines": 1,
+      "non_empty_lines": 1,
+      "comment_lines": 1,
+      "comment_ratio": 1.0,
+      "try_except_count": 0,
+      "import_count": 0,
+      "function_count": 0,
+      "class_count": 0,
+      "has_argparse": false,
+      "has_main_guard": false,
+      "defensive_ratio": 0.0
+    },
+    "code_length": 32
+  },
+  {
+    "model": "gpt4o_mini",
+    "scenario": "S01_neuro_metadata",
+    "condition": "no_skill",
+    "cost_usd": 0.00058665,
+    "input_tokens": 203,
+    "output_tokens": 927,
+    "eval": {
+      "passed": true,
+      "n_pass": 9,
+      "n_total": 9,
+      "pass_rate": 1.0,
+      "details": [
+        {
+          "test": "L1_runs",
+          "pass": true
+        },
+        {
+          "test": "L1_output_exists",
+          "pass": true
+        },
+        {
+          "test": "L1_valid_json",
+          "pass": true
+        },
+        {
+          "test": "L2_has_files",
+          "pass": true
+        },
+        {
+          "test": "L2_file_count",
+          "pass": true
+        },
+        {
+          "test": "L2_nested_keys",
+          "pass": true
+        },
+        {
+          "test": "L2_shape_info",
+          "pass": true
+        },
+        {
+          "test": "L2_mat_handled",
+          "pass": true
+        },
+        {
+          "test": "L2_multi_subject",
+          "pass": true
+        }
+      ],
+      "scores": {},
+      "returncode": 0,
+      "stdout": "PASS:L1_runs\nPASS:L1_output_exists\nPASS:L1_valid_json\nPASS:L2_has_files\nPASS:L2_file_count\nPASS:L2_nested_keys\nPASS:L2_shape_info\nPASS:L2_mat_handled\nPASS:L2_multi_subject",
+      "stderr": "",
+      "error": null
+    },
+    "code_metrics": {
+      "total_lines": 94,
+      "non_empty_lines": 83,
+      "comment_lines": 2,
+      "comment_ratio": 0.024,
+      "try_except_count": 3,
+      "import_count": 7,
+      "function_count": 4,
+      "class_count": 0,
+      "has_argparse": true,
+      "has_main_guard": true,
+      "defensive_ratio": 0.75
+    },
+    "code_length": 3276
+  },
+  {
+    "model": "haiku",
+    "scenario": "S01_neuro_metadata",
+    "condition": "no_skill",
+    "cost_usd": 0.0115848,
+    "input_tokens": 226,
+    "output_tokens": 2851,
+    "eval": {
+      "passed": true,
+      "n_pass": 9,
+      "n_total": 9,
+      "pass_rate": 1.0,
+      "details": [
+        {
+          "test": "L1_runs",
+          "pass": true
+        },
+        {
+          "test": "L1_output_exists",
+          "pass": true
+        },
+        {
+          "test": "L1_valid_json",
+          "pass": true
+        },
+        {
+          "test": "L2_has_files",
+          "pass": true
+        },
+        {
+          "test": "L2_file_count",
+          "pass": true
+        },
+        {
+          "test": "L2_nested_keys",
+          "pass": true
+        },
+        {
+          "test": "L2_shape_info",
+          "pass": true
+        },
+        {
+          "test": "L2_mat_handled",
+          "pass": true
+        },
+        {
+          "test": "L2_multi_subject",
+          "pass": true
+        }
+      ],
+      "scores": {},
+      "returncode": 0,
+      "stdout": "PASS:L1_runs\nPASS:L1_output_exists\nPASS:L1_valid_json\nPASS:L2_has_files\nPASS:L2_file_count\nPASS:L2_nested_keys\nPASS:L2_shape_info\nPASS:L2_mat_handled\nPASS:L2_multi_subject",
+      "stderr": "",
+      "error": null
+    },
+    "code_metrics": {
+      "total_lines": 265,
+      "non_empty_lines": 220,
+      "comment_lines": 12,
+      "comment_ratio": 0.055,
+      "try_except_count": 4,
+      "import_count": 8,
+      "function_count": 4,
+      "class_count": 0,
+      "has_argparse": true,
+      "has_main_guard": true,
+      "defensive_ratio": 1.0
+    },
+    "code_length": 7965
+  },
+  {
+    "model": "gemini_flash",
+    "scenario": "S02_spike_behavior",
+    "condition": "exact_skill",
+    "cost_usd": 0.00513105,
+    "input_tokens": 1455,
+    "output_tokens": 8188,
+    "eval": {
+      "passed": false,
+      "n_pass": 0,
+      "n_total": 0,
+      "pass_rate": 0
+    },
+    "code_metrics": {},
+    "code_length": 0
+  },
+  {
+    "model": "gpt4o_mini",
+    "scenario": "S02_spike_behavior",
+    "condition": "exact_skill",
+    "cost_usd": 0.00078645,
+    "input_tokens": 1295,
+    "output_tokens": 987,
+    "eval": {
+      "passed": true,
+      "n_pass": 9,
+      "n_total": 9,
+      "pass_rate": 1.0,
+      "details": [
+        {
+          "test": "L1_runs",
+          "pass": true
+        },
+        {
+          "test": "L1_output_exists",
+          "pass": true
+        },
+        {
+          "test": "L1_valid_h5",
+          "pass": true
+        },
+        {
+          "test": "L2_has_trials",
+          "pass": true
+        },
+        {
+          "test": "L2_trial_count - found 4 trials",
+          "pass": true
+        },
+        {
+          "test": "L2_spikes_shape - trial_0000/spikes shape=(75, 8)",
+          "pass": true
+        },
+        {
+          "test": "L2_behavior_shape - trial_0000/behavior shape=(75, 2)",
+          "pass": true
+        },
+        {
+          "test": "L2_timestamps - trial_0000/timestamps shape=(75,)",
+          "pass": true
+        },
+        {
+          "test": "L2_trial_filtered - 4 success trials kept",
+          "pass": true
+        }
+      ],
+      "scores": {},
+      "returncode": 0,
+      "stdout": "PASS:L1_runs\nPASS:L1_output_exists\nPASS:L1_valid_h5\nPASS:L2_has_trials\nPASS:L2_trial_count - found 4 trials\nPASS:L2_spikes_shape - trial_0000/spikes shape=(75, 8)\nPASS:L2_behavior_shape - trial_0000/behavior shape=(75, 2)\nPASS:L2_timestamps - trial_0000/timestamps shape=(75,)\nPASS:L2_trial_filtered - 4 success trials kept",
+      "stderr": "",
+      "error": null
+    },
+    "code_metrics": {
+      "total_lines": 78,
+      "non_empty_lines": 62,
+      "comment_lines": 8,
+      "comment_ratio": 0.129,
+      "try_except_count": 0,
+      "import_count": 5,
+      "function_count": 2,
+      "class_count": 0,
+      "has_argparse": true,
+      "has_main_guard": true,
+      "defensive_ratio": 0.0
+    },
+    "code_length": 3305
+  },
+  {
+    "model": "haiku",
+    "scenario": "S02_spike_behavior",
+    "condition": "exact_skill",
+    "cost_usd": 0.0181928,
+    "input_tokens": 1541,
+    "output_tokens": 4240,
+    "eval": {
+      "passed": true,
+      "n_pass": 9,
+      "n_total": 9,
+      "pass_rate": 1.0,
+      "details": [
+        {
+          "test": "L1_runs",
+          "pass": true
+        },
+        {
+          "test": "L1_output_exists",
+          "pass": true
+        },
+        {
+          "test": "L1_valid_h5",
+          "pass": true
+        },
+        {
+          "test": "L2_has_trials",
+          "pass": true
+        },
+        {
+          "test": "L2_trial_count - found 4 trials",
+          "pass": true
+        },
+        {
+          "test": "L2_spikes_shape - trial_0000/spikes shape=(75, 8)",
+          "pass": true
+        },
+        {
+          "test": "L2_behavior_shape - trial_0000/behavior shape=(75, 2)",
+          "pass": true
+        },
+        {
+          "test": "L2_timestamps - trial_0000/timestamps shape=(75,)",
+          "pass": true
+        },
+        {
+          "test": "L2_trial_filtered - 4 success trials kept",
+          "pass": true
+        }
+      ],
+      "scores": {},
+      "returncode": 0,
+      "stdout": "PASS:L1_runs\nPASS:L1_output_exists\nPASS:L1_valid_h5\nPASS:L2_has_trials\nPASS:L2_trial_count - found 4 trials\nPASS:L2_spikes_shape - trial_0000/spikes shape=(75, 8)\nPASS:L2_behavior_shape - trial_0000/behavior shape=(75, 2)\nPASS:L2_timestamps - trial_0000/timestamps shape=(75,)\nPASS:L2_trial_filtered - 4 success trials kept",
+      "stderr": "",
+      "error": null
+    },
+    "code_metrics": {
+      "total_lines": 371,
+      "non_empty_lines": 285,
+      "comment_lines": 29,
+      "comment_ratio": 0.102,
+      "try_except_count": 6,
+      "import_count": 8,
+      "function_count": 11,
+      "class_count": 0,
+      "has_argparse": true,
+      "has_main_guard": true,
+      "defensive_ratio": 0.545
+    },
+    "code_length": 13171
+  },
+  {
+    "model": "gemini_flash",
+    "scenario": "S02_spike_behavior",
+    "condition": "no_skill",
+    "cost_usd": 0.0049572,
+    "input_tokens": 296,
+    "output_tokens": 8188,
+    "eval": {
+      "passed": false,
+      "n_pass": 0,
+      "n_total": 0,
+      "pass_rate": 0
+    },
+    "code_metrics": {},
+    "code_length": 0
+  },
+  {
+    "model": "gpt4o_mini",
+    "scenario": "S02_spike_behavior",
+    "condition": "no_skill",
+    "cost_usd": 0.00069435,
+    "input_tokens": 273,
+    "output_tokens": 1089,
+    "eval": {
+      "passed": false,
+      "n_pass": 4,
+      "n_total": 9,
+      "pass_rate": 0.4444,
+      "details": [
+        {
+          "test": "L1_runs",
+          "pass": true
+        },
+        {
+          "test": "L1_output_exists",
+          "pass": true
+        },
+        {
+          "test": "L1_valid_h5",
+          "pass": true
+        },
+        {
+          "test": "L2_has_trials - no trial groups found",
+          "pass": false
+        },
+        {
+          "test": "L2_trial_count - expected <=4, got 0",
+          "pass": false
+        },
+        {
+          "test": "L2_spikes_shape - no 2D spike dataset found",
+          "pass": false
+        },
+        {
+          "test": "L2_behavior_shape - no 2D behavior dataset found",
+          "pass": false
+        },
+        {
+          "test": "L2_timestamps - no 1D timestamps found",
+          "pass": false
+        },
+        {
+          "test": "L2_trial_filtered - 0 trials (some filtered)",
+          "pass": true
+        }
+      ],
+      "scores": {},
+      "returncode": 0,
+      "stdout": "PASS:L1_runs\nPASS:L1_output_exists\nPASS:L1_valid_h5\nFAIL:L2_has_trials - no trial groups found\nFAIL:L2_trial_count - expected <=4, got 0\nFAIL:L2_spikes_shape - no 2D spike dataset found\nFAIL:L2_behavior_shape - no 2D behavior dataset found\nFAIL:L2_timestamps - no 1D timestamps found\nPASS:L2_trial_filtered - 0 trials (some filtered)",
+      "stderr": "",
+      "error": null
+    },
+    "code_metrics": {
+      "total_lines": 74,
+      "non_empty_lines": 58,
+      "comment_lines": 5,
+      "comment_ratio": 0.086,
+      "try_except_count": 0,
+      "import_count": 5,
+      "function_count": 4,
+      "class_count": 0,
+      "has_argparse": true,
+      "has_main_guard": true,
+      "defensive_ratio": 0.0
+    },
+    "code_length": 3290
+  },
+  {
+    "model": "haiku",
+    "scenario": "S02_spike_behavior",
+    "condition": "no_skill",
+    "cost_usd": 0.0175824,
+    "input_tokens": 318,
+    "output_tokens": 4332,
+    "eval": {
+      "passed": true,
+      "n_pass": 9,
+      "n_total": 9,
+      "pass_rate": 1.0,
+      "details": [
+        {
+          "test": "L1_runs",
+          "pass": true
+        },
+        {
+          "test": "L1_output_exists",
+          "pass": true
+        },
+        {
+          "test": "L1_valid_h5",
+          "pass": true
+        },
+        {
+          "test": "L2_has_trials",
+          "pass": true
+        },
+        {
+          "test": "L2_trial_count - found 4 trials",
+          "pass": true
+        },
+        {
+          "test": "L2_spikes_shape - trial_0000/spikes shape=(75, 8)",
+          "pass": true
+        },
+        {
+          "test": "L2_behavior_shape - trial_0000/behavior shape=(75, 2)",
+          "pass": true
+        },
+        {
+          "test": "L2_timestamps - trial_0000/timestamps shape=(75,)",
+          "pass": true
+        },
+        {
+          "test": "L2_trial_filtered - 4 success trials kept",
+          "pass": true
+        }
+      ],
+      "scores": {},
+      "returncode": 0,
+      "stdout": "PASS:L1_runs\nPASS:L1_output_exists\nPASS:L1_valid_h5\nPASS:L2_has_trials\nPASS:L2_trial_count - found 4 trials\nPASS:L2_spikes_shape - trial_0000/spikes shape=(75, 8)\nPASS:L2_behavior_shape - trial_0000/behavior shape=(75, 2)\nPASS:L2_timestamps - trial_0000/timestamps shape=(75,)\nPASS:L2_trial_filtered - 4 success trials kept",
+      "stderr": "",
+      "error": null
+    },
+    "code_metrics": {
+      "total_lines": 457,
+      "non_empty_lines": 371,
+      "comment_lines": 30,
+      "comment_ratio": 0.081,
+      "try_except_count": 2,
+      "import_count": 9,
+      "function_count": 1,
+      "class_count": 1,
+      "has_argparse": true,
+      "has_main_guard": true,
+      "defensive_ratio": 2.0
+    },
+    "code_length": 14800
+  },
+  {
+    "model": "gpt4o_mini",
+    "scenario": "S03_spatial_tx",
+    "condition": "exact_skill",
+    "cost_usd": 0.0006353999999999999,
+    "input_tokens": 976,
+    "output_tokens": 815,
+    "eval": {
+      "passed": true,
+      "n_pass": 8,
+      "n_total": 8,
+      "pass_rate": 1.0,
+      "details": [
+        {
+          "test": "L1_runs",
+          "pass": true
+        },
+        {
+          "test": "L1_output_exists",
+          "pass": true
+        },
+        {
+          "test": "L1_valid_csv",
+          "pass": true
+        },
+        {
+          "test": "L2_spot_count - 100 spots",
+          "pass": true
+        },
+        {
+          "test": "L2_gene_filtered - 100 genes (from 500)",
+          "pass": true
+        },
+        {
+          "test": "L2_normalized",
+          "pass": true
+        },
+        {
+          "test": "L2_log_transformed",
+          "pass": true
+        },
+        {
+          "test": "L2_hvg_selected - 100 genes selected",
+          "pass": true
+        }
+      ],
+      "scores": {},
+      "returncode": 0,
+      "stdout": "PASS:L1_runs\nPASS:L1_output_exists\nPASS:L1_valid_csv\nPASS:L2_spot_count - 100 spots\nPASS:L2_gene_filtered - 100 genes (from 500)\nPASS:L2_normalized\nPASS:L2_log_transformed\nPASS:L2_hvg_selected - 100 genes selected",
+      "stderr": "",
+      "error": null
+    },
+    "code_metrics": {
+      "total_lines": 67,
+      "non_empty_lines": 52,
+      "comment_lines": 12,
+      "comment_ratio": 0.231,
+      "try_except_count": 0,
+      "import_count": 4,
+      "function_count": 2,
+      "class_count": 0,
+      "has_argparse": true,
+      "has_main_guard": true,
+      "defensive_ratio": 0.0
+    },
+    "code_length": 2400
+  },
+  {
+    "model": "haiku",
+    "scenario": "S03_spatial_tx",
+    "condition": "exact_skill",
+    "cost_usd": 0.014859200000000001,
+    "input_tokens": 1124,
+    "output_tokens": 3490,
+    "eval": {
+      "passed": true,
+      "n_pass": 8,
+      "n_total": 8,
+      "pass_rate": 1.0,
+      "details": [
+        {
+          "test": "L1_runs",
+          "pass": true
+        },
+        {
+          "test": "L1_output_exists",
+          "pass": true
+        },
+        {
+          "test": "L1_valid_csv",
+          "pass": true
+        },
+        {
+          "test": "L2_spot_count - 100 spots",
+          "pass": true
+        },
+        {
+          "test": "L2_gene_filtered - 100 genes (from 500)",
+          "pass": true
+        },
+        {
+          "test": "L2_normalized",
+          "pass": true
+        },
+        {
+          "test": "L2_log_transformed",
+          "pass": true
+        },
+        {
+          "test": "L2_hvg_selected - 100 genes selected",
+          "pass": true
+        }
+      ],
+      "scores": {},
+      "returncode": 0,
+      "stdout": "PASS:L1_runs\nPASS:L1_output_exists\nPASS:L1_valid_csv\nPASS:L2_spot_count - 100 spots\nPASS:L2_gene_filtered - 100 genes (from 500)\nPASS:L2_normalized\nPASS:L2_log_transformed\nPASS:L2_hvg_selected - 100 genes selected",
+      "stderr": "",
+      "error": null
+    },
+    "code_metrics": {
+      "total_lines": 333,
+      "non_empty_lines": 261,
+      "comment_lines": 30,
+      "comment_ratio": 0.115,
+      "try_except_count": 3,
+      "import_count": 5,
+      "function_count": 10,
+      "class_count": 0,
+      "has_argparse": true,
+      "has_main_guard": true,
+      "defensive_ratio": 0.3
+    },
+    "code_length": 10828
+  },
+  {
+    "model": "gpt4o_mini",
+    "scenario": "S03_spatial_tx",
+    "condition": "no_skill",
+    "cost_usd": 0.00049695,
+    "input_tokens": 189,
+    "output_tokens": 781,
+    "eval": {
+      "passed": false,
+      "n_pass": 7,
+      "n_total": 8,
+      "pass_rate": 0.875,
+      "details": [
+        {
+          "test": "L1_runs",
+          "pass": true
+        },
+        {
+          "test": "L1_output_exists",
+          "pass": true
+        },
+        {
+          "test": "L1_valid_csv",
+          "pass": true
+        },
+        {
+          "test": "L2_spot_count - 100 spots",
+          "pass": true
+        },
+        {
+          "test": "L2_gene_filtered - 100 genes (from 500)",
+          "pass": true
+        },
+        {
+          "test": "L2_normalized - max value 99.2 too large",
+          "pass": false
+        },
+        {
+          "test": "L2_log_transformed",
+          "pass": true
+        },
+        {
+          "test": "L2_hvg_selected - 100 genes selected",
+          "pass": true
+        }
+      ],
+      "scores": {},
+      "returncode": 0,
+      "stdout": "PASS:L1_runs\nPASS:L1_output_exists\nPASS:L1_valid_csv\nPASS:L2_spot_count - 100 spots\nPASS:L2_gene_filtered - 100 genes (from 500)\nFAIL:L2_normalized - max value 99.2 too large\nPASS:L2_log_transformed\nPASS:L2_hvg_selected - 100 genes selected",
+      "stderr": "",
+      "error": null
+    },
+    "code_metrics": {
+      "total_lines": 52,
+      "non_empty_lines": 41,
+      "comment_lines": 7,
+      "comment_ratio": 0.171,
+      "try_except_count": 0,
+      "import_count": 3,
+      "function_count": 2,
+      "class_count": 0,
+      "has_argparse": true,
+      "has_main_guard": true,
+      "defensive_ratio": 0.0
+    },
+    "code_length": 2200
+  },
+  {
+    "model": "haiku",
+    "scenario": "S03_spatial_tx",
+    "condition": "no_skill",
+    "cost_usd": 0.012192,
+    "input_tokens": 205,
+    "output_tokens": 3007,
+    "eval": {
+      "passed": false,
+      "n_pass": 7,
+      "n_total": 8,
+      "pass_rate": 0.875,
+      "details": [
+        {
+          "test": "L1_runs",
+          "pass": true
+        },
+        {
+          "test": "L1_output_exists",
+          "pass": true
+        },
+        {
+          "test": "L1_valid_csv",
+          "pass": true
+        },
+        {
+          "test": "L2_spot_count - 100 spots",
+          "pass": true
+        },
+        {
+          "test": "L2_gene_filtered - 100 genes (from 500)",
+          "pass": true
+        },
+        {
+          "test": "L2_normalized - max value 99.2 too large",
+          "pass": false
+        },
+        {
+          "test": "L2_log_transformed",
+          "pass": true
+        },
+        {
+          "test": "L2_hvg_selected - 100 genes selected",
+          "pass": true
+        }
+      ],
+      "scores": {},
+      "returncode": 0,
+      "stdout": "PASS:L1_runs\nPASS:L1_output_exists\nPASS:L1_valid_csv\nPASS:L2_spot_count - 100 spots\nPASS:L2_gene_filtered - 100 genes (from 500)\nFAIL:L2_normalized - max value 99.2 too large\nPASS:L2_log_transformed\nPASS:L2_hvg_selected - 100 genes selected",
+      "stderr": "",
+      "error": null
+    },
+    "code_metrics": {
+      "total_lines": 295,
+      "non_empty_lines": 228,
+      "comment_lines": 20,
+      "comment_ratio": 0.088,
+      "try_except_count": 1,
+      "import_count": 5,
+      "function_count": 7,
+      "class_count": 0,
+      "has_argparse": true,
+      "has_main_guard": true,
+      "defensive_ratio": 0.143
+    },
+    "code_length": 8771
+  },
+  {
+    "model": "gpt4o_mini",
+    "scenario": "S04_satellite",
+    "condition": "exact_skill",
+    "cost_usd": 0.0007566,
+    "input_tokens": 1108,
+    "output_tokens": 984,
+    "eval": {
+      "passed": false,
+      "n_pass": 0,
+      "n_total": 7,
+      "pass_rate": 0.0,
+      "details": [
+        {
+          "test": "L1_runs",
+          "pass": false
+        },
+        {
+          "test": "L1_output_exists",
+          "pass": false
+        },
+        {
+          "test": "L1_valid_csv",
+          "pass": false
+        },
+        {
+          "test": "L2_has_columns",
+          "pass": false
+        },
+        {
+          "test": "L2_bt_range",
+          "pass": false
+        },
+        {
+          "test": "L2_no_bad_pixels",
+          "pass": false
+        },
+        {
+          "test": "L2_grid_coverage",
+          "pass": false
+        }
+      ],
+      "scores": {},
+      "returncode": 0,
+      "stdout": "FAIL:L1_runs\nFAIL:L1_output_exists\nFAIL:L1_valid_csv\nFAIL:L2_has_columns\nFAIL:L2_bt_range\nFAIL:L2_no_bad_pixels\nFAIL:L2_grid_coverage",
+      "stderr": "",
+      "error": null
+    },
+    "code_metrics": {
+      "total_lines": 87,
+      "non_empty_lines": 68,
+      "comment_lines": 12,
+      "comment_ratio": 0.176,
+      "try_except_count": 0,
+      "import_count": 4,
+      "function_count": 2,
+      "class_count": 0,
+      "has_argparse": true,
+      "has_main_guard": true,
+      "defensive_ratio": 0.0
+    },
+    "code_length": 3001
+  },
+  {
+    "model": "haiku",
+    "scenario": "S04_satellite",
+    "condition": "exact_skill",
+    "cost_usd": 0.0183048,
+    "input_tokens": 1306,
+    "output_tokens": 4315,
+    "eval": {
+      "passed": false,
+      "n_pass": 0,
+      "n_total": 7,
+      "pass_rate": 0.0,
+      "details": [
+        {
+          "test": "L1_runs",
+          "pass": false
+        },
+        {
+          "test": "L1_output_exists",
+          "pass": false
+        },
+        {
+          "test": "L1_valid_csv",
+          "pass": false
+        },
+        {
+          "test": "L2_has_columns",
+          "pass": false
+        },
+        {
+          "test": "L2_bt_range",
+          "pass": false
+        },
+        {
+          "test": "L2_no_bad_pixels",
+          "pass": false
+        },
+        {
+          "test": "L2_grid_coverage",
+          "pass": false
+        }
+      ],
+      "scores": {},
+      "returncode": 0,
+      "stdout": "FAIL:L1_runs\nFAIL:L1_output_exists\nFAIL:L1_valid_csv\nFAIL:L2_has_columns\nFAIL:L2_bt_range\nFAIL:L2_no_bad_pixels\nFAIL:L2_grid_coverage",
+      "stderr": "",
+      "error": null
+    },
+    "code_metrics": {
+      "total_lines": 401,
+      "non_empty_lines": 313,
+      "comment_lines": 21,
+      "comment_ratio": 0.067,
+      "try_except_count": 4,
+      "import_count": 7,
+      "function_count": 11,
+      "class_count": 0,
+      "has_argparse": true,
+      "has_main_guard": true,
+      "defensive_ratio": 0.364
+    },
+    "code_length": 13050
+  },
+  {
+    "model": "gpt4o_mini",
+    "scenario": "S04_satellite",
+    "condition": "no_skill",
+    "cost_usd": 0.0007007999999999999,
+    "input_tokens": 216,
+    "output_tokens": 1114,
+    "eval": {
+      "passed": false,
+      "n_pass": 0,
+      "n_total": 7,
+      "pass_rate": 0.0,
+      "details": [
+        {
+          "test": "L1_runs",
+          "pass": false
+        },
+        {
+          "test": "L1_output_exists",
+          "pass": false
+        },
+        {
+          "test": "L1_valid_csv",
+          "pass": false
+        },
+        {
+          "test": "L2_has_columns",
+          "pass": false
+        },
+        {
+          "test": "L2_bt_range",
+          "pass": false
+        },
+        {
+          "test": "L2_no_bad_pixels",
+          "pass": false
+        },
+        {
+          "test": "L2_grid_coverage",
+          "pass": false
+        }
+      ],
+      "scores": {},
+      "returncode": 0,
+      "stdout": "FAIL:L1_runs\nFAIL:L1_output_exists\nFAIL:L1_valid_csv\nFAIL:L2_has_columns\nFAIL:L2_bt_range\nFAIL:L2_no_bad_pixels\nFAIL:L2_grid_coverage",
+      "stderr": "",
+      "error": null
+    },
+    "code_metrics": {
+      "total_lines": 86,
+      "non_empty_lines": 68,
+      "comment_lines": 13,
+      "comment_ratio": 0.191,
+      "try_except_count": 0,
+      "import_count": 5,
+      "function_count": 2,
+      "class_count": 0,
+      "has_argparse": true,
+      "has_main_guard": true,
+      "defensive_ratio": 0.0
+    },
+    "code_length": 3262
+  },
+  {
+    "model": "haiku",
+    "scenario": "S04_satellite",
+    "condition": "no_skill",
+    "cost_usd": 0.014528,
+    "input_tokens": 245,
+    "output_tokens": 3583,
+    "eval": {
+      "passed": false,
+      "n_pass": 0,
+      "n_total": 7,
+      "pass_rate": 0.0,
+      "details": [
+        {
+          "test": "L1_runs",
+          "pass": false
+        },
+        {
+          "test": "L1_output_exists",
+          "pass": false
+        },
+        {
+          "test": "L1_valid_csv",
+          "pass": false
+        },
+        {
+          "test": "L2_has_columns",
+          "pass": false
+        },
+        {
+          "test": "L2_bt_range",
+          "pass": false
+        },
+        {
+          "test": "L2_no_bad_pixels",
+          "pass": false
+        },
+        {
+          "test": "L2_grid_coverage",
+          "pass": false
+        }
+      ],
+      "scores": {},
+      "returncode": 0,
+      "stdout": "FAIL:L1_runs\nFAIL:L1_output_exists\nFAIL:L1_valid_csv\nFAIL:L2_has_columns\nFAIL:L2_bt_range\nFAIL:L2_no_bad_pixels\nFAIL:L2_grid_coverage",
+      "stderr": "",
+      "error": null
+    },
+    "code_metrics": {
+      "total_lines": 273,
+      "non_empty_lines": 213,
+      "comment_lines": 14,
+      "comment_ratio": 0.066,
+      "try_except_count": 2,
+      "import_count": 7,
+      "function_count": 6,
+      "class_count": 0,
+      "has_argparse": true,
+      "has_main_guard": true,
+      "defensive_ratio": 0.333
+    },
+    "code_length": 8701
+  },
+  {
+    "model": "gpt4o_mini",
+    "scenario": "S05_protein_parse",
+    "condition": "exact_skill",
+    "cost_usd": 0.0007497000000000001,
+    "input_tokens": 994,
+    "output_tokens": 1001,
+    "eval": {
+      "passed": true,
+      "n_pass": 8,
+      "n_total": 8,
+      "pass_rate": 1.0,
+      "details": [
+        {
+          "test": "L1_runs",
+          "pass": true
+        },
+        {
+          "test": "L1_output_exists",
+          "pass": true
+        },
+        {
+          "test": "L1_valid_csv",
+          "pass": true
+        },
+        {
+          "test": "L2_row_count - 20 proteins",
+          "pass": true
+        },
+        {
+          "test": "L2_has_accession",
+          "pass": true
+        },
+        {
+          "test": "L2_has_name",
+          "pass": true
+        },
+        {
+          "test": "L2_has_organism",
+          "pass": true
+        },
+        {
+          "test": "L2_missing_handled",
+          "pass": true
+        }
+      ],
+      "scores": {},
+      "returncode": 0,
+      "stdout": "PASS:L1_runs\nPASS:L1_output_exists\nPASS:L1_valid_csv\nPASS:L2_row_count - 20 proteins\nPASS:L2_has_accession\nPASS:L2_has_name\nPASS:L2_has_organism\nPASS:L2_missing_handled",
+      "stderr": "",
+      "error": null
+    },
+    "code_metrics": {
+      "total_lines": 96,
+      "non_empty_lines": 81,
+      "comment_lines": 9,
+      "comment_ratio": 0.111,
+      "try_except_count": 2,
+      "import_count": 4,
+      "function_count": 2,
+      "class_count": 0,
+      "has_argparse": true,
+      "has_main_guard": true,
+      "defensive_ratio": 1.0
+    },
+    "code_length": 3745
+  },
+  {
+    "model": "haiku",
+    "scenario": "S05_protein_parse",
+    "condition": "exact_skill",
+    "cost_usd": 0.0146336,
+    "input_tokens": 1162,
+    "output_tokens": 3426,
+    "eval": {
+      "passed": true,
+      "n_pass": 8,
+      "n_total": 8,
+      "pass_rate": 1.0,
+      "details": [
+        {
+          "test": "L1_runs",
+          "pass": true
+        },
+        {
+          "test": "L1_output_exists",
+          "pass": true
+        },
+        {
+          "test": "L1_valid_csv",
+          "pass": true
+        },
+        {
+          "test": "L2_row_count - 20 proteins",
+          "pass": true
+        },
+        {
+          "test": "L2_has_accession",
+          "pass": true
+        },
+        {
+          "test": "L2_has_name",
+          "pass": true
+        },
+        {
+          "test": "L2_has_organism",
+          "pass": true
+        },
+        {
+          "test": "L2_missing_handled",
+          "pass": true
+        }
+      ],
+      "scores": {},
+      "returncode": 0,
+      "stdout": "PASS:L1_runs\nPASS:L1_output_exists\nPASS:L1_valid_csv\nPASS:L2_row_count - 20 proteins\nPASS:L2_has_accession\nPASS:L2_has_name\nPASS:L2_has_organism\nPASS:L2_missing_handled",
+      "stderr": "",
+      "error": null
+    },
+    "code_metrics": {
+      "total_lines": 320,
+      "non_empty_lines": 254,
+      "comment_lines": 15,
+      "comment_ratio": 0.059,
+      "try_except_count": 4,
+      "import_count": 7,
+      "function_count": 7,
+      "class_count": 0,
+      "has_argparse": true,
+      "has_main_guard": true,
+      "defensive_ratio": 0.571
+    },
+    "code_length": 9716
+  },
+  {
+    "model": "gpt4o_mini",
+    "scenario": "S05_protein_parse",
+    "condition": "no_skill",
+    "cost_usd": 0.00053055,
+    "input_tokens": 153,
+    "output_tokens": 846,
+    "eval": {
+      "passed": false,
+      "n_pass": 0,
+      "n_total": 8,
+      "pass_rate": 0.0,
+      "details": [
+        {
+          "test": "L1_runs",
+          "pass": false
+        },
+        {
+          "test": "L1_output_exists",
+          "pass": false
+        },
+        {
+          "test": "L1_valid_csv",
+          "pass": false
+        },
+        {
+          "test": "L2_row_count",
+          "pass": false
+        },
+        {
+          "test": "L2_has_accession",
+          "pass": false
+        },
+        {
+          "test": "L2_has_name",
+          "pass": false
+        },
+        {
+          "test": "L2_has_organism",
+          "pass": false
+        },
+        {
+          "test": "L2_missing_handled",
+          "pass": false
+        }
+      ],
+      "scores": {},
+      "returncode": 0,
+      "stdout": "FAIL:L1_runs\nFAIL:L1_output_exists\nFAIL:L1_valid_csv\nFAIL:L2_row_count\nFAIL:L2_has_accession\nFAIL:L2_has_name\nFAIL:L2_has_organism\nFAIL:L2_missing_handled",
+      "stderr": "",
+      "error": null
+    },
+    "code_metrics": {
+      "total_lines": 71,
+      "non_empty_lines": 56,
+      "comment_lines": 1,
+      "comment_ratio": 0.018,
+      "try_except_count": 0,
+      "import_count": 4,
+      "function_count": 3,
+      "class_count": 0,
+      "has_argparse": true,
+      "has_main_guard": true,
+      "defensive_ratio": 0.0
+    },
+    "code_length": 2613
+  },
+  {
+    "model": "haiku",
+    "scenario": "S05_protein_parse",
+    "condition": "no_skill",
+    "cost_usd": 0.0142768,
+    "input_tokens": 171,
+    "output_tokens": 3535,
+    "eval": {
+      "passed": true,
+      "n_pass": 8,
+      "n_total": 8,
+      "pass_rate": 1.0,
+      "details": [
+        {
+          "test": "L1_runs",
+          "pass": true
+        },
+        {
+          "test": "L1_output_exists",
+          "pass": true
+        },
+        {
+          "test": "L1_valid_csv",
+          "pass": true
+        },
+        {
+          "test": "L2_row_count - 20 proteins",
+          "pass": true
+        },
+        {
+          "test": "L2_has_accession",
+          "pass": true
+        },
+        {
+          "test": "L2_has_name",
+          "pass": true
+        },
+        {
+          "test": "L2_has_organism",
+          "pass": true
+        },
+        {
+          "test": "L2_missing_handled",
+          "pass": true
+        }
+      ],
+      "scores": {},
+      "returncode": 0,
+      "stdout": "PASS:L1_runs\nPASS:L1_output_exists\nPASS:L1_valid_csv\nPASS:L2_row_count - 20 proteins\nPASS:L2_has_accession\nPASS:L2_has_name\nPASS:L2_has_organism\nPASS:L2_missing_handled",
+      "stderr": "",
+      "error": null
+    },
+    "code_metrics": {
+      "total_lines": 323,
+      "non_empty_lines": 274,
+      "comment_lines": 9,
+      "comment_ratio": 0.033,
+      "try_except_count": 9,
+      "import_count": 8,
+      "function_count": 1,
+      "class_count": 1,
+      "has_argparse": true,
+      "has_main_guard": true,
+      "defensive_ratio": 9.0
+    },
+    "code_length": 11540
+  },
+  {
+    "model": "gpt4o_mini",
+    "scenario": "S06_gene_expression",
+    "condition": "exact_skill",
+    "cost_usd": 0.0007243499999999999,
+    "input_tokens": 937,
+    "output_tokens": 973,
+    "eval": {
+      "passed": true,
+      "n_pass": 6,
+      "n_total": 6,
+      "pass_rate": 1.0,
+      "details": [
+        {
+          "test": "L1_runs",
+          "pass": true
+        },
+        {
+          "test": "L1_output_exists",
+          "pass": true
+        },
+        {
+          "test": "L2_gene_filtered - 180 genes (from 200)",
+          "pass": true
+        },
+        {
+          "test": "L2_normalized",
+          "pass": true
+        },
+        {
+          "test": "L2_sample_preserved",
+          "pass": true
+        },
+        {
+          "test": "L2_stats_has_length",
+          "pass": true
+        }
+      ],
+      "scores": {},
+      "returncode": 0,
+      "stdout": "PASS:L1_runs\nPASS:L1_output_exists\nPASS:L2_gene_filtered - 180 genes (from 200)\nPASS:L2_normalized\nPASS:L2_sample_preserved\nPASS:L2_stats_has_length",
+      "stderr": "",
+      "error": null
+    },
+    "code_metrics": {
+      "total_lines": 91,
+      "non_empty_lines": 75,
+      "comment_lines": 9,
+      "comment_ratio": 0.12,
+      "try_except_count": 0,
+      "import_count": 5,
+      "function_count": 4,
+      "class_count": 0,
+      "has_argparse": true,
+      "has_main_guard": true,
+      "defensive_ratio": 0.0
+    },
+    "code_length": 3199
+  },
+  {
+    "model": "haiku",
+    "scenario": "S06_gene_expression",
+    "condition": "exact_skill",
+    "cost_usd": 0.020107200000000002,
+    "input_tokens": 1089,
+    "output_tokens": 4809,
+    "eval": {
+      "passed": true,
+      "n_pass": 6,
+      "n_total": 6,
+      "pass_rate": 1.0,
+      "details": [
+        {
+          "test": "L1_runs",
+          "pass": true
+        },
+        {
+          "test": "L1_output_exists",
+          "pass": true
+        },
+        {
+          "test": "L2_gene_filtered - 180 genes (from 200)",
+          "pass": true
+        },
+        {
+          "test": "L2_normalized",
+          "pass": true
+        },
+        {
+          "test": "L2_sample_preserved",
+          "pass": true
+        },
+        {
+          "test": "L2_stats_has_length",
+          "pass": true
+        }
+      ],
+      "scores": {},
+      "returncode": 0,
+      "stdout": "PASS:L1_runs\nPASS:L1_output_exists\nPASS:L2_gene_filtered - 180 genes (from 200)\nPASS:L2_normalized\nPASS:L2_sample_preserved\nPASS:L2_stats_has_length",
+      "stderr": "",
+      "error": null
+    },
+    "code_metrics": {
+      "total_lines": 455,
+      "non_empty_lines": 352,
+      "comment_lines": 22,
+      "comment_ratio": 0.062,
+      "try_except_count": 6,
+      "import_count": 8,
+      "function_count": 10,
+      "class_count": 0,
+      "has_argparse": true,
+      "has_main_guard": true,
+      "defensive_ratio": 0.6
+    },
+    "code_length": 15335
+  },
+  {
+    "model": "gpt4o_mini",
+    "scenario": "S06_gene_expression",
+    "condition": "no_skill",
+    "cost_usd": 0.00062925,
+    "input_tokens": 175,
+    "output_tokens": 1005,
+    "eval": {
+      "passed": false,
+      "n_pass": 0,
+      "n_total": 6,
+      "pass_rate": 0.0,
+      "details": [
+        {
+          "test": "L1_runs",
+          "pass": false
+        },
+        {
+          "test": "L1_output_exists",
+          "pass": false
+        },
+        {
+          "test": "L2_gene_filtered",
+          "pass": false
+        },
+        {
+          "test": "L2_normalized",
+          "pass": false
+        },
+        {
+          "test": "L2_stats_has_length",
+          "pass": false
+        },
+        {
+          "test": "L2_sample_preserved",
+          "pass": false
+        }
+      ],
+      "scores": {},
+      "returncode": 0,
+      "stdout": "FAIL:L1_runs\nFAIL:L1_output_exists\nFAIL:L2_gene_filtered\nFAIL:L2_normalized\nFAIL:L2_stats_has_length\nFAIL:L2_sample_preserved",
+      "stderr": "",
+      "error": null
+    },
+    "code_metrics": {
+      "total_lines": 68,
+      "non_empty_lines": 56,
+      "comment_lines": 8,
+      "comment_ratio": 0.143,
+      "try_except_count": 0,
+      "import_count": 6,
+      "function_count": 3,
+      "class_count": 0,
+      "has_argparse": true,
+      "has_main_guard": true,
+      "defensive_ratio": 0.0
+    },
+    "code_length": 2736
+  },
+  {
+    "model": "haiku",
+    "scenario": "S06_gene_expression",
+    "condition": "no_skill",
+    "cost_usd": 0.014848,
+    "input_tokens": 205,
+    "output_tokens": 3671,
+    "eval": {
+      "passed": true,
+      "n_pass": 6,
+      "n_total": 6,
+      "pass_rate": 1.0,
+      "details": [
+        {
+          "test": "L1_runs",
+          "pass": true
+        },
+        {
+          "test": "L1_output_exists",
+          "pass": true
+        },
+        {
+          "test": "L2_gene_filtered - 180 genes (from 200)",
+          "pass": true
+        },
+        {
+          "test": "L2_normalized",
+          "pass": true
+        },
+        {
+          "test": "L2_sample_preserved",
+          "pass": true
+        },
+        {
+          "test": "L2_stats_has_length",
+          "pass": true
+        }
+      ],
+      "scores": {},
+      "returncode": 0,
+      "stdout": "PASS:L1_runs\nPASS:L1_output_exists\nPASS:L2_gene_filtered - 180 genes (from 200)\nPASS:L2_normalized\nPASS:L2_sample_preserved\nPASS:L2_stats_has_length",
+      "stderr": "",
+      "error": null
+    },
+    "code_metrics": {
+      "total_lines": 394,
+      "non_empty_lines": 303,
+      "comment_lines": 24,
+      "comment_ratio": 0.079,
+      "try_except_count": 3,
+      "import_count": 7,
+      "function_count": 9,
+      "class_count": 0,
+      "has_argparse": true,
+      "has_main_guard": true,
+      "defensive_ratio": 0.333
+    },
+    "code_length": 11452
+  },
+  {
+    "model": "gpt4o_mini",
+    "scenario": "S07_data_viz",
+    "condition": "exact_skill",
+    "cost_usd": 0.00068175,
+    "input_tokens": 1201,
+    "output_tokens": 836,
+    "eval": {
+      "passed": false,
+      "n_pass": 0,
+      "n_total": 4,
+      "pass_rate": 0.0,
+      "details": [
+        {
+          "test": "L1_runs",
+          "pass": false
+        },
+        {
+          "test": "L1_output_exists - no PNG files found",
+          "pass": false
+        },
+        {
+          "test": "L2_heatmap",
+          "pass": false
+        },
+        {
+          "test": "L2_psth - only 0 plots",
+          "pass": false
+        }
+      ],
+      "scores": {},
+      "returncode": 0,
+      "stdout": "FAIL:L1_runs\nFAIL:L1_output_exists - no PNG files found\nFAIL:L2_heatmap\nFAIL:L2_psth - only 0 plots",
+      "stderr": "",
+      "error": null
+    },
+    "code_metrics": {
+      "total_lines": 70,
+      "non_empty_lines": 57,
+      "comment_lines": 7,
+      "comment_ratio": 0.123,
+      "try_except_count": 1,
+      "import_count": 7,
+      "function_count": 2,
+      "class_count": 0,
+      "has_argparse": true,
+      "has_main_guard": true,
+      "defensive_ratio": 0.5
+    },
+    "code_length": 2352
+  },
+  {
+    "model": "haiku",
+    "scenario": "S07_data_viz",
+    "condition": "exact_skill",
+    "cost_usd": 0.014144799999999999,
+    "input_tokens": 1431,
+    "output_tokens": 3250,
+    "eval": {
+      "passed": false,
+      "n_pass": 0,
+      "n_total": 4,
+      "pass_rate": 0.0,
+      "details": [
+        {
+          "test": "L1_runs",
+          "pass": false
+        },
+        {
+          "test": "L1_output_exists - no PNG files found",
+          "pass": false
+        },
+        {
+          "test": "L2_heatmap",
+          "pass": false
+        },
+        {
+          "test": "L2_psth - only 0 plots",
+          "pass": false
+        }
+      ],
+      "scores": {},
+      "returncode": 0,
+      "stdout": "FAIL:L1_runs\nFAIL:L1_output_exists - no PNG files found\nFAIL:L2_heatmap\nFAIL:L2_psth - only 0 plots",
+      "stderr": "",
+      "error": null
+    },
+    "code_metrics": {
+      "total_lines": 282,
+      "non_empty_lines": 231,
+      "comment_lines": 19,
+      "comment_ratio": 0.082,
+      "try_except_count": 6,
+      "import_count": 8,
+      "function_count": 10,
+      "class_count": 0,
+      "has_argparse": true,
+      "has_main_guard": true,
+      "defensive_ratio": 0.6
+    },
+    "code_length": 9505
+  },
+  {
+    "model": "gpt4o_mini",
+    "scenario": "S07_data_viz",
+    "condition": "no_skill",
+    "cost_usd": 0.0005252999999999999,
+    "input_tokens": 150,
+    "output_tokens": 838,
+    "eval": {
+      "passed": false,
+      "n_pass": 0,
+      "n_total": 4,
+      "pass_rate": 0.0,
+      "details": [
+        {
+          "test": "L1_runs",
+          "pass": false
+        },
+        {
+          "test": "L1_output_exists - no PNG files found",
+          "pass": false
+        },
+        {
+          "test": "L2_heatmap",
+          "pass": false
+        },
+        {
+          "test": "L2_psth - only 0 plots",
+          "pass": false
+        }
+      ],
+      "scores": {},
+      "returncode": 0,
+      "stdout": "FAIL:L1_runs\nFAIL:L1_output_exists - no PNG files found\nFAIL:L2_heatmap\nFAIL:L2_psth - only 0 plots",
+      "stderr": "",
+      "error": null
+    },
+    "code_metrics": {
+      "total_lines": 67,
+      "non_empty_lines": 56,
+      "comment_lines": 8,
+      "comment_ratio": 0.143,
+      "try_except_count": 0,
+      "import_count": 5,
+      "function_count": 1,
+      "class_count": 0,
+      "has_argparse": true,
+      "has_main_guard": true,
+      "defensive_ratio": 0.0
+    },
+    "code_length": 2554
+  },
+  {
+    "model": "haiku",
+    "scenario": "S07_data_viz",
+    "condition": "no_skill",
+    "cost_usd": 0.013048,
+    "input_tokens": 170,
+    "output_tokens": 3228,
+    "eval": {
+      "passed": false,
+      "n_pass": 0,
+      "n_total": 4,
+      "pass_rate": 0.0,
+      "details": [
+        {
+          "test": "L1_runs",
+          "pass": false
+        },
+        {
+          "test": "L1_output_exists - no PNG files found",
+          "pass": false
+        },
+        {
+          "test": "L2_heatmap",
+          "pass": false
+        },
+        {
+          "test": "L2_psth - only 0 plots",
+          "pass": false
+        }
+      ],
+      "scores": {},
+      "returncode": 0,
+      "stdout": "FAIL:L1_runs\nFAIL:L1_output_exists - no PNG files found\nFAIL:L2_heatmap\nFAIL:L2_psth - only 0 plots",
+      "stderr": "",
+      "error": null
+    },
+    "code_metrics": {
+      "total_lines": 288,
+      "non_empty_lines": 226,
+      "comment_lines": 19,
+      "comment_ratio": 0.084,
+      "try_except_count": 2,
+      "import_count": 8,
+      "function_count": 7,
+      "class_count": 0,
+      "has_argparse": true,
+      "has_main_guard": true,
+      "defensive_ratio": 0.286
+    },
+    "code_length": 8576
+  },
+  {
+    "model": "gpt4o_mini",
+    "scenario": "S08_materials_qa",
+    "condition": "exact_skill",
+    "cost_usd": 0.00081435,
+    "input_tokens": 1049,
+    "output_tokens": 1095,
+    "eval": {
+      "passed": true,
+      "n_pass": 7,
+      "n_total": 7,
+      "pass_rate": 1.0,
+      "details": [
+        {
+          "test": "L1_runs",
+          "pass": true
+        },
+        {
+          "test": "L1_output_exists",
+          "pass": true
+        },
+        {
+          "test": "L1_valid_jsonl",
+          "pass": true
+        },
+        {
+          "test": "L2_removed_invalid - 4 removed",
+          "pass": true
+        },
+        {
+          "test": "L2_no_empty_instruction",
+          "pass": true
+        },
+        {
+          "test": "L2_length_check",
+          "pass": true
+        },
+        {
+          "test": "L2_dedup",
+          "pass": true
+        }
+      ],
+      "scores": {},
+      "returncode": 0,
+      "stdout": "PASS:L1_runs\nPASS:L1_output_exists\nPASS:L1_valid_jsonl\nPASS:L2_removed_invalid - 4 removed\nPASS:L2_no_empty_instruction\nPASS:L2_length_check\nPASS:L2_dedup",
+      "stderr": "",
+      "error": null
+    },
+    "code_metrics": {
+      "total_lines": 110,
+      "non_empty_lines": 94,
+      "comment_lines": 7,
+      "comment_ratio": 0.074,
+      "try_except_count": 2,
+      "import_count": 3,
+      "function_count": 3,
+      "class_count": 0,
+      "has_argparse": true,
+      "has_main_guard": true,
+      "defensive_ratio": 0.667
+    },
+    "code_length": 3980
+  },
+  {
+    "model": "haiku",
+    "scenario": "S08_materials_qa",
+    "condition": "exact_skill",
+    "cost_usd": 0.016416,
+    "input_tokens": 1205,
+    "output_tokens": 3863,
+    "eval": {
+      "passed": false,
+      "n_pass": 0,
+      "n_total": 7,
+      "pass_rate": 0.0,
+      "details": [
+        {
+          "test": "L1_runs",
+          "pass": false
+        },
+        {
+          "test": "L1_output_exists",
+          "pass": false
+        },
+        {
+          "test": "L1_valid_jsonl",
+          "pass": false
+        },
+        {
+          "test": "L2_removed_invalid",
+          "pass": false
+        },
+        {
+          "test": "L2_no_empty_instruction",
+          "pass": false
+        },
+        {
+          "test": "L2_length_check",
+          "pass": false
+        },
+        {
+          "test": "L2_dedup",
+          "pass": false
+        }
+      ],
+      "scores": {},
+      "returncode": 0,
+      "stdout": "FAIL:L1_runs\nFAIL:L1_output_exists\nFAIL:L1_valid_jsonl\nFAIL:L2_removed_invalid\nFAIL:L2_no_empty_instruction\nFAIL:L2_length_check\nFAIL:L2_dedup",
+      "stderr": "",
+      "error": null
+    },
+    "code_metrics": {
+      "total_lines": 362,
+      "non_empty_lines": 291,
+      "comment_lines": 20,
+      "comment_ratio": 0.069,
+      "try_except_count": 4,
+      "import_count": 5,
+      "function_count": 8,
+      "class_count": 0,
+      "has_argparse": true,
+      "has_main_guard": true,
+      "defensive_ratio": 0.5
+    },
+    "code_length": 11724
+  },
+  {
+    "model": "gpt4o_mini",
+    "scenario": "S08_materials_qa",
+    "condition": "no_skill",
+    "cost_usd": 0.00061875,
+    "input_tokens": 161,
+    "output_tokens": 991,
+    "eval": {
+      "passed": false,
+      "n_pass": 0,
+      "n_total": 7,
+      "pass_rate": 0.0,
+      "details": [
+        {
+          "test": "L1_runs",
+          "pass": false
+        },
+        {
+          "test": "L1_output_exists",
+          "pass": false
+        },
+        {
+          "test": "L1_valid_jsonl",
+          "pass": false
+        },
+        {
+          "test": "L2_removed_invalid",
+          "pass": false
+        },
+        {
+          "test": "L2_no_empty_instruction",
+          "pass": false
+        },
+        {
+          "test": "L2_length_check",
+          "pass": false
+        },
+        {
+          "test": "L2_dedup",
+          "pass": false
+        }
+      ],
+      "scores": {},
+      "returncode": 0,
+      "stdout": "FAIL:L1_runs\nFAIL:L1_output_exists\nFAIL:L1_valid_jsonl\nFAIL:L2_removed_invalid\nFAIL:L2_no_empty_instruction\nFAIL:L2_length_check\nFAIL:L2_dedup",
+      "stderr": "",
+      "error": null
+    },
+    "code_metrics": {
+      "total_lines": 89,
+      "non_empty_lines": 71,
+      "comment_lines": 6,
+      "comment_ratio": 0.085,
+      "try_except_count": 0,
+      "import_count": 5,
+      "function_count": 3,
+      "class_count": 0,
+      "has_argparse": true,
+      "has_main_guard": true,
+      "defensive_ratio": 0.0
+    },
+    "code_length": 3224
+  },
+  {
+    "model": "haiku",
+    "scenario": "S08_materials_qa",
+    "condition": "no_skill",
+    "cost_usd": 0.01698,
+    "input_tokens": 175,
+    "output_tokens": 4210,
+    "eval": {
+      "passed": true,
+      "n_pass": 7,
+      "n_total": 7,
+      "pass_rate": 1.0,
+      "details": [
+        {
+          "test": "L1_runs",
+          "pass": true
+        },
+        {
+          "test": "L1_output_exists",
+          "pass": true
+        },
+        {
+          "test": "L1_valid_jsonl",
+          "pass": true
+        },
+        {
+          "test": "L2_removed_invalid - 4 removed",
+          "pass": true
+        },
+        {
+          "test": "L2_no_empty_instruction",
+          "pass": true
+        },
+        {
+          "test": "L2_length_check",
+          "pass": true
+        },
+        {
+          "test": "L2_dedup",
+          "pass": true
+        }
+      ],
+      "scores": {},
+      "returncode": 0,
+      "stdout": "PASS:L1_runs\nPASS:L1_output_exists\nPASS:L1_valid_jsonl\nPASS:L2_removed_invalid - 4 removed\nPASS:L2_no_empty_instruction\nPASS:L2_length_check\nPASS:L2_dedup",
+      "stderr": "",
+      "error": null
+    },
+    "code_metrics": {
+      "total_lines": 427,
+      "non_empty_lines": 350,
+      "comment_lines": 19,
+      "comment_ratio": 0.054,
+      "try_except_count": 2,
+      "import_count": 8,
+      "function_count": 1,
+      "class_count": 4,
+      "has_argparse": true,
+      "has_main_guard": true,
+      "defensive_ratio": 2.0
+    },
+    "code_length": 13600
+  },
+  {
+    "model": "gpt4o_mini",
+    "scenario": "S09_earth_obs",
+    "condition": "exact_skill",
+    "cost_usd": 0.0006192,
+    "input_tokens": 924,
+    "output_tokens": 801,
+    "eval": {
+      "passed": false,
+      "n_pass": 1,
+      "n_total": 6,
+      "pass_rate": 0.1667,
+      "details": [
+        {
+          "test": "L1_runs",
+          "pass": true
+        },
+        {
+          "test": "L1_output_exists",
+          "pass": false
+        },
+        {
+          "test": "L1_valid_csv",
+          "pass": false
+        },
+        {
+          "test": "L2_multi_station",
+          "pass": false
+        },
+        {
+          "test": "L2_time_aligned",
+          "pass": false
+        },
+        {
+          "test": "L2_fillna",
+          "pass": false
+        }
+      ],
+      "scores": {},
+      "returncode": 0,
+      "stdout": "PASS:L1_runs\nFAIL:L1_output_exists\nFAIL:L1_valid_csv\nFAIL:L2_multi_station\nFAIL:L2_time_aligned\nFAIL:L2_fillna",
+      "stderr": "",
+      "error": null
+    },
+    "code_metrics": {
+      "total_lines": 57,
+      "non_empty_lines": 45,
+      "comment_lines": 6,
+      "comment_ratio": 0.133,
+      "try_except_count": 1,
+      "import_count": 3,
+      "function_count": 2,
+      "class_count": 0,
+      "has_argparse": true,
+      "has_main_guard": true,
+      "defensive_ratio": 0.5
+    },
+    "code_length": 2226
+  },
+  {
+    "model": "haiku",
+    "scenario": "S09_earth_obs",
+    "condition": "exact_skill",
+    "cost_usd": 0.019893599999999997,
+    "input_tokens": 1077,
+    "output_tokens": 4758,
+    "eval": {
+      "passed": true,
+      "n_pass": 6,
+      "n_total": 6,
+      "pass_rate": 1.0,
+      "details": [
+        {
+          "test": "L1_runs",
+          "pass": true
+        },
+        {
+          "test": "L1_output_exists",
+          "pass": true
+        },
+        {
+          "test": "L1_valid_csv",
+          "pass": true
+        },
+        {
+          "test": "L2_multi_station - 13 columns",
+          "pass": true
+        },
+        {
+          "test": "L2_time_aligned",
+          "pass": true
+        },
+        {
+          "test": "L2_fillna - 0.0% null",
+          "pass": true
+        }
+      ],
+      "scores": {},
+      "returncode": 0,
+      "stdout": "PASS:L1_runs\nPASS:L1_output_exists\nPASS:L1_valid_csv\nPASS:L2_multi_station - 13 columns\nPASS:L2_time_aligned\nPASS:L2_fillna - 0.0% null",
+      "stderr": "",
+      "error": null
+    },
+    "code_metrics": {
+      "total_lines": 449,
+      "non_empty_lines": 350,
+      "comment_lines": 27,
+      "comment_ratio": 0.077,
+      "try_except_count": 4,
+      "import_count": 7,
+      "function_count": 10,
+      "class_count": 0,
+      "has_argparse": true,
+      "has_main_guard": true,
+      "defensive_ratio": 0.4
+    },
+    "code_length": 13947
+  },
+  {
+    "model": "gpt4o_mini",
+    "scenario": "S09_earth_obs",
+    "condition": "no_skill",
+    "cost_usd": 0.00050265,
+    "input_tokens": 171,
+    "output_tokens": 795,
+    "eval": {
+      "passed": true,
+      "n_pass": 6,
+      "n_total": 6,
+      "pass_rate": 1.0,
+      "details": [
+        {
+          "test": "L1_runs",
+          "pass": true
+        },
+        {
+          "test": "L1_output_exists",
+          "pass": true
+        },
+        {
+          "test": "L1_valid_csv",
+          "pass": true
+        },
+        {
+          "test": "L2_multi_station - 13 columns",
+          "pass": true
+        },
+        {
+          "test": "L2_time_aligned",
+          "pass": true
+        },
+        {
+          "test": "L2_fillna - 0.0% null",
+          "pass": true
+        }
+      ],
+      "scores": {},
+      "returncode": 0,
+      "stdout": "PASS:L1_runs\nPASS:L1_output_exists\nPASS:L1_valid_csv\nPASS:L2_multi_station - 13 columns\nPASS:L2_time_aligned\nPASS:L2_fillna - 0.0% null",
+      "stderr": "",
+      "error": null
+    },
+    "code_metrics": {
+      "total_lines": 53,
+      "non_empty_lines": 40,
+      "comment_lines": 8,
+      "comment_ratio": 0.2,
+      "try_except_count": 0,
+      "import_count": 3,
+      "function_count": 2,
+      "class_count": 0,
+      "has_argparse": true,
+      "has_main_guard": true,
+      "defensive_ratio": 0.0
+    },
+    "code_length": 2095
+  },
+  {
+    "model": "haiku",
+    "scenario": "S09_earth_obs",
+    "condition": "no_skill",
+    "cost_usd": 0.0149456,
+    "input_tokens": 187,
+    "output_tokens": 3699,
+    "eval": {
+      "passed": true,
+      "n_pass": 6,
+      "n_total": 6,
+      "pass_rate": 1.0,
+      "details": [
+        {
+          "test": "L1_runs",
+          "pass": true
+        },
+        {
+          "test": "L1_output_exists",
+          "pass": true
+        },
+        {
+          "test": "L1_valid_csv",
+          "pass": true
+        },
+        {
+          "test": "L2_multi_station - 13 columns",
+          "pass": true
+        },
+        {
+          "test": "L2_time_aligned",
+          "pass": true
+        },
+        {
+          "test": "L2_fillna - 0.0% null",
+          "pass": true
+        }
+      ],
+      "scores": {},
+      "returncode": 0,
+      "stdout": "PASS:L1_runs\nPASS:L1_output_exists\nPASS:L1_valid_csv\nPASS:L2_multi_station - 13 columns\nPASS:L2_time_aligned\nPASS:L2_fillna - 0.0% null",
+      "stderr": "",
+      "error": null
+    },
+    "code_metrics": {
+      "total_lines": 352,
+      "non_empty_lines": 275,
+      "comment_lines": 29,
+      "comment_ratio": 0.105,
+      "try_except_count": 5,
+      "import_count": 7,
+      "function_count": 1,
+      "class_count": 1,
+      "has_argparse": true,
+      "has_main_guard": true,
+      "defensive_ratio": 5.0
+    },
+    "code_length": 11554
+  },
+  {
+    "model": "gpt4o_mini",
+    "scenario": "S10_multimodal",
+    "condition": "exact_skill",
+    "cost_usd": 0.00069765,
+    "input_tokens": 1107,
+    "output_tokens": 886,
+    "eval": {
+      "passed": true,
+      "n_pass": 6,
+      "n_total": 6,
+      "pass_rate": 1.0,
+      "details": [
+        {
+          "test": "L1_runs",
+          "pass": true
+        },
+        {
+          "test": "L1_output_exists",
+          "pass": true
+        },
+        {
+          "test": "L2_manifest",
+          "pass": true
+        },
+        {
+          "test": "L2_has_samples - 10 entries",
+          "pass": true
+        },
+        {
+          "test": "L2_has_word_count",
+          "pass": true
+        },
+        {
+          "test": "L2_images_processed - 10 images",
+          "pass": true
+        }
+      ],
+      "scores": {},
+      "returncode": 0,
+      "stdout": "PASS:L1_runs\nPASS:L1_output_exists\nPASS:L2_manifest\nPASS:L2_has_samples - 10 entries\nPASS:L2_has_word_count\nPASS:L2_images_processed - 10 images",
+      "stderr": "",
+      "error": null
+    },
+    "code_metrics": {
+      "total_lines": 83,
+      "non_empty_lines": 66,
+      "comment_lines": 7,
+      "comment_ratio": 0.106,
+      "try_except_count": 1,
+      "import_count": 6,
+      "function_count": 2,
+      "class_count": 0,
+      "has_argparse": true,
+      "has_main_guard": true,
+      "defensive_ratio": 0.5
+    },
+    "code_length": 3091
+  },
+  {
+    "model": "haiku",
+    "scenario": "S10_multimodal",
+    "condition": "exact_skill",
+    "cost_usd": 0.017826400000000003,
+    "input_tokens": 1318,
+    "output_tokens": 4193,
+    "eval": {
+      "passed": true,
+      "n_pass": 6,
+      "n_total": 6,
+      "pass_rate": 1.0,
+      "details": [
+        {
+          "test": "L1_runs",
+          "pass": true
+        },
+        {
+          "test": "L1_output_exists",
+          "pass": true
+        },
+        {
+          "test": "L2_manifest",
+          "pass": true
+        },
+        {
+          "test": "L2_has_samples - 10 entries",
+          "pass": true
+        },
+        {
+          "test": "L2_has_word_count",
+          "pass": true
+        },
+        {
+          "test": "L2_images_processed - 10 images",
+          "pass": true
+        }
+      ],
+      "scores": {},
+      "returncode": 0,
+      "stdout": "PASS:L1_runs\nPASS:L1_output_exists\nPASS:L2_manifest\nPASS:L2_has_samples - 10 entries\nPASS:L2_has_word_count\nPASS:L2_images_processed - 10 images",
+      "stderr": "",
+      "error": null
+    },
+    "code_metrics": {
+      "total_lines": 407,
+      "non_empty_lines": 312,
+      "comment_lines": 27,
+      "comment_ratio": 0.087,
+      "try_except_count": 5,
+      "import_count": 7,
+      "function_count": 9,
+      "class_count": 0,
+      "has_argparse": true,
+      "has_main_guard": true,
+      "defensive_ratio": 0.556
+    },
+    "code_length": 12766
+  },
+  {
+    "model": "gpt4o_mini",
+    "scenario": "S10_multimodal",
+    "condition": "no_skill",
+    "cost_usd": 0.00059475,
+    "input_tokens": 173,
+    "output_tokens": 948,
+    "eval": {
+      "passed": true,
+      "n_pass": 6,
+      "n_total": 6,
+      "pass_rate": 1.0,
+      "details": [
+        {
+          "test": "L1_runs",
+          "pass": true
+        },
+        {
+          "test": "L1_output_exists",
+          "pass": true
+        },
+        {
+          "test": "L2_manifest",
+          "pass": true
+        },
+        {
+          "test": "L2_has_samples - 10 entries",
+          "pass": true
+        },
+        {
+          "test": "L2_has_word_count",
+          "pass": true
+        },
+        {
+          "test": "L2_images_processed - 10 images",
+          "pass": true
+        }
+      ],
+      "scores": {},
+      "returncode": 0,
+      "stdout": "PASS:L1_runs\nPASS:L1_output_exists\nPASS:L2_manifest\nPASS:L2_has_samples - 10 entries\nPASS:L2_has_word_count\nPASS:L2_images_processed - 10 images",
+      "stderr": "",
+      "error": null
+    },
+    "code_metrics": {
+      "total_lines": 74,
+      "non_empty_lines": 60,
+      "comment_lines": 9,
+      "comment_ratio": 0.15,
+      "try_except_count": 0,
+      "import_count": 5,
+      "function_count": 2,
+      "class_count": 0,
+      "has_argparse": true,
+      "has_main_guard": true,
+      "defensive_ratio": 0.0
+    },
+    "code_length": 2744
+  },
+  {
+    "model": "haiku",
+    "scenario": "S10_multimodal",
+    "condition": "no_skill",
+    "cost_usd": 0.0149328,
+    "input_tokens": 201,
+    "output_tokens": 3693,
+    "eval": {
+      "passed": true,
+      "n_pass": 6,
+      "n_total": 6,
+      "pass_rate": 1.0,
+      "details": [
+        {
+          "test": "L1_runs",
+          "pass": true
+        },
+        {
+          "test": "L1_output_exists",
+          "pass": true
+        },
+        {
+          "test": "L2_manifest",
+          "pass": true
+        },
+        {
+          "test": "L2_has_samples - 10 entries",
+          "pass": true
+        },
+        {
+          "test": "L2_has_word_count",
+          "pass": true
+        },
+        {
+          "test": "L2_images_processed - 10 images",
+          "pass": true
+        }
+      ],
+      "scores": {},
+      "returncode": 0,
+      "stdout": "PASS:L1_runs\nPASS:L1_output_exists\nPASS:L2_manifest\nPASS:L2_has_samples - 10 entries\nPASS:L2_has_word_count\nPASS:L2_images_processed - 10 images",
+      "stderr": "",
+      "error": null
+    },
+    "code_metrics": {
+      "total_lines": 371,
+      "non_empty_lines": 298,
+      "comment_lines": 23,
+      "comment_ratio": 0.077,
+      "try_except_count": 5,
+      "import_count": 10,
+      "function_count": 1,
+      "class_count": 1,
+      "has_argparse": true,
+      "has_main_guard": true,
+      "defensive_ratio": 5.0
+    },
+    "code_length": 11861
+  }
+]

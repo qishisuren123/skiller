@@ -1,0 +1,134 @@
+{
+  "summary": {
+    "total_files": 8,
+    "errors": 1
+  },
+  "files": [
+    {
+      "file": "Additional_mat_files/CustomColormaps.mat",
+      "size": 1216,
+      "keys": [
+        "cluster_colors",
+        "regression_colors",
+        "anatomy_palette"
+      ],
+      "format": "mat"
+    },
+    {
+      "file": "Additional_mat_files/FishOutline.mat",
+      "size": 7552,
+      "keys": [
+        "outline_x",
+        "outline_y",
+        "outline_with_eyes"
+      ],
+      "format": "mat"
+    },
+    {
+      "file": "Subjects/subject_01/TimeSeries.h5",
+      "size": 444496,
+      "keys": [
+        "CellResp",
+        "CellRespAvr",
+        "CellRespAvrZ",
+        "CellRespZ",
+        "absIX"
+      ],
+      "format": "hdf5"
+    },
+    {
+      "file": "Subjects/subject_01/data_full.mat",
+      "size": 177272,
+      "keys": [
+        "periods",
+        "fpsec",
+        "numcell_full",
+        "timelists",
+        "timelists_names",
+        "CellXYZ",
+        "CellXYZ_norm",
+        "anat_stack",
+        "anat_yx",
+        "anat_yz",
+        "anat_zx",
+        "IX_inval_anat",
+        "IX_inval_norm",
+        "stimuluskey_raw",
+        "stim_full",
+        "stimAvr",
+        "Behavior_raw",
+        "Behavior_full",
+        "BehaviorAvr",
+        "Eye_full",
+        "Eye_avr",
+        "Behavior_full_motorseed",
+        "BehaviorAvr_motorseed",
+        "Eye_full_motorseed",
+        "EyeAvr_motorseed"
+      ],
+      "format": "mat"
+    },
+    {
+      "file": "Subjects/subject_02/TimeSeries.h5",
+      "size": 532576,
+      "keys": [
+        "CellResp",
+        "CellRespAvr",
+        "CellRespAvrZ",
+        "CellRespZ",
+        "absIX"
+      ],
+      "format": "hdf5"
+    },
+    {
+      "file": "Subjects/subject_02/data_full.mat",
+      "size": 187092,
+      "error": "Unknown mat file type, version 0, 0",
+      "format": "mat-error"
+    },
+    {
+      "file": "Subjects/subject_03/TimeSeries.h5",
+      "size": 422476,
+      "keys": [
+        "CellResp",
+        "CellRespAvr",
+        "CellRespAvrZ",
+        "CellRespZ",
+        "absIX"
+      ],
+      "format": "hdf5"
+    },
+    {
+      "file": "Subjects/subject_03/data_full.mat",
+      "size": 177032,
+      "keys": [
+        "periods",
+        "fpsec",
+        "numcell_full",
+        "timelists",
+        "timelists_names",
+        "CellXYZ",
+        "CellXYZ_norm",
+        "anat_stack",
+        "anat_yx",
+        "anat_yz",
+        "anat_zx",
+        "IX_inval_anat",
+        "IX_inval_norm",
+        "stimuluskey_raw",
+        "stim_full",
+        "stimAvr",
+        "Behavior_raw",
+        "Behavior_full",
+        "BehaviorAvr",
+        "Eye_full",
+        "Eye_avr",
+        "Behavior_full_motorseed",
+        "BehaviorAvr_motorseed",
+        "Eye_full_motorseed",
+        "EyeAvr_motorseed"
+      ],
+      "format": "mat"
+    }
+  ]
+}

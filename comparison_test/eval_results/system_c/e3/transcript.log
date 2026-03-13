@@ -1,0 +1,6 @@
+21:15:41 INFO Scanning /mnt/shared-storage-user/renyiming/skill_v4/comparison_test/test_data
+21:15:41 INFO Found 8 files
+21:15:41 INFO v7.3 detected for /mnt/shared-storage-user/renyiming/skill_v4/comparison_test/test_data/Subjects/subject_02/data_full.mat (ValueError), using h5py
+21:15:41 INFO Done in 0.03s
+21:15:41 INFO 'Subjects/subject_*/data_full.mat' (3 files) structure differs, not merging
+21:15:41 INFO Output: /mnt/shared-storage-user/renyiming/skill_v4/comparison_test/eval_results/system_c/e3/meta.json (8 files, 1.9 MB, 94 datasets, 0 errors)

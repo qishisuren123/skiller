@@ -1,0 +1,10 @@
+id: S075_tensile_curves
+name: tensile_curves
+domain: materials
+difficulty: easy
+source: synthetic
+tags:
+- materials
+- easy
+- generated
+required_packages: []

@@ -1,0 +1,12 @@
+id: S020_survey_analysis
+name: survey_analysis
+domain: social_science
+difficulty: easy
+source: synthetic
+csv_row: null
+tags:
+- social_science
+- easy
+required_packages:
+- numpy
+- pandas

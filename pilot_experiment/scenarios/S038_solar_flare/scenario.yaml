@@ -1,0 +1,10 @@
+id: S038_solar_flare
+name: solar_flare
+domain: astronomy
+difficulty: easy
+source: synthetic
+tags:
+- astronomy
+- easy
+- generated
+required_packages: []

@@ -1,0 +1,12 @@
+id: S014_clinical_lab
+name: clinical_lab
+domain: medical
+difficulty: easy
+source: synthetic
+csv_row: null
+tags:
+- medical
+- easy
+required_packages:
+- numpy
+- pandas

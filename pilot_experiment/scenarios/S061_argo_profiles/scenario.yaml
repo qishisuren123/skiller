@@ -1,0 +1,10 @@
+id: S061_argo_profiles
+name: argo_profiles
+domain: oceanography
+difficulty: medium
+source: synthetic
+tags:
+- oceanography
+- medium
+- generated
+required_packages: []

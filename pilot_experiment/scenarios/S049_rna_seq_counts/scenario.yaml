@@ -1,0 +1,10 @@
+id: S049_rna_seq_counts
+name: rna_seq_counts
+domain: genomics
+difficulty: medium
+source: synthetic
+tags:
+- genomics
+- medium
+- generated
+required_packages: []

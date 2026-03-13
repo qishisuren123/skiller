@@ -1,0 +1,10 @@
+id: S043_rmsd_alignment
+name: rmsd_alignment
+domain: protein_structure
+difficulty: medium
+source: synthetic
+tags:
+- protein_structure
+- medium
+- generated
+required_packages: []

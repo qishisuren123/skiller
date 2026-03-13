@@ -1,0 +1,12 @@
+id: S006_gene_expression
+name: gene_expression
+domain: life_science
+difficulty: hard
+source: real
+csv_row: '#10 陈鑫'
+tags:
+- life_science
+- hard
+required_packages:
+- numpy
+- pandas

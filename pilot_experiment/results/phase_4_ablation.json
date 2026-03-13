@@ -1,0 +1,51 @@
+[
+  {
+    "condition": "skillmd_only",
+    "score": "2/9",
+    "cost": 0.0340376,
+    "n_pass": 2,
+    "n_total": 9
+  },
+  {
+    "condition": "no_pitfalls",
+    "score": "9/9",
+    "cost": 0.037512,
+    "n_pass": 9,
+    "n_total": 9
+  },
+  {
+    "condition": "no_code",
+    "score": "9/9",
+    "cost": 0.0368024,
+    "n_pass": 9,
+    "n_total": 9
+  },
+  {
+    "condition": "no_workflow",
+    "score": "9/9",
+    "cost": 0.0374784,
+    "n_pass": 9,
+    "n_total": 9
+  },
+  {
+    "condition": "only_pitfalls",
+    "score": "9/9",
+    "cost": 0.0334232,
+    "n_pass": 9,
+    "n_total": 9
+  },
+  {
+    "condition": "only_code",
+    "score": "9/9",
+    "cost": 0.035264800000000006,
+    "n_pass": 9,
+    "n_total": 9
+  },
+  {
+    "condition": "only_workflow",
+    "score": "9/9",
+    "cost": 0.0319448,
+    "n_pass": 9,
+    "n_total": 9
+  }
+]

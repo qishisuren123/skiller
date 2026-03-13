@@ -1,0 +1,10 @@
+id: S048_gene_ontology
+name: gene_ontology
+domain: genomics
+difficulty: easy
+source: synthetic
+tags:
+- genomics
+- easy
+- generated
+required_packages: []

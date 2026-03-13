@@ -1,0 +1,12 @@
+id: S030_fossil_morpho
+name: fossil_morpho
+domain: paleontology
+difficulty: easy
+source: synthetic
+csv_row: null
+tags:
+- paleontology
+- easy
+required_packages:
+- numpy
+- pandas

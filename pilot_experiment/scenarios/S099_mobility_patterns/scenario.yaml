@@ -1,0 +1,10 @@
+id: S099_mobility_patterns
+name: mobility_patterns
+domain: social_science
+difficulty: medium
+source: synthetic
+tags:
+- social_science
+- medium
+- generated
+required_packages: []

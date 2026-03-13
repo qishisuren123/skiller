@@ -1,0 +1,10 @@
+id: S033_exoplanet_transit
+name: exoplanet_transit
+domain: astronomy
+difficulty: medium
+source: synthetic
+tags:
+- astronomy
+- medium
+- generated
+required_packages: []

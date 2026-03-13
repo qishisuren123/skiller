@@ -1,0 +1,10 @@
+id: S062_wave_spectrum
+name: wave_spectrum
+domain: oceanography
+difficulty: medium
+source: synthetic
+tags:
+- oceanography
+- medium
+- generated
+required_packages: []

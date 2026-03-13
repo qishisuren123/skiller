@@ -1,0 +1,10 @@
+id: S059_trophic_network
+name: trophic_network
+domain: ecology
+difficulty: medium
+source: synthetic
+tags:
+- ecology
+- medium
+- generated
+required_packages: []

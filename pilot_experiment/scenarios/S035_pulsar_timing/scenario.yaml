@@ -1,0 +1,10 @@
+id: S035_pulsar_timing
+name: pulsar_timing
+domain: astronomy
+difficulty: hard
+source: synthetic
+tags:
+- astronomy
+- hard
+- generated
+required_packages: []

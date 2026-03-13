@@ -1,0 +1,10 @@
+id: S071_visibility_analysis
+name: visibility_analysis
+domain: atmospheric
+difficulty: medium
+source: synthetic
+tags:
+- atmospheric
+- medium
+- generated
+required_packages: []

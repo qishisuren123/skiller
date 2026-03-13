@@ -1,0 +1,23 @@
+{
+  "skill_name": "neuro-metadata-gen-c",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "Scan the test_data/ directory and generate meta.json describing all HDF5 and MAT files",
+      "expected_output": "A valid meta.json with summary and per-file metadata for 8 files",
+      "files": []
+    },
+    {
+      "id": 2,
+      "prompt": "Scan test_data/ where some .mat files are MATLAB v7.3 format, enable wildcard merging",
+      "expected_output": "meta.json with v7.3 files detected and TimeSeries.h5 files merged into wildcard entry",
+      "files": []
+    },
+    {
+      "id": 3,
+      "prompt": "I have 3 subjects with TimeSeries.h5 and data_full.mat each, generate a metadata catalog",
+      "expected_output": "meta.json showing merged subject entries with dimension ranges",
+      "files": []
+    }
+  ]
+}

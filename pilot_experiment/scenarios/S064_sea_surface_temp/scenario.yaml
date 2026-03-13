@@ -1,0 +1,10 @@
+id: S064_sea_surface_temp
+name: sea_surface_temp
+domain: oceanography
+difficulty: easy
+source: synthetic
+tags:
+- oceanography
+- easy
+- generated
+required_packages: []

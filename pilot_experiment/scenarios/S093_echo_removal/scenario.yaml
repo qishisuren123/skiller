@@ -1,0 +1,10 @@
+id: S093_echo_removal
+name: echo_removal
+domain: signal_processing
+difficulty: medium
+source: synthetic
+tags:
+- signal_processing
+- medium
+- generated
+required_packages: []

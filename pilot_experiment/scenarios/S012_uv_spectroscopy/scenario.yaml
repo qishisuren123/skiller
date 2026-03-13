@@ -1,0 +1,12 @@
+id: S012_uv_spectroscopy
+name: uv_spectroscopy
+domain: chemistry
+difficulty: medium
+source: synthetic
+csv_row: null
+tags:
+- chemistry
+- medium
+required_packages:
+- numpy
+- pandas

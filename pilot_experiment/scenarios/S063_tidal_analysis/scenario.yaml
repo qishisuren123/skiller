@@ -1,0 +1,10 @@
+id: S063_tidal_analysis
+name: tidal_analysis
+domain: oceanography
+difficulty: easy
+source: synthetic
+tags:
+- oceanography
+- easy
+- generated
+required_packages: []

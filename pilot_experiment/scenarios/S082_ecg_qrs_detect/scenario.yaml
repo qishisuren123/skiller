@@ -1,0 +1,10 @@
+id: S082_ecg_qrs_detect
+name: ecg_qrs_detect
+domain: medical
+difficulty: medium
+source: synthetic
+tags:
+- medical
+- medium
+- generated
+required_packages: []

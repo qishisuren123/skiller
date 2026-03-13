@@ -1,0 +1,10 @@
+id: S044_bfactor_analysis
+name: bfactor_analysis
+domain: protein_structure
+difficulty: easy
+source: synthetic
+tags:
+- protein_structure
+- easy
+- generated
+required_packages: []

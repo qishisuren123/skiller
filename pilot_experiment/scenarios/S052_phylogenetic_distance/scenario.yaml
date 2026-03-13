@@ -1,0 +1,10 @@
+id: S052_phylogenetic_distance
+name: phylogenetic_distance
+domain: genomics
+difficulty: medium
+source: synthetic
+tags:
+- genomics
+- medium
+- generated
+required_packages: []

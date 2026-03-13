@@ -23,11 +23,11 @@ env/
 .DS_Store
 Thumbs.db
 
-# Test outputs
-*.json
-!evals/*.json
-test_data/
-output/
-
 # Environment
 .env
+
+# Experiment raw data (too large for git)
+pilot_experiment/results/raw/
+
+# Test outputs
+output/

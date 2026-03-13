@@ -1,0 +1,13 @@
+id: S001_neuro_metadata
+name: neuro_metadata
+domain: neuroscience
+difficulty: easy
+source: real
+csv_row: '#1 吴海涛'
+tags:
+- neuroscience
+- easy
+required_packages:
+- h5py
+- numpy
+- scipy

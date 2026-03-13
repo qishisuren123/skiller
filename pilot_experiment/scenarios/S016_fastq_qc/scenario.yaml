@@ -1,0 +1,11 @@
+id: S016_fastq_qc
+name: fastq_qc
+domain: genomics
+difficulty: medium
+source: synthetic
+csv_row: null
+tags:
+- genomics
+- medium
+required_packages:
+- numpy

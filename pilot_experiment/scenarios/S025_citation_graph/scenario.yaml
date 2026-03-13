@@ -1,0 +1,12 @@
+id: S025_citation_graph
+name: citation_graph
+domain: network_science
+difficulty: medium
+source: synthetic
+csv_row: null
+tags:
+- network_science
+- medium
+required_packages:
+- numpy
+- pandas

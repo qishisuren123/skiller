@@ -1,0 +1,9 @@
+2026-03-07 21:15:37 [INFO] neuro-metadata-gen: Scanning directory: /mnt/shared-storage-user/renyiming/skill_v4/comparison_test/test_data
+2026-03-07 21:15:37 [INFO] neuro-metadata-gen: Discovered 8 files.
+Inspecting files:   0%|          | 0/8 [00:00<?, ?file/s]2026-03-07 21:15:37 [WARNING] neuro-metadata-gen: scipy.io.loadmat failed for /mnt/shared-storage-user/renyiming/skill_v4/comparison_test/test_data/Subjects/subject_02/data_full.mat: Unknown mat file type, version 0, 0
+Inspecting files: 100%|██████████| 8/8 [00:00<00:00, 338.00file/s]
+2026-03-07 21:15:37 [INFO] neuro-metadata-gen: Inspection complete in 0.03 seconds.
+2026-03-07 21:15:37 [INFO] neuro-metadata-gen: Merging files by pattern: (?:sub|subject|subj|sbj|SUB)[-_]?\d+ (shape_mode=flexible)
+2026-03-07 21:15:37 [INFO] neuro-metadata-gen: Pattern 'Subjects/subject_*/data_full.mat' matched 3 files but structure differs; not merging.
+2026-03-07 21:15:37 [INFO] neuro-metadata-gen: Metadata written to /mnt/shared-storage-user/renyiming/skill_v4/comparison_test/eval_results/system_a/e3/meta.json
+2026-03-07 21:15:37 [INFO] neuro-metadata-gen: Summary: 8 files, 1.86 MB total, 94 datasets, 0 errors.

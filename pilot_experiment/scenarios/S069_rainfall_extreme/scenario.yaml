@@ -1,0 +1,10 @@
+id: S069_rainfall_extreme
+name: rainfall_extreme
+domain: atmospheric
+difficulty: easy
+source: synthetic
+tags:
+- atmospheric
+- easy
+- generated
+required_packages: []

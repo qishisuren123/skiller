@@ -1,0 +1,10 @@
+id: S068_weather_fronts
+name: weather_fronts
+domain: atmospheric
+difficulty: medium
+source: synthetic
+tags:
+- atmospheric
+- medium
+- generated
+required_packages: []

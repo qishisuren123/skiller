@@ -1,0 +1,10 @@
+id: S076_thermal_analysis
+name: thermal_analysis
+domain: materials
+difficulty: medium
+source: synthetic
+tags:
+- materials
+- medium
+- generated
+required_packages: []

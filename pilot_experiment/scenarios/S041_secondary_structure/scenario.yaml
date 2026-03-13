@@ -1,0 +1,10 @@
+id: S041_secondary_structure
+name: secondary_structure
+domain: protein_structure
+difficulty: medium
+source: synthetic
+tags:
+- protein_structure
+- medium
+- generated
+required_packages: []

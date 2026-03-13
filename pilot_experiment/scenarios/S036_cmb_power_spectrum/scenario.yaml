@@ -1,0 +1,10 @@
+id: S036_cmb_power_spectrum
+name: cmb_power_spectrum
+domain: astronomy
+difficulty: medium
+source: synthetic
+tags:
+- astronomy
+- medium
+- generated
+required_packages: []

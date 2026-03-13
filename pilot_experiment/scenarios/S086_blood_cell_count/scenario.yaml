@@ -1,0 +1,10 @@
+id: S086_blood_cell_count
+name: blood_cell_count
+domain: medical
+difficulty: medium
+source: synthetic
+tags:
+- medical
+- medium
+- generated
+required_packages: []

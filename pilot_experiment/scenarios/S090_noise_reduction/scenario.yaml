@@ -1,0 +1,10 @@
+id: S090_noise_reduction
+name: noise_reduction
+domain: signal_processing
+difficulty: medium
+source: synthetic
+tags:
+- signal_processing
+- medium
+- generated
+required_packages: []

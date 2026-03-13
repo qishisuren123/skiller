@@ -1,0 +1,11 @@
+id: S005_protein_parse
+name: protein_parse
+domain: life_science
+difficulty: medium
+source: real
+csv_row: '#12 薛东雨'
+tags:
+- life_science
+- medium
+required_packages:
+- pandas
