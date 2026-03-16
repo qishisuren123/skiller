@@ -1,0 +1,703 @@
+[
+  {
+    "id": "S001_neuro_metadata",
+    "name": "neuro_metadata",
+    "domain": "neuroscience",
+    "success": true,
+    "skill_dir": "/mnt/shared-storage-user/renyiming/skiller/skills/neuroscience/S001_neuro_metadata",
+    "n_files": 6,
+    "cost": 0.270054,
+    "score": 23,
+    "max_score": 24,
+    "failed_checks": [
+      "has_code_snippet"
+    ]
+  },
+  {
+    "id": "S002_spike_behavior",
+    "name": "spike_behavior",
+    "domain": "neuroscience",
+    "success": true,
+    "skill_dir": "/mnt/shared-storage-user/renyiming/skiller/skills/neuroscience/S002_spike_behavior",
+    "n_files": 6,
+    "cost": 0.268305,
+    "score": 23,
+    "max_score": 24,
+    "failed_checks": [
+      "has_code_snippet"
+    ]
+  },
+  {
+    "id": "S004_satellite",
+    "name": "satellite",
+    "domain": "earth_science",
+    "success": true,
+    "skill_dir": "/mnt/shared-storage-user/renyiming/skiller/skills/earth_science/S004_satellite",
+    "n_files": 6,
+    "cost": 0.279513,
+    "score": 23,
+    "max_score": 24,
+    "failed_checks": [
+      "has_code_snippet"
+    ]
+  },
+  {
+    "id": "S007_data_viz",
+    "name": "data_viz",
+    "domain": "neuroscience",
+    "success": true,
+    "skill_dir": "/mnt/shared-storage-user/renyiming/skiller/skills/neuroscience/S007_data_viz",
+    "n_files": 6,
+    "cost": 0.28097099999999997,
+    "score": 23,
+    "max_score": 24,
+    "failed_checks": [
+      "has_code_snippet"
+    ]
+  },
+  {
+    "id": "S008_materials_qa",
+    "name": "materials_qa",
+    "domain": "materials",
+    "success": true,
+    "skill_dir": "/mnt/shared-storage-user/renyiming/skiller/skills/materials/S008_materials_qa",
+    "n_files": 6,
+    "cost": 0.284835,
+    "score": 23,
+    "max_score": 24,
+    "failed_checks": [
+      "has_code_snippet"
+    ]
+  },
+  {
+    "id": "S009_earth_obs",
+    "name": "earth_obs",
+    "domain": "earth_science",
+    "success": true,
+    "skill_dir": "/mnt/shared-storage-user/renyiming/skiller/skills/earth_science/S009_earth_obs",
+    "n_files": 6,
+    "cost": 0.281487,
+    "score": 23,
+    "max_score": 24,
+    "failed_checks": [
+      "has_code_snippet"
+    ]
+  },
+  {
+    "id": "S011_particle_physics",
+    "name": "particle_physics",
+    "domain": "physics",
+    "success": true,
+    "skill_dir": "/mnt/shared-storage-user/renyiming/skiller/skills/physics/S011_particle_physics",
+    "n_files": 6,
+    "cost": 0.279318,
+    "score": 23,
+    "max_score": 24,
+    "failed_checks": [
+      "has_code_snippet"
+    ]
+  },
+  {
+    "id": "S012_uv_spectroscopy",
+    "name": "uv_spectroscopy",
+    "domain": "chemistry",
+    "success": true,
+    "skill_dir": "/mnt/shared-storage-user/renyiming/skiller/skills/chemistry/S012_uv_spectroscopy",
+    "n_files": 6,
+    "cost": 0.277782,
+    "score": 23,
+    "max_score": 24,
+    "failed_checks": [
+      "has_code_snippet"
+    ]
+  },
+  {
+    "id": "S014_clinical_lab",
+    "name": "clinical_lab",
+    "domain": "medical",
+    "success": true,
+    "skill_dir": "/mnt/shared-storage-user/renyiming/skiller/skills/medical/S014_clinical_lab",
+    "n_files": 6,
+    "cost": 0.283482,
+    "score": 23,
+    "max_score": 24,
+    "failed_checks": [
+      "has_code_snippet"
+    ]
+  },
+  {
+    "id": "S019_eeg_filtering",
+    "name": "eeg_filtering",
+    "domain": "engineering",
+    "success": true,
+    "skill_dir": "/mnt/shared-storage-user/renyiming/skiller/skills/engineering/S019_eeg_filtering",
+    "n_files": 6,
+    "cost": 0.281343,
+    "score": 23,
+    "max_score": 24,
+    "failed_checks": [
+      "has_code_snippet"
+    ]
+  },
+  {
+    "id": "S021_air_quality",
+    "name": "air_quality",
+    "domain": "environmental",
+    "success": true,
+    "skill_dir": "/mnt/shared-storage-user/renyiming/skiller/skills/environmental/S021_air_quality",
+    "n_files": 6,
+    "cost": 0.297387,
+    "score": 23,
+    "max_score": 24,
+    "failed_checks": [
+      "has_code_snippet"
+    ]
+  },
+  {
+    "id": "S022_well_log",
+    "name": "well_log",
+    "domain": "earth_science",
+    "success": true,
+    "skill_dir": "/mnt/shared-storage-user/renyiming/skiller/skills/earth_science/S022_well_log",
+    "n_files": 6,
+    "cost": 0.286779,
+    "score": 23,
+    "max_score": 24,
+    "failed_checks": [
+      "has_code_snippet"
+    ]
+  },
+  {
+    "id": "S026_earthquake_catalog",
+    "name": "earthquake_catalog",
+    "domain": "earth_science",
+    "success": true,
+    "skill_dir": "/mnt/shared-storage-user/renyiming/skiller/skills/earth_science/S026_earthquake_catalog",
+    "n_files": 6,
+    "cost": 0.285843,
+    "score": 23,
+    "max_score": 24,
+    "failed_checks": [
+      "has_code_snippet"
+    ]
+  },
+  {
+    "id": "S027_crop_features",
+    "name": "crop_features",
+    "domain": "environmental",
+    "success": true,
+    "skill_dir": "/mnt/shared-storage-user/renyiming/skiller/skills/environmental/S027_crop_features",
+    "n_files": 6,
+    "cost": 0.274239,
+    "score": 23,
+    "max_score": 24,
+    "failed_checks": [
+      "has_code_snippet"
+    ]
+  },
+  {
+    "id": "S029_flood_frequency",
+    "name": "flood_frequency",
+    "domain": "earth_science",
+    "success": true,
+    "skill_dir": "/mnt/shared-storage-user/renyiming/skiller/skills/earth_science/S029_flood_frequency",
+    "n_files": 6,
+    "cost": 0.28577400000000003,
+    "score": 23,
+    "max_score": 24,
+    "failed_checks": [
+      "has_code_snippet"
+    ]
+  },
+  {
+    "id": "S030_fossil_morpho",
+    "name": "fossil_morpho",
+    "domain": "ecology",
+    "success": true,
+    "skill_dir": "/mnt/shared-storage-user/renyiming/skiller/skills/ecology/S030_fossil_morpho",
+    "n_files": 6,
+    "cost": 0.283578,
+    "score": 23,
+    "max_score": 24,
+    "failed_checks": [
+      "has_code_snippet"
+    ]
+  },
+  {
+    "id": "S032_stellar_spectra",
+    "name": "stellar_spectra",
+    "domain": "astronomy",
+    "success": true,
+    "skill_dir": "/mnt/shared-storage-user/renyiming/skiller/skills/astronomy/S032_stellar_spectra",
+    "n_files": 6,
+    "cost": 0.321144,
+    "score": 23,
+    "max_score": 24,
+    "failed_checks": [
+      "has_code_snippet"
+    ]
+  },
+  {
+    "id": "S035_pulsar_timing",
+    "name": "pulsar_timing",
+    "domain": "astronomy",
+    "success": true,
+    "skill_dir": "/mnt/shared-storage-user/renyiming/skiller/skills/astronomy/S035_pulsar_timing",
+    "n_files": 6,
+    "cost": 0.283242,
+    "score": 23,
+    "max_score": 24,
+    "failed_checks": [
+      "has_code_snippet"
+    ]
+  },
+  {
+    "id": "S036_cmb_power_spectrum",
+    "name": "cmb_power_spectrum",
+    "domain": "astronomy",
+    "success": true,
+    "skill_dir": "/mnt/shared-storage-user/renyiming/skiller/skills/astronomy/S036_cmb_power_spectrum",
+    "n_files": 6,
+    "cost": 0.287064,
+    "score": 22,
+    "max_score": 24,
+    "failed_checks": [
+      "has_error_handling",
+      "has_code_snippet"
+    ]
+  },
+  {
+    "id": "S037_asteroid_orbit",
+    "name": "asteroid_orbit",
+    "domain": "astronomy",
+    "success": true,
+    "skill_dir": "/mnt/shared-storage-user/renyiming/skiller/skills/astronomy/S037_asteroid_orbit",
+    "n_files": 6,
+    "cost": 0.28390499999999996,
+    "score": 23,
+    "max_score": 24,
+    "failed_checks": [
+      "has_code_snippet"
+    ]
+  },
+  {
+    "id": "S038_solar_flare",
+    "name": "solar_flare",
+    "domain": "astronomy",
+    "success": true,
+    "skill_dir": "/mnt/shared-storage-user/renyiming/skiller/skills/astronomy/S038_solar_flare",
+    "n_files": 6,
+    "cost": 0.293688,
+    "score": 23,
+    "max_score": 24,
+    "failed_checks": [
+      "has_code_snippet"
+    ]
+  },
+  {
+    "id": "S043_rmsd_alignment",
+    "name": "rmsd_alignment",
+    "domain": "biology",
+    "success": true,
+    "skill_dir": "/mnt/shared-storage-user/renyiming/skiller/skills/biology/S043_rmsd_alignment",
+    "n_files": 6,
+    "cost": 0.288456,
+    "score": 23,
+    "max_score": 24,
+    "failed_checks": [
+      "has_code_snippet"
+    ]
+  },
+  {
+    "id": "S044_bfactor_analysis",
+    "name": "bfactor_analysis",
+    "domain": "biology",
+    "success": true,
+    "skill_dir": "/mnt/shared-storage-user/renyiming/skiller/skills/biology/S044_bfactor_analysis",
+    "n_files": 6,
+    "cost": 0.273453,
+    "score": 23,
+    "max_score": 24,
+    "failed_checks": [
+      "has_code_snippet"
+    ]
+  },
+  {
+    "id": "S046_disulfide_bonds",
+    "name": "disulfide_bonds",
+    "domain": "biology",
+    "success": true,
+    "skill_dir": "/mnt/shared-storage-user/renyiming/skiller/skills/biology/S046_disulfide_bonds",
+    "n_files": 6,
+    "cost": 0.291783,
+    "score": 23,
+    "max_score": 24,
+    "failed_checks": [
+      "has_code_snippet"
+    ]
+  },
+  {
+    "id": "S048_gene_ontology",
+    "name": "gene_ontology",
+    "domain": "biology",
+    "success": true,
+    "skill_dir": "/mnt/shared-storage-user/renyiming/skiller/skills/biology/S048_gene_ontology",
+    "n_files": 6,
+    "cost": 0.28312499999999996,
+    "score": 23,
+    "max_score": 24,
+    "failed_checks": [
+      "has_code_snippet"
+    ]
+  },
+  {
+    "id": "S050_snp_ld",
+    "name": "snp_ld",
+    "domain": "biology",
+    "success": true,
+    "skill_dir": "/mnt/shared-storage-user/renyiming/skiller/skills/biology/S050_snp_ld",
+    "n_files": 6,
+    "cost": 0.139074,
+    "score": 23,
+    "max_score": 24,
+    "failed_checks": [
+      "has_code_snippet"
+    ]
+  },
+  {
+    "id": "S051_primer_design",
+    "name": "primer_design",
+    "domain": "biology",
+    "success": true,
+    "skill_dir": "/mnt/shared-storage-user/renyiming/skiller/skills/biology/S051_primer_design",
+    "n_files": 6,
+    "cost": 0.288423,
+    "score": 23,
+    "max_score": 24,
+    "failed_checks": [
+      "has_code_snippet"
+    ]
+  },
+  {
+    "id": "S054_species_accumulation",
+    "name": "species_accumulation",
+    "domain": "ecology",
+    "success": true,
+    "skill_dir": "/mnt/shared-storage-user/renyiming/skiller/skills/ecology/S054_species_accumulation",
+    "n_files": 6,
+    "cost": 0.301854,
+    "score": 23,
+    "max_score": 24,
+    "failed_checks": [
+      "has_code_snippet"
+    ]
+  },
+  {
+    "id": "S056_habitat_suitability",
+    "name": "habitat_suitability",
+    "domain": "ecology",
+    "success": true,
+    "skill_dir": "/mnt/shared-storage-user/renyiming/skiller/skills/ecology/S056_habitat_suitability",
+    "n_files": 6,
+    "cost": 0.287832,
+    "score": 23,
+    "max_score": 24,
+    "failed_checks": [
+      "has_code_snippet"
+    ]
+  },
+  {
+    "id": "S060_phenology_shifts",
+    "name": "phenology_shifts",
+    "domain": "ecology",
+    "success": true,
+    "skill_dir": "/mnt/shared-storage-user/renyiming/skiller/skills/ecology/S060_phenology_shifts",
+    "n_files": 6,
+    "cost": 0.320244,
+    "score": 23,
+    "max_score": 24,
+    "failed_checks": [
+      "has_code_snippet"
+    ]
+  },
+  {
+    "id": "S062_wave_spectrum",
+    "name": "wave_spectrum",
+    "domain": "oceanography",
+    "success": true,
+    "skill_dir": "/mnt/shared-storage-user/renyiming/skiller/skills/oceanography/S062_wave_spectrum",
+    "n_files": 6,
+    "cost": 0.289074,
+    "score": 23,
+    "max_score": 24,
+    "failed_checks": [
+      "has_code_snippet"
+    ]
+  },
+  {
+    "id": "S063_tidal_analysis",
+    "name": "tidal_analysis",
+    "domain": "oceanography",
+    "success": true,
+    "skill_dir": "/mnt/shared-storage-user/renyiming/skiller/skills/oceanography/S063_tidal_analysis",
+    "n_files": 6,
+    "cost": 0.2892,
+    "score": 23,
+    "max_score": 24,
+    "failed_checks": [
+      "has_code_snippet"
+    ]
+  },
+  {
+    "id": "S064_sea_surface_temp",
+    "name": "sea_surface_temp",
+    "domain": "oceanography",
+    "success": true,
+    "skill_dir": "/mnt/shared-storage-user/renyiming/skiller/skills/oceanography/S064_sea_surface_temp",
+    "n_files": 6,
+    "cost": 0.282123,
+    "score": 23,
+    "max_score": 24,
+    "failed_checks": [
+      "has_code_snippet"
+    ]
+  },
+  {
+    "id": "S066_acoustic_doppler",
+    "name": "acoustic_doppler",
+    "domain": "oceanography",
+    "success": true,
+    "skill_dir": "/mnt/shared-storage-user/renyiming/skiller/skills/oceanography/S066_acoustic_doppler",
+    "n_files": 6,
+    "cost": 0.301002,
+    "score": 23,
+    "max_score": 24,
+    "failed_checks": [
+      "has_code_snippet"
+    ]
+  },
+  {
+    "id": "S068_weather_fronts",
+    "name": "weather_fronts",
+    "domain": "atmospheric",
+    "success": true,
+    "skill_dir": "/mnt/shared-storage-user/renyiming/skiller/skills/atmospheric/S068_weather_fronts",
+    "n_files": 6,
+    "cost": 0.278025,
+    "score": 23,
+    "max_score": 24,
+    "failed_checks": [
+      "has_code_snippet"
+    ]
+  },
+  {
+    "id": "S069_rainfall_extreme",
+    "name": "rainfall_extreme",
+    "domain": "atmospheric",
+    "success": true,
+    "skill_dir": "/mnt/shared-storage-user/renyiming/skiller/skills/atmospheric/S069_rainfall_extreme",
+    "n_files": 6,
+    "cost": 0.274893,
+    "score": 23,
+    "max_score": 24,
+    "failed_checks": [
+      "has_code_snippet"
+    ]
+  },
+  {
+    "id": "S070_wind_rose",
+    "name": "wind_rose",
+    "domain": "atmospheric",
+    "success": true,
+    "skill_dir": "/mnt/shared-storage-user/renyiming/skiller/skills/atmospheric/S070_wind_rose",
+    "n_files": 6,
+    "cost": 0.286092,
+    "score": 23,
+    "max_score": 24,
+    "failed_checks": [
+      "has_code_snippet"
+    ]
+  },
+  {
+    "id": "S074_heat_index",
+    "name": "heat_index",
+    "domain": "atmospheric",
+    "success": true,
+    "skill_dir": "/mnt/shared-storage-user/renyiming/skiller/skills/atmospheric/S074_heat_index",
+    "n_files": 6,
+    "cost": 0.294825,
+    "score": 23,
+    "max_score": 24,
+    "failed_checks": [
+      "has_code_snippet"
+    ]
+  },
+  {
+    "id": "S075_tensile_curves",
+    "name": "tensile_curves",
+    "domain": "materials",
+    "success": true,
+    "skill_dir": "/mnt/shared-storage-user/renyiming/skiller/skills/materials/S075_tensile_curves",
+    "n_files": 6,
+    "cost": 0.28992300000000004,
+    "score": 23,
+    "max_score": 24,
+    "failed_checks": [
+      "has_code_snippet"
+    ]
+  },
+  {
+    "id": "S077_grain_size",
+    "name": "grain_size",
+    "domain": "materials",
+    "success": true,
+    "skill_dir": "/mnt/shared-storage-user/renyiming/skiller/skills/materials/S077_grain_size",
+    "n_files": 6,
+    "cost": 0.288747,
+    "score": 23,
+    "max_score": 24,
+    "failed_checks": [
+      "has_code_snippet"
+    ]
+  },
+  {
+    "id": "S081_hardness_mapping",
+    "name": "hardness_mapping",
+    "domain": "materials",
+    "success": true,
+    "skill_dir": "/mnt/shared-storage-user/renyiming/skiller/skills/materials/S081_hardness_mapping",
+    "n_files": 6,
+    "cost": 0.32145599999999996,
+    "score": 23,
+    "max_score": 24,
+    "failed_checks": [
+      "has_code_snippet"
+    ]
+  },
+  {
+    "id": "S085_spirometry_flow",
+    "name": "spirometry_flow",
+    "domain": "medical",
+    "success": true,
+    "skill_dir": "/mnt/shared-storage-user/renyiming/skiller/skills/medical/S085_spirometry_flow",
+    "n_files": 6,
+    "cost": 0.282729,
+    "score": 23,
+    "max_score": 24,
+    "failed_checks": [
+      "has_code_snippet"
+    ]
+  },
+  {
+    "id": "S087_drug_interaction",
+    "name": "drug_interaction",
+    "domain": "medical",
+    "success": true,
+    "skill_dir": "/mnt/shared-storage-user/renyiming/skiller/skills/medical/S087_drug_interaction",
+    "n_files": 6,
+    "cost": 0.30474,
+    "score": 23,
+    "max_score": 24,
+    "failed_checks": [
+      "has_code_snippet"
+    ]
+  },
+  {
+    "id": "S088_dicom_metadata",
+    "name": "dicom_metadata",
+    "domain": "medical",
+    "success": true,
+    "skill_dir": "/mnt/shared-storage-user/renyiming/skiller/skills/medical/S088_dicom_metadata",
+    "n_files": 6,
+    "cost": 0.295899,
+    "score": 23,
+    "max_score": 24,
+    "failed_checks": [
+      "has_code_snippet"
+    ]
+  },
+  {
+    "id": "S091_modulation_classify",
+    "name": "modulation_classify",
+    "domain": "engineering",
+    "success": true,
+    "skill_dir": "/mnt/shared-storage-user/renyiming/skiller/skills/engineering/S091_modulation_classify",
+    "n_files": 6,
+    "cost": 0.298518,
+    "score": 23,
+    "max_score": 24,
+    "failed_checks": [
+      "has_code_snippet"
+    ]
+  },
+  {
+    "id": "S092_chirp_detection",
+    "name": "chirp_detection",
+    "domain": "engineering",
+    "success": true,
+    "skill_dir": "/mnt/shared-storage-user/renyiming/skiller/skills/engineering/S092_chirp_detection",
+    "n_files": 6,
+    "cost": 0.289734,
+    "score": 23,
+    "max_score": 24,
+    "failed_checks": [
+      "has_code_snippet"
+    ]
+  },
+  {
+    "id": "S094_spectral_leakage",
+    "name": "spectral_leakage",
+    "domain": "engineering",
+    "success": true,
+    "skill_dir": "/mnt/shared-storage-user/renyiming/skiller/skills/engineering/S094_spectral_leakage",
+    "n_files": 6,
+    "cost": 0.307803,
+    "score": 23,
+    "max_score": 24,
+    "failed_checks": [
+      "has_code_snippet"
+    ]
+  },
+  {
+    "id": "S095_sentiment_score",
+    "name": "sentiment_score",
+    "domain": "social_science",
+    "success": true,
+    "skill_dir": "/mnt/shared-storage-user/renyiming/skiller/skills/social_science/S095_sentiment_score",
+    "n_files": 6,
+    "cost": 0.284379,
+    "score": 23,
+    "max_score": 24,
+    "failed_checks": [
+      "has_code_snippet"
+    ]
+  },
+  {
+    "id": "S096_network_influence",
+    "name": "network_influence",
+    "domain": "social_science",
+    "success": true,
+    "skill_dir": "/mnt/shared-storage-user/renyiming/skiller/skills/social_science/S096_network_influence",
+    "n_files": 6,
+    "cost": 0.286644,
+    "score": 23,
+    "max_score": 24,
+    "failed_checks": [
+      "has_code_snippet"
+    ]
+  },
+  {
+    "id": "S097_topic_frequency",
+    "name": "topic_frequency",
+    "domain": "social_science",
+    "success": true,
+    "skill_dir": "/mnt/shared-storage-user/renyiming/skiller/skills/social_science/S097_topic_frequency",
+    "n_files": 6,
+    "cost": 0.28062,
+    "score": 23,
+    "max_score": 24,
+    "failed_checks": [
+      "has_code_snippet"
+    ]
+  }
+]

@@ -1,0 +1,113 @@
+{
+  "total_trials": 400,
+  "l0_trials": 200,
+  "l4_trials": 200,
+  "l0_mean_pass_rate": 0.2724,
+  "l4_mean_pass_rate": 0.3334,
+  "overall_delta": 0.0611,
+  "l0_std": 0.3903,
+  "l4_std": 0.416,
+  "by_model": {
+    "gpt4o": {
+      "l0_mean": 0.3062,
+      "l4_mean": 0.3071,
+      "delta": 0.001,
+      "n_l0": 50,
+      "n_l4": 50
+    },
+    "gpt4o_mini": {
+      "l0_mean": 0.1925,
+      "l4_mean": 0.3424,
+      "delta": 0.1499,
+      "n_l0": 50,
+      "n_l4": 50
+    },
+    "haiku": {
+      "l0_mean": 0.2917,
+      "l4_mean": 0.3414,
+      "delta": 0.0498,
+      "n_l0": 50,
+      "n_l4": 50
+    },
+    "sonnet": {
+      "l0_mean": 0.2991,
+      "l4_mean": 0.3429,
+      "delta": 0.0438,
+      "n_l0": 50,
+      "n_l4": 50
+    }
+  },
+  "by_domain": {
+    "astronomy": {
+      "l0_mean": 0.1333,
+      "l4_mean": 0.1333,
+      "delta": 0.0
+    },
+    "atmospheric": {
+      "l0_mean": 0.1133,
+      "l4_mean": 0.1328,
+      "delta": 0.0195
+    },
+    "biology": {
+      "l0_mean": 0.1667,
+      "l4_mean": 0.1667,
+      "delta": 0.0
+    },
+    "chemistry": {
+      "l0_mean": 0.2292,
+      "l4_mean": 0.0,
+      "delta": -0.2292
+    },
+    "earth_science": {
+      "l0_mean": 0.4857,
+      "l4_mean": 0.4,
+      "delta": -0.0857
+    },
+    "ecology": {
+      "l0_mean": 0.125,
+      "l4_mean": 0.125,
+      "delta": 0.0
+    },
+    "engineering": {
+      "l0_mean": 0.5312,
+      "l4_mean": 0.75,
+      "delta": 0.2188
+    },
+    "environmental": {
+      "l0_mean": 0.25,
+      "l4_mean": 0.9196,
+      "delta": 0.6697
+    },
+    "materials": {
+      "l0_mean": 0.2232,
+      "l4_mean": 0.3255,
+      "delta": 0.1023
+    },
+    "medical": {
+      "l0_mean": 0.2396,
+      "l4_mean": 0.3333,
+      "delta": 0.0938
+    },
+    "neuroscience": {
+      "l0_mean": 0.8715,
+      "l4_mean": 1.0,
+      "delta": 0.1285
+    },
+    "oceanography": {
+      "l0_mean": 0.0,
+      "l4_mean": 0.0,
+      "delta": 0.0
+    },
+    "physics": {
+      "l0_mean": 0.75,
+      "l4_mean": 1.0,
+      "delta": 0.25
+    },
+    "social_science": {
+      "l0_mean": 0.1667,
+      "l4_mean": 0.1667,
+      "delta": 0.0
+    }
+  },
+  "total_cost_usd": 12.1535
+}

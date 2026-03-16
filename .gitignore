@@ -1,0 +1,17 @@
+__pycache__/
+*.pyc
+*.pyo
+.env
+.venv/
+*.egg-info/
+dist/
+build/
+.DS_Store
+data/raw/
+data/cost_log.jsonl
+data/generation.log
+*.log
+.idea/
+.vscode/
+data/raw/
+data/generation.log
